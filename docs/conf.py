@@ -67,7 +67,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = en
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -84,8 +84,7 @@ pygments_style = None
 # a list of builtin themes.
 #
 #html_theme = 'alabaster'
-#html_theme = 'sphinx_rtd_theme'
-html_theme = 'groundwork'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -202,7 +201,7 @@ html_context['display_lower_left'] = True
 if 'REPO_NAME' in os.environ:
 	REPO_NAME = os.environ['REPO_NAME']
 else:
-	REPO_NAME = ''
+	REPO_NAME = 'SousaFX-docs'
  
 # SET CURRENT_LANGUAGE
 if 'current_language' in os.environ:
@@ -253,7 +252,7 @@ for version in versions:
 rinoh_documents = [(
  master_doc,
  'target',
- project+ ' Documentation',
+ project+ ' PDF',
  '© ' +copyright,
 )]
 today_fmt = "%B %d, %Y"
