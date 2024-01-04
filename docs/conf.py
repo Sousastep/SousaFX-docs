@@ -42,8 +42,7 @@ extensions = [
     'sphinx_rtd_theme',
     'sphinx_rtd_dark_mode',
     'sphinx.ext.autodoc',
-    # https://stackoverflow.com/a/53705453
-    # 'sphinx.ext.viewcode',
+    'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.autosectionlabel',
     'sphinx_design'
@@ -67,6 +66,9 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False
 }
+
+# https://stackoverflow.com/a/53705453
+html_show_sourcelink = False
 
 # user starts in dark mode
 default_dark_mode = False
