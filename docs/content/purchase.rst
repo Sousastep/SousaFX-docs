@@ -15,14 +15,6 @@ SousaFX has a 30 day free trial with full functionality (aside from the :ref:`pr
 
 Payment may be sent via any of the following platforms. Please be sure to include the email address that you would like the license key sent to.
 
-<img alt="Static Badge" src="https://img.shields.io/static/v1?label=Purchase%20via%20Ko-Fi&message=%E2%9D%A4&logo=Kofi&link=https%3A%2F%2Fko-fi.com%2Fsousafx">
-
-<img alt="Static Badge" src="https://img.shields.io/static/v1?label=Purchase%20via%20Patreon&message=%E2%9D%A4&logo=Patreon&link=https%3A%2F%2Fpatreon.com%2Fsousastep">
-
-<img alt="Static Badge" src="https://img.shields.io/static/v1?label=Purchase%20via%20Github&message=%E2%9D%A4&logo=Github&link=https%3A%2F%2Fgithub.com%2Fsponsors%2Fjbaylies">
-
-<img alt="Static Badge" src="https://img.shields.io/static/v1?label=Purchase%20via%20Venmo&message=%E2%9D%A4&logo=Venmo&link=https%3A%2F%2Fvenmo.com%2Fsousastep">
-
 ◦ `kofi <https://ko-fi.com/sousafx>`_
 
 ◦ `patreon <https://patreon.com/sousastep>`_
@@ -30,6 +22,22 @@ Payment may be sent via any of the following platforms. Please be sure to includ
 ◦ `venmo <https://venmo.com/sousastep>`_
 
 ◦ `github <https://github.com/sponsors/jbaylies>`_
+
+.. button-link:: https://ko-fi.com/sousafx
+    :color: primary
+    :outline:
+
+.. button-link:: https://patreon.com/sousastep
+    :color: primary
+    :outline:
+
+.. button-link:: https://venmo.com/sousastep
+    :color: primary
+    :outline:
+
+.. button-link:: https://github.com/sponsors/jbaylies
+    :color: primary
+    :outline:
 
 When you complete your purchase, a license key will be emailed to you ASAP (usually within 24 hours).
 
