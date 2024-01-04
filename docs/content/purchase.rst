@@ -15,29 +15,33 @@ SousaFX has a 30 day free trial with full functionality (aside from the :ref:`pr
 
 Payment may be sent via any of the following platforms. Please be sure to include the email address that you would like the license key sent to.
 
-◦ `kofi <https://ko-fi.com/sousafx>`_
-
-◦ `patreon <https://patreon.com/sousastep>`_
-
-◦ `venmo <https://venmo.com/sousastep>`_
-
-◦ `github <https://github.com/sponsors/jbaylies>`_
-
 .. button-link:: https://ko-fi.com/sousafx
     :color: primary
     :outline:
+
+    ko-fi
+
 
 .. button-link:: https://patreon.com/sousastep
     :color: primary
     :outline:
 
+    patreon
+
+
 .. button-link:: https://venmo.com/sousastep
     :color: primary
     :outline:
 
+    venmo
+
+
 .. button-link:: https://github.com/sponsors/jbaylies
     :color: primary
     :outline:
+
+    github
+
 
 When you complete your purchase, a license key will be emailed to you ASAP (usually within 24 hours).
 

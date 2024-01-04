@@ -42,7 +42,8 @@ extensions = [
     'sphinx_rtd_theme',
     'sphinx_rtd_dark_mode',
     'sphinx.ext.autodoc',
-    'sphinx.ext.viewcode',
+    # https://stackoverflow.com/a/53705453
+    # 'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.autosectionlabel',
     'sphinx_design'
