@@ -196,7 +196,7 @@ try:
    html_context
 except NameError:
    html_context = dict()
-html_context['display_lower_left'] = True
+html_context['display_lower_left'] = False
 
 if 'REPO_NAME' in os.environ:
 	REPO_NAME = os.environ['REPO_NAME']

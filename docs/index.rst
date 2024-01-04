@@ -1,7 +1,15 @@
 SousaFX Documentation
 =====================
 
-WORK IN PROGRESS
+.. code-block:: 
+    __________________
+   < work in progress >
+    ------------------
+           \   ^__^
+            \  (oo)\_______
+               (__)\       )\/\
+                   ||----w |
+                   ||     ||
 
 Introduction
 ------------
@@ -19,11 +27,11 @@ SousaFX has a 30-day evaluation period, after which a closeable popup will appea
 .. toctree::
    :maxdepth: 2
 
-   content/SousaFX-docs/main.rst
-   content/SousaFX-docs/purchase.rst
-   content/SousaFX-docs/bindings.rst
-   content/SousaFX-docs/io.rst
-   content/SousaFX-docs/bindings.rst
-   content/SousaFX-docs/deadzones.rst
-   content/SousaFX-docs/midi.rst
-   content/SousaFX-docs/modparms.rst
+   content/main.rst
+   content/purchase.rst
+   content/bindings.rst
+   content/io.rst
+   content/bindings.rst
+   content/deadzones.rst
+   content/midi.rst
+   content/modparms.rst
