@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'helloWorld'
-copyright = '2020, Michael Altfield'
-author = 'Michael Altfield'
+project = 'SousaFX'
+copyright = '2023, Sousastep'
+author = 'Sousastep'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '1.0.0'
+release = '0.9.3'
 
 
 # -- General configuration ---------------------------------------------------
@@ -40,10 +40,15 @@ release = '1.0.0'
 # ones.
 extensions = [
     'sphinx_rtd_theme',
+    'sphinx_rtd_dark_mode',
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
+    'sphinx.ext.autosectionlabel',
 ]
+
+# user starts in dark mode
+default_dark_mode = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -106,7 +111,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'helloWorlddoc'
+htmlhelp_basename = 'SousaFXdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -133,8 +138,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'helloWorld.tex', 'helloWorld Documentation',
-     'Michael Altfield', 'manual'),
+    (master_doc, 'SousaFX.tex', 'SousaFX Documentation',
+     'John Baylies', 'manual'),
 ]
 
 
@@ -143,7 +148,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'helloworld', 'helloWorld Documentation',
+    (master_doc, 'SousaFX', 'SousaFX Documentation',
      [author], 1)
 ]
 
@@ -154,8 +159,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'helloWorld', 'helloWorld Documentation',
-     author, 'helloWorld', 'One line description of project.',
+    (master_doc, 'SousaFX', 'SousaFX Documentation',
+     author, 'SousaFX', 'Multi-effect workstation for tubists',
      'Miscellaneous'),
 ]
 
@@ -264,8 +269,8 @@ html_context['downloads'].append( ('epub', '/' +REPO_NAME+ '/' +current_language
 # "EDIT ON GITHUB" LINKS #
 ##########################
  
-html_context['display_github'] = True
-html_context['github_user'] = 'maltfield'
-html_context['github_repo'] = 'rtd-github-pages'
+html_context['display_github'] = False
+html_context['github_user'] = 'Sousastep'
+html_context['github_repo'] = 'SousaFX-docs'
 html_context['github_version'] = 'master/docs/'
  
