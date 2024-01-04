@@ -19,8 +19,8 @@ SousaFX has a 30-day evaluation period, after which a closeable popup will appea
 .. toctree::
    :maxdepth: 2
 
-   content/SousaFX-docs/purchase.rst
    content/SousaFX-docs/main.rst
+   content/SousaFX-docs/purchase.rst
    content/SousaFX-docs/bindings.rst
    content/SousaFX-docs/io.rst
    content/SousaFX-docs/bindings.rst
