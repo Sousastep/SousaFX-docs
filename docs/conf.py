@@ -187,7 +187,7 @@ epub_exclude_files = ['search.html']
 
 # add sourcecode to path
 import sys, os
-sys.path.insert(0, os.path.abspath('../src'))
+sys.path.insert(0, os.path.abspath('../content'))
  
 ############################
 # SETUP THE RTD LOWER-LEFT #
