@@ -1,6 +1,8 @@
 Purchase
 ========
 
+SousaFX has a 30-day evaluation period, after which a closeable popup will appear when SousaFX is launched, directing you to purchase a license. Purchasing a SousaFX license supports further development and unlocks a :ref:`prestige system <Prestige System>` that tracks how many hours you've used SousaFX for.
+
 A commercial license is $225 and a discounted license is $60.
 
 You may use the discounted license if:
@@ -10,8 +12,6 @@ You may use the discounted license if:
     You are an individual or business using SousaFX commercially, and yearly gross revenue does not exceed USD $20,000, or
 
     You are an educational or non-profit organization.
-
-SousaFX has a 30-day evaluation period, after which a closeable popup will appear when SousaFX is launched, directing you to purchase a license. Purchasing a SousaFX license supports further development and unlocks a :ref:`prestige system <Prestige System>` that tracks how many hours you've used SousaFX for.
 
 Payment may be sent via any of the following platforms. Please be sure to include the email address that you would like the license key sent to.
 

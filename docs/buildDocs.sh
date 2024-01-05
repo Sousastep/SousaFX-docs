@@ -117,11 +117,11 @@ cat > index.html <<EOF
 <!DOCTYPE html>
 <html>
    <head>
-      <title>helloWorld Docs</title>
+      <title>SousaFX Docs</title>
       <meta http-equiv = "refresh" content="0; url='/${REPO_NAME}/en/master/'" />
    </head>
    <body>
-      <p>Please wait while you're redirected to our <a href="/${REPO_NAME}/en/master/">documentation</a>.</p>
+      <p>Please wait while you're redirected to the <a href="/${REPO_NAME}/en/master/">SousaFX Documentation</a>.</p>
    </body>
 </html>
 EOF
