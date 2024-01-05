@@ -11,7 +11,7 @@ You may use the discounted license if:
 
     You are an educational or non-profit organization.
 
-SousaFX has a 30 day free trial with full functionality (aside from the :ref:`prestige system <Prestige System>`). All license purchases are final.
+SousaFX has a 30-day evaluation period, after which a closeable popup will appear when SousaFX is launched, directing you to purchase a license. Purchasing a SousaFX license supports further development and unlocks a :ref:`prestige system <Prestige System>` that tracks how many hours you've used SousaFX for.
 
 Payment may be sent via any of the following platforms. Please be sure to include the email address that you would like the license key sent to.
 
@@ -43,9 +43,7 @@ Payment may be sent via any of the following platforms. Please be sure to includ
     github
 
 
-When you complete your purchase, a license key will be emailed to you ASAP (usually within 24 hours).
-
-Be sure that email from sousastep@gmail.com is not going into your spam folder.
+When you complete your purchase, a license key will be emailed to you ASAP (usually within 24 hours). License purchases are non-refundable. Be sure that email from sousastep@gmail.com is not going into your spam folder.
 
 Classroom licenses and discounted-to-commercial license upgrades are also offered. For these and any other license needs, please email sousastep@gmail.com
 
