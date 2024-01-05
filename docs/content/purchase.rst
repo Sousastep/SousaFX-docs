@@ -42,6 +42,16 @@ Payment may be sent via any of the following platforms. Please be sure to includ
 
     github
 
+:::{card} Github
+
+```{button-link} https://github.com/sponsors/jbaylies
+:color: info
+:expand:
+:click-parent:
+```
+
+:::
+
 
 When you complete your purchase, a license key will be emailed to you ASAP (usually within 24 hours). License purchases are non-refundable. Be sure that email from sousastep@gmail.com is not going into your spam folder.
 

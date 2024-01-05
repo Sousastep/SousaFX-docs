@@ -70,10 +70,12 @@ html_theme_options = {
 
 # https://favicon.io/favicon-converter/
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_logo
-
 html_logo = 'content/media/icon.png'
-
 html_favicon = 'content/media/favicon.ico'
+
+# https://stackoverflow.com/questions/74046545/how-to-remove-built-with-sphinx-using-a-theme-provided-by-read-the-docs-from
+html_show_sphinx = False
+
 
 # https://stackoverflow.com/a/53705453
 html_show_sourcelink = False
