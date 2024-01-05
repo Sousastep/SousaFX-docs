@@ -67,9 +67,6 @@ html_theme_options = {
     'titles_only': False
 }
 
-
-
-
 # https://favicon.io/favicon-converter/
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_logo
 html_logo = 'content/media/icon.png'
@@ -146,7 +143,6 @@ html_css_files = [
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
-
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
