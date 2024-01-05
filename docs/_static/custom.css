@@ -3,3 +3,7 @@ img.align-center {
     margin-right: auto;
     display: block;
 }
+
+.bottom-of-page {
+  visibility: hidden;
+}
