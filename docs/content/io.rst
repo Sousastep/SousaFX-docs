@@ -2,7 +2,8 @@ Audio IO
 ========
 
 .. figure:: media/io.png
-   :width: 95%
+   :width: 100%
+   :align: center
    :alt: io.png
 
    

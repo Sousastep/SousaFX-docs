@@ -1,7 +1,7 @@
 SousaFX Documentation
 =====================
 
-.. figure:: media/synesthesia.png
+.. figure:: content/media/synesthesia.png
    :width: 60%
    :align: center
    :alt: Work In Progress

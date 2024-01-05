@@ -8,5 +8,6 @@ Controller Bindings
    deadzones.rst
 
 .. figure:: media/bindings.png
-   :width: 95%
+   :width: 100%
+   :align: center
    :alt: bindings window
