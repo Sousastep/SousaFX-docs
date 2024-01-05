@@ -68,6 +68,8 @@ html_theme_options = {
 }
 
 
+
+
 # https://favicon.io/favicon-converter/
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_logo
 html_logo = 'content/media/icon.png'
@@ -75,7 +77,6 @@ html_favicon = 'content/media/favicon.ico'
 
 # https://stackoverflow.com/questions/74046545/how-to-remove-built-with-sphinx-using-a-theme-provided-by-read-the-docs-from
 html_show_sphinx = False
-
 
 # https://stackoverflow.com/a/53705453
 html_show_sourcelink = False
@@ -129,6 +130,12 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'css/custom.css',
+]
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
