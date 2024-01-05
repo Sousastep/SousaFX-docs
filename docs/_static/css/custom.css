@@ -4,6 +4,23 @@ img.align-center {
     display: block;
 }
 
+/* Hide page footer. */
 .bottom-of-page {
-  visibility: hidden;
+    visibility: hidden;
+    margin:     0;
+    padding:    0;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Push bulleted lists a little closer to lead-in paragraph. */
+p + ul.simple {
+    margin-top: -6px;
+}
+
+/* Push ordered lists a little closer to lead-in paragraph. */
+p + ol.simple {
+    margin-top: -6px;
 }
