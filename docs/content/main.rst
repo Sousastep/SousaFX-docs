@@ -3,7 +3,7 @@ SousaFX Main Window
 
 This window displays SousaFX's signalflow.
 
-.. figure:: media/main.gif
+.. image:: media/main.gif
    :align: center
    :width: 100%
    :alt: main.gif

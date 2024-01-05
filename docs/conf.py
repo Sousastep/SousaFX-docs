@@ -132,6 +132,9 @@ html_static_path = ['_static']
 # or fully qualified paths (eg. https://...)
 html_css_files = ['css/custom.css']
 
+html_js_files = [
+    'js/theme_switcher.js']
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
