@@ -1,15 +1,11 @@
 SousaFX Documentation
 =====================
 
-::
-    __________________
-   < work in progress >
-    ------------------
-           \   ^__^
-            \  (oo)\_______
-               (__)\       )\/\
-                   ||----w |
-                   ||     ||
+.. figure:: media/synesthesia.png
+   :width: 60%
+   :align: center
+   :alt: Work In Progress
+
 
 Introduction
 ------------
