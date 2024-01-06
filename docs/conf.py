@@ -20,8 +20,9 @@
 # -- Project information -----------------------------------------------------
 
 project = 'SousaFX'
-copyright = '2023, Sousastep'
 author = 'Sousastep'
+copyright = '2024, Sousastep'
+html_show_copyright = False
 
 # The short X.Y version
 version = ''
