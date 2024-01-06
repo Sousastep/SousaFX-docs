@@ -8,11 +8,11 @@ Many effects are from the `rnbo guitar pedals package <https://rnbo.cycling74.co
 .. toctree::
    :maxdepth: 2
 
-   content/fxbanks.rst
-   content/modparms.rst
-   content/xfade.rst
-   content/crossover.rst
-   content/mixbus.rst
-   content/loop.rst
-   content/mainstutter.rst
-   content/duck.rst
+   fxbanks.rst
+   modparms.rst
+   xfade.rst
+   crossover.rst
+   mixbus.rst
+   loop.rst
+   mainstutter.rst
+   duck.rst
