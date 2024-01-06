@@ -16,19 +16,20 @@ It features a number of standard audio effects, thoughtfully refined so that mod
 
 SousaFX can run either on its own, or alongside Ableton Live to utilize drum loops, backing tracks, networked jamming plugins, etc. A "SousaPlayback template Project" for Live is provided.
 
-SousaFX may be `downloaded <https://github.com/Sousastep/sousastep#floppy_disk-installation>`_ and evaluated for free, however a license must be :ref:`purchased <Purchase>` for continued use.
+SousaFX may be :ref:`downloaded <💾 Installation>` and evaluated for free, however a license must be :ref:`purchased <Purchase>` for continued use.
 
 .. toctree::
    :maxdepth: 2
 
+   content/hardreq.rst
+   content/install.rst
+   content/startup.rst
    content/main.rst
-   content/bindings.rst
    content/fx.rst
-   content/monitor.rst
-   content/metro.rst
-   content/io.rst
-   content/midi.rst
+   content/bindings.rst
+   content/settings.rst
    content/purchase.rst
+   content/attrib.rst
 
 
 

@@ -48,7 +48,10 @@ When you complete your purchase, a license key will be emailed to you ASAP (usua
 Classroom licenses and discounted-to-commercial license upgrades are also offered. For these and any other license needs, please email sousastep@gmail.com
 
 .. image:: media/window-about-nolicense.png
-   :width: 90%
+   :width: 70%
    :align: center
    :alt: window-about-nolicense.png
+
+
+
 
