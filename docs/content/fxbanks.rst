@@ -5,21 +5,21 @@ An fx bank runs four plugins in parallel. The first plugin slot in each bank has
 
 The fx banks are represented in the main window like so:
 
-.. image:: media/postxfadebank.png
-   :width: 60%
-   :align: center
-   :alt: postxfadebank
-
-|
-
 .. image:: media/prexfadebanks.png
    :width: 80%
    :align: center
    :alt: prexfadebanks
 
+|
+
+.. image:: media/postxfadebank.png
+   :width: 60%
+   :align: center
+   :alt: postxfadebank
+
 The bleed dial allows the attack fx's output into the sustain fx's output and vice-versa. A little bit goes a long way.
 
-The small menu has three options:
+The small menu has three options for auto-bypassing the fx bank:
 
 - Never bypass. 
 
@@ -27,13 +27,13 @@ The small menu has three options:
 
 - Bypass when tuba's soloing. 
 
-The on/off toggle has two options: 
+The on/off toggle has two options for fx selection when unbypassing: 
 
 - On, randomize FX when unbypassing. 
 
 - Off, return to original FX when unbypassing.
 
-These options, and plugin selections, are saved within the Main Presets.
+These options, and plugin selections, are saved within the :ref:`Main Presets <SousaFX Main Window>`.
 
 .. image:: media/fxbanks.png
    :width: 95%

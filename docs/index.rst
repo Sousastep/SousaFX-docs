@@ -23,14 +23,7 @@ SousaFX may be `downloaded <https://github.com/Sousastep/sousastep#floppy_disk-i
 
    content/main.rst
    content/bindings.rst
-   content/fxbanks.rst
-   content/xfade.rst
-   content/crossover.rst
-   content/modparms.rst
-   content/mixbus.rst
-   content/loop.rst
-   content/mainstutter.rst
-   content/duck.rst
+   content/fx.rst
    content/monitor.rst
    content/metro.rst
    content/io.rst
