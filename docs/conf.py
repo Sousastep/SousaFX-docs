@@ -132,8 +132,8 @@ html_static_path = ['_static']
 # or fully qualified paths (eg. https://...)
 html_css_files = ['css/custom.css']
 
-html_js_files = [
-    'js/theme_switcher.js']
+# Override sphinx_rtd_dark_mode's theme_switcher.js to clean up footer
+html_js_files = ['js/theme_switcher.js']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.

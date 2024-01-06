@@ -10,7 +10,7 @@ SousaFX Documentation
 Introduction
 ------------
 
-SousaFX is a multi-effects rig made with `MaxMSP <https://cycling74.com/products/max>`_ that lets you control audio effects with a game controller attached to the side of a tuba. 
+SousaFX is a multi-effects rig made with `MaxMSP <https://cycling74.com/products/max>`_ that lets you control audio effects using a game controller attached to the side of a tuba. 
 
 It features a number of standard audio effects, thoughtfully refined so that modulating their parameters with a game controller is as musical as possible. A :ref:`controller bindings page <Controller Bindings>` allows you to remap controls and set :ref:`deadzones <Deadzones>`, but to make things more fun, the bindings can also be relinquished and established :ref:`on-the-fly <Parameter Control Logic>`, based on looper status, joystick positioning, and wether or not the tuba's playing.
 
@@ -22,10 +22,22 @@ SousaFX may be `downloaded <https://github.com/Sousastep/sousastep#floppy_disk-i
    :maxdepth: 2
 
    content/main.rst
-   content/purchase.rst
    content/bindings.rst
-   content/io.rst
-   content/bindings.rst
-   content/deadzones.rst
-   content/midi.rst
+   content/fxbanks.rst
+   content/xfade.rst
+   content/crossover.rst
    content/modparms.rst
+   content/mixbus.rst
+   content/loop.rst
+   content/mainstutter.rst
+   content/duck.rst
+   content/monitor.rst
+   content/metro.rst
+   content/io.rst
+   content/midi.rst
+   content/purchase.rst
+
+
+
+
+
