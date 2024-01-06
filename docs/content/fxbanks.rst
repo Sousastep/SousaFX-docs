@@ -1,7 +1,7 @@
 FX Banks
 ========
 
-There are three FX Banks that can run up to four plugins each. The first plugin slot can also be a Max-native audio effect from the `RNBO Guitar Pedals package <https://rnbo.cycling74.com/explore/rnbo-pedals>`_.
+There are three FX Banks that run up to four plugins each. The first plugin slot can instead be a Max-native audio effect from the `RNBO Guitar Pedals package <https://rnbo.cycling74.com/explore/rnbo-pedals>`_.
 
 The FX Banks are represented in the main window like so:
 
@@ -9,6 +9,9 @@ The FX Banks are represented in the main window like so:
    :width: 40%
    :align: center
    :alt: postxfadebank
+
+|
+|
 
 .. image:: media/prexfadebanks.png
    :width: 80%
