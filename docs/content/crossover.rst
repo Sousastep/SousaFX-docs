@@ -7,7 +7,7 @@ There are two kinds of crossovers available in sousafx, each with two stereo hig
 
 |
 
-The first crossover is native to max, thanks to `timothy and lysdexic <https://cycling74.com/tutorials/crossover-filter-design-video-tutorial#reply-5e4377db8a6f416613deaf7c>`_.
+The first crossover is a :ref:`4th-order Linkwitz Riley crossover <RustyAllred>` that's native to Max.
 
 .. image:: media/crossovergen.png
    :width: 60%
@@ -16,7 +16,7 @@ The first crossover is native to max, thanks to `timothy and lysdexic <https://c
 
 |
 
-The second crossover is made with `fabfilter proq3 <https://www.youtube.com/watch?v=qrXXNKhjBE8&t=436s>`_, which you can use if you have proq3.
+The second crossover is made with `FabFilter ProQ3 <https://www.youtube.com/watch?v=qrXXNKhjBE8&t=436s>`_, which you can use if you have ProQ3.
 
 .. image:: media/crossoverfab.png
    :width: 85%

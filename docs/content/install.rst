@@ -22,6 +22,8 @@ Required
 
     - RNBO Synth Building Blocks
 
+    - ISF
+
 4. There will probably be a bunch of operating system security settings that you have to enable for Max as well.
 
 5. `Download sousastep <https://github.com/Sousastep/sousastep/releases/latest>`_ to your `~/Documents/Max 8/Projects/` folder. `sousastep` contains SousaFX, SousaVFX, and SousaPlayback.
