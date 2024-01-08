@@ -38,8 +38,8 @@ Live Link is simple to set up, but gets offbeat if the tempo changes suddenly.
 
 The "phasor1n" Max For Live device sends a 1-bar-long phasor audio signal out of Live and into Max. It's always in time, but you have to set up the audio route from Live to Max yourself, and you have to be sure to never route this signal to a speaker, or else you'll hear a pop once per bar.
 
-Which Beats
------------
+Click On
+--------
 
 Pick which beats the metronome should emit a click on.
 
@@ -52,12 +52,10 @@ Continuous Accelerando
 
 The continuous accelerando affects the Metronome, Modulation, Loopers, and Drum Clips.
 
-"Bars Per Accel Loop" sets how long it takes for a continuous accelerando to reach its original tempo
+"Bars Per Accel Loop" sets how long it takes for a continuous accelerando to reach its original tempo.
 
 When Continuous Accelerando is toggled off, the number of seconds remaining in the accel loop is displayed, and the accel ceases once the original tempo is reached.
 
-My two favorite examples of continuous accelerandos:
-
- - `Autechre Fold4 Wrap5 <https://www.youtube.com/watch?v=vUioVGqfu6s>`_
-
- - `Vijay Iyer Historicity <https://www.youtube.com/watch?v=PG6UwES2laU&t=371s>`_
+.. note::
+   
+   Two great examples of continuous decelerandos are `Autechre Fold4 Wrap5 <https://www.youtube.com/watch?v=vUioVGqfu6s>`_, and `Vijay Iyer Historicity <https://www.youtube.com/watch?v=PG6UwES2laU&t=371s>`_.
