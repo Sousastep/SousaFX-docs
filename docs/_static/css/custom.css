@@ -26,7 +26,11 @@ p + ol.simple {
 }
 
 /* https://stackoverflow.com/a/71412970 */
-pre {                                 
+code {                                 
     white-space: pre-wrap !important; 
     word-break: break-all;            
+}
+
+inline {
+  white-space : pre-wrap !important;
 }
