@@ -24,3 +24,9 @@ p + ul.simple {
 p + ol.simple {
     margin-top: -6px;
 }
+
+/* https://stackoverflow.com/a/71412970 */
+pre {                                 
+    white-space: pre-wrap !important; 
+    word-break: break-all;            
+}

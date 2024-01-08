@@ -113,21 +113,6 @@ pygments_style = None
 
 # -- Options for HTML output -------------------------------------------------
 
-
-
-html_context = {
-    'preamble': r'''
-\let\origbs\textbackslash
-\newcommand\allowbreaksafterbackslashinliterals {%
-  \def\textbackslash{\discretionary{\origbs}{}{\origbs}}% breaks after \
-}%
-\makeatletter
-\g@addto@macro\sphinx@literal@nolig@list{\allowbreaksafterbackslashinliterals}
-\makeatother
-''',
-}
-
-
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
