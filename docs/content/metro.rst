@@ -2,7 +2,7 @@ Metronome
 =========
 
 .. image:: media/metro.png
-   :width: 60%
+   :width: 80%
    :align: center
    :alt: metro
 
@@ -34,18 +34,18 @@ Audio Input or Live Link
 
 When the Tempo Source is Ableton's Tempo, this setting picks wether Ableton's sync signal comes from the "phasor1n" Max For Live device, or Live Link.
 
-Live Link is simple to set up, but gets offbeat if the tempo changes suddenly.
+Live Link is simple to set up, but gets offbeat if the tempo changes suddenly. It also needs to be turned on in Ableton Live every time you start Live.
 
 The "phasor1n" Max For Live device sends a 1-bar-long phasor audio signal out of Live and into Max. It's always in time, but you have to set up the audio route from Live to Max yourself, and you have to be sure to never route this signal to a speaker, or else you'll hear a pop once per bar.
 
-Click On
---------
+"Click On" menu
+---------------
 
-Pick which beats the metronome should emit a click on.
+Picks which beats the metronome should emit a click on.
 
-- click on 1 & 3
+- 1 & 3
 
-- click on 1 2 3 & 4
+- 1 2 3 & 4
 
 Continuous Accelerando
 ----------------------

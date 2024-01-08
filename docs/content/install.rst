@@ -1,6 +1,8 @@
 💾 Installation
 ===============
 
+|
+
 SousaFX
 -------
 
@@ -30,6 +32,8 @@ SousaFX
 
     SousaFX remains fully operational after Max's `30 day trial ends <https://support.cycling74.com/hc/en-us/articles/360049995834-Max-8-Max-7-Authorization#link-2>`_ thanks to Max not disabling `pattrstorage <https://docs.cycling74.com/max8/refpages/pattrstorage>`_.
 
+|
+
 SousaPlayback
 -------------
 
@@ -55,6 +59,8 @@ SousaPlayback
 
 7. Download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​default/​SousaPlayback template Project/​Clips/``
 
+|
+
 Updating
 --------
 When updating to new versions of SousaFX, 
@@ -63,6 +69,8 @@ copy all files from
 to the new version's 
 ``sousastep/​SousaFX/​data/`` 
 folder to ensure that your presets are carried over.
+
+|
 
 Recommended Free Plugins
 ------------------------

@@ -34,6 +34,7 @@ SousaFX Max Patches
 
 - Christopher Dobrian // `taptempo max patch <https://cycling74.com/forums/how-to-create-a-tap-tempo-in-max?replyPage=1#reply-58ed2104c2991221d9cc65fd>`_
 
+- Austin Andrews // `Material Design Icons <https://iconduck.com/sets/material-design-icons>`_
 
 SousaVFX Max Patches
 --------------------
