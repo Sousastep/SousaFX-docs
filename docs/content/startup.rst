@@ -8,7 +8,7 @@
    :align: center
    :alt: startup
 
-Select your preferred audio interface, then uncheck the pause button. :ref:`SousaFX will appear momentarily <SousaFX Main Window>`. It takes a couple minutes to boot, but while it does, you may ponder a randomly selected prompt from :ref:`"Do It (Home)", or "Prompts for Programmers" <prompts>`.
+Select your preferred audio interface, then uncheck the pause button. :ref:`SousaFX will appear momentarily <SousaFX Main Window>`. It takes a couple minutes to boot, but while it does, you may ponder a randomly selected prompt from :ref:`"Do It (Home)", or "Prompts for Programmers" <SousaFX Max Patches>`.
 
 .. note::
 

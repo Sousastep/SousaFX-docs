@@ -30,7 +30,9 @@ SousaFX Max Patches
 
 - `Rusty Allred <https://web.archive.org/web/20071003115434/http://www.planetanalog.com/article/printableArticle.jhtml?articleID=12802683>`_, `Trond Lossius <https://github.com/jamoma/JamomaCore/blob/master/DSP/extensions/FilterLib/source/TTLowpassLinkwitzRiley4.cpp>`_, `Timothy Place <https://cycling74.com/tutorials/crossover-filter-design-video-tutorial>`_, `J Curtis <https://cycling74.com/tutorials/crossover-filter-design-video-tutorial#reply-5e4377db8a6f416613deaf7c>`_ // 4th-order `Linkwitz Riley <https://www.linkwitzlab.com/publications.htm#17%20-%20Active%20Crossover%20Networks%20for%20Noncoincident%20Drivers>`_ Crossover Filter
 
-- `nik gaffney <https://github.com/zzkt/oblique-strategies>`_ // `do it home <https://curatorsintl.org/records/20290-do-it-home>`_ & `Prompts for Programmers <https://web.archive.org/web/20230817122306/https://kevinlawler.com/prompts>`_
+- `zzkt <https://github.com/zzkt/oblique-strategies>`_ // `do it home <https://curatorsintl.org/records/20290-do-it-home>`_ & `Prompts for Programmers <https://web.archive.org/web/20230817122306/https://kevinlawler.com/prompts>`_
+
+- Christopher Dobrian // `taptempo max patch <https://cycling74.com/forums/how-to-create-a-tap-tempo-in-max?replyPage=1#reply-58ed2104c2991221d9cc65fd>`_
 
 
 SousaVFX Max Patches
