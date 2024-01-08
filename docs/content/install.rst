@@ -6,7 +6,7 @@ Required
 
 1. `Download Max <https://cycling74.com/downloads>`_ from Cycling '74. 
 
-2. Open Max, click ``Menubar > Max > Preferences...``, and set the following preferences:
+2. Open Max, click :literal:`Menubar > Max > Preferences...`, and set the following preferences:
         
     - Interface > Restore Windows on Launch [uncheck]
     
@@ -24,7 +24,7 @@ Required
 
 4. There will probably be a bunch of operating system security settings that you have to enable for Max as well.
 
-5. `Download sousastep <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/Max 8/Projects/`` folder. ``sousastep`` contains SousaFX, SousaVFX, and SousaPlayback.
+5. `Download sousastep <https://github.com/Sousastep/sousastep/releases/latest>`_ to your :literal:`~/Documents/Max 8/Projects/` folder. ``sousastep`` contains SousaFX, SousaVFX, and SousaPlayback.
 
 .. note::
 
@@ -33,9 +33,9 @@ Required
 Optional
 --------
 
-6. To open the SousaPlayback template project ``~/Documents/Max 8/Projects/sousastep/default/SousaPlayback template Project/SousaPlayback template.als``, `download Live Suite <https://www.ableton.com/en/trial/>`_ from Ableton.
+6. To open the SousaPlayback template project :literal:`~/Documents/Max 8/Projects/sousastep/default/SousaPlayback template Project/SousaPlayback template.als`, `download Live Suite <https://www.ableton.com/en/trial/>`_ from Ableton.
 
-    Open Live, click ``Menubar > Live > Settings...``, and set the following preferences:
+    Open Live, click :literal:`Menubar > Live > Settings...`, and set the following preferences:
 
     - Audio > Audio Device [set preferred interface]
 
@@ -53,7 +53,7 @@ Optional
 
     The SousaPlayback template project will not work after Ableton Live's `free trial <https://www.ableton.com/en/trial/>`_ ends. The template uses a few Max for live devices that require Ableton Live 11/12 `Suite or Standard with the Max for Live addon <https://help.ableton.com/hc/en-us/articles/360000036850-Max-for-Live-bundled-in-Live>`_.
 
-7. Download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/Max 8/Projects/sousastep/SousaFX/default/SousaPlayback template Project/Clips/``
+7. Download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into :literal:`~/Documents/Max 8/Projects/sousastep/SousaFX/default/SousaPlayback template Project/Clips/`
 
 Updating
 --------
@@ -61,8 +61,8 @@ Updating
 .. important::
 
     When updating to new versions of SousaFX, 
-    copy all files from ``~/Documents/Max 8/Projects/sousastep/SousaFX/data/`` 
-    to the new version's ``sousastep/SousaFX/data/`` folder 
+    copy all files from :literal:`~/Documents/Max 8/Projects/sousastep/SousaFX/data/` 
+    to the new version's :literal:`sousastep/SousaFX/data/` folder 
     to ensure that your presets are carried over.
 
 Recommended Free Plugins
