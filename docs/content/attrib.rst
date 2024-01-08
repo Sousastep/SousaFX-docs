@@ -10,7 +10,6 @@ Documentation
 
 - Deployed to Github Pages by following `a tutorial by Michael Altfield <https://github.com/maltfield/rtd-github-pages/tree/master#continuous-documentation-hosting-read-the-docs-on-github-pages>`_ 
 
-|
 
 SousaFX Max Patches
 -------------------
@@ -29,15 +28,10 @@ SousaFX Max Patches
 
 - `Manuel Poletti <https://www.linkedin.com/in/manuelpoletti/>`_ // `RNBO Guitar Pedals <https://cycling74.com/products/rnbo-guitar-pedals>`_
 
-.. _RustyAllred:
-
-- `Rusty Allred <https://web.archive.org/web/20071003115434/http://www.planetanalog.com/article/printableArticle.jhtml?articleID=12802683>`_ 2003, `Trond Lossius <https://github.com/jamoma/JamomaCore/blob/master/DSP/extensions/FilterLib/source/TTLowpassLinkwitzRiley4.cpp>`_ 2008, `Timothy Place <https://cycling74.com/tutorials/crossover-filter-design-video-tutorial>`_ 2016, `J Curtis <https://cycling74.com/tutorials/crossover-filter-design-video-tutorial#reply-5e4377db8a6f416613deaf7c>`_ 2020 // 4th-order `Linkwitz Riley <https://www.linkwitzlab.com/publications.htm#17%20-%20Active%20Crossover%20Networks%20for%20Noncoincident%20Drivers>`_ Crossover Filter
-
-.. _prompts:
+- `Rusty Allred <https://web.archive.org/web/20071003115434/http://www.planetanalog.com/article/printableArticle.jhtml?articleID=12802683>`_, `Trond Lossius <https://github.com/jamoma/JamomaCore/blob/master/DSP/extensions/FilterLib/source/TTLowpassLinkwitzRiley4.cpp>`_, `Timothy Place <https://cycling74.com/tutorials/crossover-filter-design-video-tutorial>`_, `J Curtis <https://cycling74.com/tutorials/crossover-filter-design-video-tutorial#reply-5e4377db8a6f416613deaf7c>`_ // 4th-order `Linkwitz Riley <https://www.linkwitzlab.com/publications.htm#17%20-%20Active%20Crossover%20Networks%20for%20Noncoincident%20Drivers>`_ Crossover Filter
 
 - `nik gaffney <https://github.com/zzkt/oblique-strategies>`_ // `do it home <https://curatorsintl.org/records/20290-do-it-home>`_ & `Prompts for Programmers <https://web.archive.org/web/20230817122306/https://kevinlawler.com/prompts>`_
 
-|
 
 SousaVFX Max Patches
 --------------------

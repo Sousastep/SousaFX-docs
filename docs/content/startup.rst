@@ -3,7 +3,7 @@
 
 1. Open `~/Documents/Max 8/Projects/sousastep/SousaFX/SousaFX.maxproj`. SousaFX's Startup Preferences window will appear.
 
-.. image:: content/media/startup.gif
+.. image:: media/startup.gif
    :width: 90%
    :align: center
    :alt: startup
