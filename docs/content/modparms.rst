@@ -17,7 +17,7 @@ Several parameters here are available in the :ref:`bindings <Controller Bindings
 
 The lowpass filter selector switches between a collection of gen~ filters, and optionally, two paid plugins: `Moog MF101S <https://www.moogmusic.com/products/moogerfooger-mf-101-lowpass-filter>`_, and `Cytomic The Drop <https://cytomic.com/product/drop/>`_. This selection is saved independently of the :ref:`main presets <SousaFX Main Window>`.
 
-.. image:: media/lfs1.png
+.. image:: media/lfs1.jpg
    :width: 100%
    :align: center
    :alt: lowpass filter selection
@@ -33,7 +33,7 @@ The gen~ filter selection, however, is saved with the main presets.
    - Simper SVF
    - Reson
 
-.. image:: media/lfs2.png
+.. image:: media/lfs2.jpg
    :width: 100%
    :align: center
    :alt: gen~ filter selection

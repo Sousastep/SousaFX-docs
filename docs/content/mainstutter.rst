@@ -21,7 +21,7 @@ Tremolo binds
 
    The fraction of one period in which the signal is active. 
 
-   .. image:: media/PWM_duty_cycle_with_label.png
+   .. image:: media/PWM_duty_cycle_with_label.gif
       :width: 20%
       :align: left
       :alt: duty
@@ -31,20 +31,21 @@ Filter binds
 
 - filter sweep: Main Input Filters (bi)
 
-   Tapered to bypass at 50%, lowpass sweep up while approaching 100%, and highpass sweep down while approaching 0%. The filters are an MS20-like 24 dB/oct `Sallen Key filter <https://en.wikipedia.org/wiki/Sallen%E2%80%93Key_topology>`_ by :ref:`Surreal Machines <SousaFX Max Patches>`.
+   Bypass at 50%. Approaching 100% is a lowpass sweep up, and approaching 0% is a highpass sweep down. The filters are an MS20-like 24 dB/oct `Sallen Key filter <https://en.wikipedia.org/wiki/Sallen%E2%80%93Key_topology>`_ by :ref:`Surreal Machines <SousaFX Max Patches>`.
 
 
 
 Stutter Parameters
 ------------------
 
-- No Stut/STUTTER: Main Input Stutter Enable (trig)
 
-- accel: Main Input Stutter Accel (bi)
+:button: 
 
-   Speed of stutter.
+Main Input Stutter Random Rhythm (trig)
 
-- button above subdivision: Main Input Stutter Random Rhythm (trig)
+:No Stut:
+
+   Toggle stutter on and off. Bound to "Main Input Stutter Enable (trig)"
 
 :vol dip:
 
@@ -60,7 +61,7 @@ Stutter Parameters
 
 :accel:
 
-   Slow down and speed up the stutter FX.
+   Slow down and speed up the stutter FX. Bound to "Main Input Stutter Accel (bi)"
 
 :stutter volume:
 
