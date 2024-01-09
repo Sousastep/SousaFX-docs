@@ -15,6 +15,8 @@ Assign the Monitor L & R outputs to your audio interface's headphone outputs.
 Input Mapping
 =============
 
+The input menu sets the main input to SousaFX. "live mic" and "live silentbrass" come from the audio interface's physical inputs, and "prerecorded mic", "prerecorded silentbrass" come from ableton.
+
 - live mic: tuba mic input
 - prerecorded mic: prerecorded tuba mic from ableton
 - live silentbrass L: silentbrass input
@@ -42,6 +44,8 @@ Input Mapping
 
 Output Mapping
 ==============
+
+The output menu sets whether the main outputs are mono or stereo.
 
 - Main L: Front Of House output
 - Main R: Front Of House output

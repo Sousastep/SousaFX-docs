@@ -3,7 +3,7 @@ FX Banks
 
 An fx bank runs four plugins in parallel. The first plugin slot in each bank has an `rnbo guitar pedal <https://rnbo.cycling74.com/explore/rnbo-pedals>`_ effect available as well. The fifth slot bypasses the fx bank.
 
-The fx banks are represented in the main window like so:
+The fx banks are represented in the :ref:`main window <SousaFX Main Window>` like so:
 
 .. image:: media/prexfadebanks.png
    :width: 80%
@@ -23,9 +23,9 @@ The small menu has three options for auto-bypassing the fx bank:
 
 - Never bypass. 
 
-- Bypass when tuba's playing bassline. 
+- Bypass while looper's inactive. 
 
-- Bypass when tuba's soloing. 
+- Bypass while looper's looping. 
 
 The on/off toggle has two options for fx selection when unbypassing: 
 
