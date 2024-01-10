@@ -8,13 +8,13 @@ SousaFX
 
 1. `Download Max <https://cycling74.com/downloads>`_ from Cycling '74. 
 
-2. Open Max, click ``Menubar > Max > Preferences...``, and set the following preferences:
+2. Open Max, go to ``Menubar > Max > Preferences...``, and set the following preferences:
         
     - Interface > Restore Windows on Launch [uncheck]
     
     - Mixer > Enable Mixer Parallel Processing [check]
 
-3. Click ``Menubar > File > Show Package Manager``, and install the following packages:
+3. Open Max's Package Manager: ``Menubar > File > Show Package Manager``, and install the following packages:
 
     - ease
 
@@ -24,7 +24,7 @@ SousaFX
 
     - ISF
 
-4. There will probably be a bunch of operating system security settings that you have to enable for Max as well.
+4. Add ``/sousastep/`` to Max's global search path: Go to ``Menubar > Options... > File Preferences...``, "Add Path" +, "choose", and select ``~/Documents/​Max 8/​Project/​sousastep``.
 
 5. `Download sousastep <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. ``sousastep`` contains SousaFX, SousaVFX, and SousaPlayback.
 
@@ -39,19 +39,22 @@ SousaPlayback
 
 6. To open the SousaPlayback template project ``~/Documents/​Max 8/​Projects/​sousastep/​default/​SousaPlayback template Project/​SousaPlayback template.als``, `download Live Suite <https://www.ableton.com/en/trial/>`_ from Ableton.
 
-    Open Live, click ``Menubar > Live > Settings...``, and set the following preferences:
+    Open Live, click ``Menubar > Live > Settings...``, and set the following:
 
-    - Audio > Audio Device [set preferred interface]
+    a. Audio > Audio Device [select your audio interface]
 
-    - Audio > In/Out Sample Rate [48000]
+    b. Audio > In/Out Sample Rate [48000]
 
-    - Audio > Buffer Size [256]
+    c. Audio > Buffer Size [256]
 
-    - Link Tempo MIDI > MIDI Ports
+    d. File Folder > Max Application > browse for ``/Applications/Max.app``
 
-        - In: from Max 1 - Remote [check]
+    e. Link Tempo MIDI > MIDI Ports
 
-        - Out: to Max 1 - Track [check]
+        f. In: from Max 1 - Remote [check]
+
+        g. Out: to Max 1 - Track [check]
+
 
 .. important::
 
