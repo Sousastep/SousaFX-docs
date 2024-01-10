@@ -39,7 +39,7 @@ SousaPlayback
 
 6. To open the SousaPlayback template project ``~/Documents/​Max 8/​Projects/​sousastep/​default/​SousaPlayback template Project/​SousaPlayback template.als``, `download Live Suite <https://www.ableton.com/en/trial/>`_ from Ableton.
 
-    Open Live, click ``Menubar > Live > Settings...``, and set the following:
+    Go to Live's settings: ``Menubar > Live > Settings...``, and set the following:
 
     a. Audio > Audio Device [select your audio interface]
 
