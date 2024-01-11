@@ -1,5 +1,5 @@
-SousaFX Main Window
-===================
+Main Window
+===========
 
 This window links to all of SousaFX's :ref:`audio effect parameters <Audio Effects>`, `controller bindings <Controller Bindings>`, and `various settings <Settings>`.
 

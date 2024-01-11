@@ -3,7 +3,7 @@ FX Banks
 
 An fx bank runs four plugins in parallel. The first plugin slot in each bank has an `rnbo guitar pedal <https://rnbo.cycling74.com/explore/rnbo-pedals>`_ effect available as well. The fifth slot bypasses the fx bank.
 
-The fx banks are represented in the :ref:`main window <SousaFX Main Window>` like so:
+The fx banks are represented in the :ref:`main window <Main Window>` like so:
 
 .. image:: media/prexfadebanks.png
    :width: 80%
@@ -33,7 +33,7 @@ The on/off toggle has two options for fx selection when unbypassing:
 
 - Off, return to original FX when unbypassing.
 
-These options, and plugin selections, are saved within the :ref:`Main Presets <SousaFX Main Window>`.
+These options, and plugin selections, are saved within the :ref:`Main Presets <Main Window>`.
 
 .. image:: media/fxbanks.png
    :width: 95%

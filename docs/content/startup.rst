@@ -24,9 +24,11 @@ Steps 2, 3, and 4 are only necessary the first time SousaFX starts.
    :align: center
    :alt: maxaudiostatus
 
-4. Uncheck the Startup Preferences' pause button. :ref:`SousaFX will appear momentarily <SousaFX Main Window>`. It takes a couple minutes to boot, but while it does, you may ponder a randomly selected prompt from :ref:`"Do It (Home)", or "Prompts for Programmers" <SousaFX Media>`.
+4. Uncheck the Startup Preferences' pause button. :ref:`SousaFX will appear momentarily <Main Window>`. It takes a couple minutes to boot, but while it does, you may ponder a randomly selected prompt from :ref:`"Do It (Home)", or "Prompts for Programmers" <SousaFX Media>`.
 
-From here, you can use SousaFX on its own, or you can continue to startup SousaPlayback.
+5. Open the :ref:`Audio IO <Audio IO Status>` and ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to their proper audio outputs.
+
+From here, you can use SousaFX on its own, or you can run it alongside SousaPlayback.
 
 ..
    hide:: The rig choices include SousaFX, which is the main rig, BasicFX, which is just a compressor and distortion effect, and VFX, which you'll only need if you've made an `LED sousaphone bell <https://jbaylies.github.io/Electrobrass_Encyclopedia/en/master/content/tutorials/LED-sousa-bell.html>`_.

@@ -24,15 +24,7 @@ SousaFX may be :ref:`downloaded <💾 Installation>` and evaluated for free, how
    content/hardreq.rst
    content/install.rst
    content/startup.rst
-   content/main.rst
-   content/fx.rst
-   content/bindings.rst
-   content/settings.rst
+   content/SousaFX.rst
+   content/SousaPlayback.rst
    content/purchase.rst
-   content/modding.rst
    content/attrib.rst
-
-
-
-
-

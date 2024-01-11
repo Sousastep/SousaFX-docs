@@ -15,7 +15,7 @@ Several parameters here are available in the :ref:`bindings <Controller Bindings
    - LFO Free Speed (bi) [no user interface]
    - LPF Resonance Amount (either)
 
-The lowpass filter selector switches between a collection of gen~ filters, and optionally, two paid plugins: `Moog MF101S <https://www.moogmusic.com/products/moogerfooger-mf-101-lowpass-filter>`_, and `Cytomic The Drop <https://cytomic.com/product/drop/>`_. This selection is saved independently of the :ref:`main presets <SousaFX Main Window>`.
+The lowpass filter selector switches between a collection of gen~ filters, and optionally, two paid plugins: `Moog MF101S <https://www.moogmusic.com/products/moogerfooger-mf-101-lowpass-filter>`_, and `Cytomic The Drop <https://cytomic.com/product/drop/>`_. This selection is saved independently of the :ref:`main presets <Main Window>`.
 
 .. image:: media/lfs1.jpg
    :width: 100%
