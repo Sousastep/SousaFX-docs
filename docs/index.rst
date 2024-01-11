@@ -19,7 +19,7 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
 SousaFX may be :ref:`downloaded <Installation>` and evaluated for free, however a license must be :ref:`purchased <Purchase>` for continued use.
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
 
    content/hardreq.rst
    content/install.rst
