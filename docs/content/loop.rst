@@ -1,7 +1,7 @@
 Loopers
 =======
 
-A simple one-button looper. The button is `bound <Controller Bindings>`_ to ``looper record / fade out``.
+A simple one-button looper. The button is :ref:`bound <Controller Bindings>` to ``looper record / fade out``.
 
 The looper has five states.
 

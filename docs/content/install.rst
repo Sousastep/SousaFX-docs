@@ -51,9 +51,11 @@ SousaPlayback
 
     e. Link Tempo MIDI > MIDI Ports
 
-        f. In: from Max 1 - Remote [check]
+        - In: from Max 1 - Remote [check]
 
-        g. Out: to Max 1 - Track [check]
+        - Out: to Max 1 - Track [check]
+
+    f. Link Tempo MIDI > Show Link Toggle [show]
 
 
 .. important::

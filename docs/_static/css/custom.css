@@ -11,10 +11,6 @@ img.align-center {
     padding:    0;
 }
 
-p {
-    text-align: justify;
-}
-
 /* Push bulleted lists a little closer to lead-in paragraph. */
 p + ul.simple {
     margin-top: -6px;
@@ -29,4 +25,13 @@ p + ol.simple {
 code {                                 
     white-space: pre-wrap !important; 
     word-break: normal;            
+}
+
+p {
+    text-align: justify;
+}
+
+/* chatgpt: how would I change the field lists' text-align to justify in custom.css ? */
+dl.field-list {
+    text-align: justify;
 }

@@ -32,11 +32,11 @@ Tempo Source
 Audio Input or Live Link
 ------------------------
 
-When the Tempo Source is Ableton's Tempo, this setting picks wether Ableton's sync signal comes from the "phasor1n" Max For Live device, or Live Link.
+When the Tempo Source is Ableton's Tempo, this setting selects wether Ableton's sync signal is sourced from the "phasor1n" Max For Live device, or Live Link.
 
-Live Link is simple to set up, but gets offbeat if the tempo changes suddenly. It also needs to be turned on in Ableton Live every time you start Live.
+Live Link is simple to set up, but gets offbeat if the tempo changes suddenly. It also needs to be `enabled <https://help.ableton.com/hc/en-us/articles/209072789-Enabling-Link-in-Live>`_ in Ableton Live every time you start Live.
 
-The "phasor1n" Max For Live device sends a 1-bar-long phasor audio signal out of Live and into Max. It's always in time, but you have to set up the audio route from Live to Max yourself, and you have to be sure to never route this signal to a speaker, or else you'll hear a pop once per bar.
+The "phasor1n" Max For Live device sends a 1-bar-long phasor audio signal out of Live and into Max. It's always in time, but you have loopback its audio from Live to Max.
 
 "Click On" menu
 ---------------
@@ -50,7 +50,7 @@ Picks which beats the metronome should emit a click on.
 Continuous Accelerando
 ----------------------
 
-The continuous accelerando affects the Metronome, Modulation, Loopers, and Drum Clips.
+This is an experimental feature that affects the Metronome, Modulation, Loopers, and Drum Clips.
 
 "Bars Per Accel Loop" sets how long it takes for a continuous accelerando to reach its original tempo.
 

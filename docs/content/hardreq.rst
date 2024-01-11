@@ -25,7 +25,7 @@ SousaFX is developed and tested on a minimum-spec m1 macbook pro, and a decent w
 
 If you haven't optimized your computer for audio performance yet, `these Ableton articles are worth checking out <https://help.ableton.com/hc/en-us/search?utf8=%E2%9C%93&query=optimize>`_.
 
-The `RME Babyface Pro <https://www.ebay.com/sch/i.html?_from=R40&_nkw=rme+babyface+pro&_sacat=0&_sop=15>`_ is an end-game audio interface (I recommend not using its AC adapter), but any interface with a mic input, main output, and monitor output will do.
+The `RME Babyface Pro <https://www.rme-audio.de/downloads/bface_pro_fs_e.pdf>`_ is an end-game audio interface, but any interface with a mic input, main output, and monitor output will do, such as the `Focusrite Scarlett Solo 4th Gen <https://fael-downloads-prod.focusrite.com/customer/prod/downloads/scarlett_solo_studio_4th_gen_user_guide_v3-pdf-en.pdf>`_.
 
 If you're performing live you may also want to invest in a DI such as the `TrimTwo <https://www.radialeng.com/product/trim-two>`_ or `MixingLink <https://www.eventideaudio.com/pedals/mixinglink/>`_, which will prevent the venue's mixing board from accidentally sending phantom power into your cherished interface.
 

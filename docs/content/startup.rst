@@ -1,19 +1,61 @@
 🚂 Startup
 ==========
 
-1. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​SousaFX.maxproj``. SousaFX's Startup Preferences window will appear.
+
+
+SousaFX
+-------
+
+Steps 2, 3, and 4 are only necessary the first time SousaFX starts.
+
+1. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​SousaFX.maxproj``. You may want to drag this file into your dock for easy access. SousaFX's Startup Preferences window will appear.
 
 .. image:: media/startup.gif
    :width: 90%
    :align: center
    :alt: startup
 
-Select your preferred audio interface, then uncheck the pause button. :ref:`SousaFX will appear momentarily <SousaFX Main Window>`. It takes a couple minutes to boot, but while it does, you may ponder a randomly selected prompt from :ref:`"Do It (Home)", or "Prompts for Programmers" <SousaFX Media>`.
+2. Click on ``menubar > Settings > Audio Status...`` and set your preferred driver, sample rate, and vector size. 48 kHz and 256 samples are recommended.
 
-If you're using a windows PC, and your preferred audio interface isn't listed, click on ``menubar > Settings > Audio Status...`` and try a different driver.
+3. Close the Audio Status window and select your preferred audio interface in SousaFX's Startup Preferences.
 
-The rig choices include SousaFX, which is the main rig, BasicFX, which is just a compressor and distortion effect, and VFX, which you'll only need if you've made an `LED sousaphone bell <https://jbaylies.github.io/Electrobrass_Encyclopedia/en/master/content/tutorials/LED-sousa-bell.html>`_.
+.. image:: media/maxaudiostatus.png
+   :width: 70%
+   :align: center
+   :alt: maxaudiostatus
 
-.. note::
+4. Uncheck the Startup Preferences' pause button. :ref:`SousaFX will appear momentarily <SousaFX Main Window>`. It takes a couple minutes to boot, but while it does, you may ponder a randomly selected prompt from :ref:`"Do It (Home)", or "Prompts for Programmers" <SousaFX Media>`.
 
-   SousaFX is hard-coded to 48 kHz, vector size 256, as this was found to be the optimal tradeoff for latency and CPU usage.
+From here, you can use SousaFX on its own, or you can continue to startup SousaPlayback.
+
+..
+   hide:: The rig choices include SousaFX, which is the main rig, BasicFX, which is just a compressor and distortion effect, and VFX, which you'll only need if you've made an `LED sousaphone bell <https://jbaylies.github.io/Electrobrass_Encyclopedia/en/master/content/tutorials/LED-sousa-bell.html>`_.
+
+SousaPlayback
+-------------
+
+Steps 6, 7, and 8 are only necessary the first time SousaPlayback starts.
+
+5. Open ``~/Documents/​Max 8/​Projects/
+   ​sousastep/​default/
+   ​SousaPlayback template Project/
+   ​SousaPlayback template.als``. You may want to drag this file into your dock for easy access.
+
+6. If you followed :ref:`installation step 7 <SousaPlayback>` then the percussion clips will be available, but feel free to delete them all and add your own.
+
+7. Ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to their proper audio outputs.
+
+8. Set SousaFX's :ref:`Tempo Source <Tempo Source>` to "Ableton's Tempo".
+
+9. `Enable Link <https://help.ableton.com/hc/en-us/articles/209072789-Enabling-Link-in-Live>`_ by clicking its button on the far left of Live's control bar.
+
+10. Select the first `scene <https://www.ableton.com/en/manual/session-view/#tracks-and-scenes>`_ and hit enter.
+
+
+
+
+
+
+
+
+
