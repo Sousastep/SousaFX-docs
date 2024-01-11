@@ -11,18 +11,18 @@ Six parameters here are available in the :ref:`bindings <Controller Bindings>`. 
 Stutter
 -------
 
-Inspired by `Pioneer's Stutter FX <https://www.youtube.com/watch?v=hb0XLX0b4Y4&t=972s>`_, this stutter is unique in that it does its best to retime the stutter after it accelerates and returns to its original speed.
+Inspired by `Pioneer's Stutter FX <https://www.youtube.com/watch?v=hb0XLX0b4Y4&t=972s>`_.
 
 Parameters
 ~~~~~~~~~~
 
+:stutter:
+
+   Toggle stutter on and off. Bound to ``Main Input Stutter Enable (trig)``
+
 :button: 
 
    Selects a random subdivision. Bound to ``Main Input Stutter Random Rhythm (trig)``
-
-:No Stut:
-
-   Toggle stutter on and off. Bound to ``Main Input Stutter Enable (trig)``
 
 :vol dip:
 
@@ -44,13 +44,13 @@ Parameters
 
    The volume of the stutter.
 
-:subdivision menu:
+:subdiv menu:
 
    The rhythm of the subdivision. Attached to binding's subdivisions.
 
 :sync:
 
-   Same as the subdivision menu.
+   Same as the subdiv menu.
 
 :gated or thru:
 
@@ -75,14 +75,14 @@ Parameters
    The fraction of one period in which the signal is active. Bound to ``Main Input Tremolo Duty (bi)``
 
    .. image:: media/PWM_duty_cycle_with_label.gif
-      :width: 20%
-      :align: center
+      :width: 80%
+      :align: left
       :alt: duty
 
 Filter
 ------
 
-Also inspired by Pioneer, a classic DJ filter.
+Also inspired by Pioneer, a DJ filter.
 
 Parameters
 ~~~~~~~~~~

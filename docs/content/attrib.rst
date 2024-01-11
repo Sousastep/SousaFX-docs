@@ -6,9 +6,9 @@ Documentation
 
 - `SousaFX docs <https://github.com/Sousastep/SousaFX-docs>`_ built with `Sphinx <https://www.sphinx-doc.org/>`_ using a `theme <https://github.com/readthedocs/sphinx_rtd_theme>`_ provided by `Read the Docs <https://readthedocs.org/>`_. 
 
-- `Dark theme <https://github.com/MrDogeBro/sphinx_rtd_dark_mode>`_ provided by `MrDogeBro <https://github.com/MrDogeBro>`_.
+- `Dark theme provided by MrDogeBro <https://github.com/MrDogeBro/sphinx_rtd_dark_mode>`_.
 
-- Deployed to Github Pages by following `a tutorial by Michael Altfield <https://github.com/maltfield/rtd-github-pages/tree/master#continuous-documentation-hosting-read-the-docs-on-github-pages>`_ 
+- `Deployed to Github Pages via a tutorial by Michael Altfield <https://github.com/maltfield/rtd-github-pages/tree/master#continuous-documentation-hosting-read-the-docs-on-github-pages>`_ 
 
 
 SousaFX Max Patches
@@ -30,7 +30,9 @@ SousaFX Max Patches
 
 - `Rusty Allred <https://web.archive.org/web/20071003115434/http://www.planetanalog.com/article/printableArticle.jhtml?articleID=12802683>`_, `Trond Lossius <https://github.com/jamoma/JamomaCore/blob/master/DSP/extensions/FilterLib/source/TTLowpassLinkwitzRiley4.cpp>`_, `Timothy Place <https://cycling74.com/tutorials/crossover-filter-design-video-tutorial>`_, `J Curtis <https://cycling74.com/tutorials/crossover-filter-design-video-tutorial#reply-5e4377db8a6f416613deaf7c>`_ // 4th-order `Linkwitz Riley <https://www.linkwitzlab.com/publications.htm#17%20-%20Active%20Crossover%20Networks%20for%20Noncoincident%20Drivers>`_ Crossover Filter
 
-- Christopher Dobrian // `taptempo max patch <https://cycling74.com/forums/how-to-create-a-tap-tempo-in-max?replyPage=1#reply-58ed2104c2991221d9cc65fd>`_
+- Christopher Dobrian // `taptempo max patch <https://cycling74.com/forums/how-to-create-a-tap-tempo-in-max?replyPage=1#reply-58ed2104c2991221d9cc65fd>`_ & `max cookbook <https://music.arts.uci.edu/dobrian/maxcookbook/>`_
+
+- analogue01 // `solomute <discord://discord.com/channels/289378508247924738/289378711533387777/1167883999767707688>`_
 
 SousaFX Media
 -------------
