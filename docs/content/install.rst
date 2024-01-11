@@ -9,9 +9,9 @@ SousaFX
 1. `Download Max <https://cycling74.com/downloads>`_ from Cycling '74. 
 
 2. Open Max, go to ``Menubar > Max > Preferences...``, and set the following preferences:
-        
+
     - Interface > Restore Windows on Launch [uncheck]
-    
+
     - Mixer > Enable Mixer Parallel Processing [check]
 
 3. Open Max's Package Manager: ``Menubar > File > Show Package Manager``, and install the following packages:

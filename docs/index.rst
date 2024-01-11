@@ -29,6 +29,7 @@ SousaFX may be :ref:`downloaded <💾 Installation>` and evaluated for free, how
    content/bindings.rst
    content/settings.rst
    content/purchase.rst
+   content/modding.rst
    content/attrib.rst
 
 

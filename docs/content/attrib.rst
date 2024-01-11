@@ -37,6 +37,8 @@ SousaFX Media
 
 - Austin Andrews // `Material Design Icons <https://iconduck.com/sets/material-design-icons>`_
 
+- Luan Himmlisch // `Icofont Icon Set <https://iconduck.com/icons/249084/swirl>`_
+
 - `zzkt <https://github.com/zzkt/oblique-strategies>`_ // `do it home <https://curatorsintl.org/records/20290-do-it-home>`_ & `Prompts for Programmers <https://web.archive.org/web/20230817122306/https://kevinlawler.com/prompts>`_
 
 SousaVFX Max Patches

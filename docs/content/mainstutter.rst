@@ -1,55 +1,32 @@
 Main Stutter Tremolo & Filters
 ==============================
 
-Several parameters here are available in the :ref:`bindings <Controller Bindings>`. Both the stutter and tremolo's subdivisions are attached to the binding's subdivision.
+Six parameters here are available in the :ref:`bindings <Controller Bindings>`. Both the stutter and tremolo's subdivisions are attached to the binding's subdivisions.
 
 .. image:: media/mainstutter.png
    :width: 65%
    :align: center
    :alt: loopers
 
+Stutter
+-------
 
+Inspired by `Pioneer's Stutter FX <https://www.youtube.com/watch?v=hb0XLX0b4Y4&t=972s>`_, this stutter is unique in that it does its best to retime the stutter after it accelerates and returns to its original speed.
 
-Tremolo binds
--------------
-
-- depth/mix: Main Input Tremolo Depth (uni)
-
-   Amount of tremolo.
-
-- duty cycle: Main Input Tremolo Duty (bi)
-
-   The fraction of one period in which the signal is active. 
-
-   .. image:: media/PWM_duty_cycle_with_label.gif
-      :width: 20%
-      :align: left
-      :alt: duty
-
-Filter binds
-------------
-
-- filter sweep: Main Input Filters (bi)
-
-   Bypass at 50%. Approaching 100% is a lowpass sweep up, and approaching 0% is a highpass sweep down. The filters are an MS20-like 24 dB/oct `Sallen Key filter <https://en.wikipedia.org/wiki/Sallen%E2%80%93Key_topology>`_ by :ref:`Surreal Machines <SousaFX Max Patches>`.
-
-
-
-Stutter Parameters
-------------------
-
+Parameters
+~~~~~~~~~~
 
 :button: 
 
-Main Input Stutter Random Rhythm (trig)
+   Selects a random subdivision. Bound to ``Main Input Stutter Random Rhythm (trig)``
 
 :No Stut:
 
-   Toggle stutter on and off. Bound to "Main Input Stutter Enable (trig)"
+   Toggle stutter on and off. Bound to ``Main Input Stutter Enable (trig)``
 
 :vol dip:
 
-   Determines how much the stutter volume will decrease as the acceleration increases from neutral. Otherwise the accel absolutely shreds.
+   Determines how much the stutter volume will decrease as the acceleration increases from neutral.
 
 :offset:
 
@@ -61,19 +38,62 @@ Main Input Stutter Random Rhythm (trig)
 
 :accel:
 
-   Slow down and speed up the stutter FX. Bound to "Main Input Stutter Accel (bi)"
+   Slow down and speed up the stutter FX. Bound to ``Main Input Stutter Accel (bi)``
 
 :stutter volume:
 
-   it's the volume
+   The volume of the stutter.
+
+:subdivision menu:
+
+   The rhythm of the subdivision. Attached to binding's subdivisions.
 
 :sync:
 
-   same as the subdivision to the left.
+   Same as the subdivision menu.
 
 :gated or thru:
 
-   Should the input be gated by the stutter, or always pass through regardless of if the stutter is occuring? This is hardcoded to change dynamically based on a few parameters...
+   Should the input be gated by the stutter, 
+   or always pass through regardless of if the stutter is occuring? 
+   This may be hardcoded to change dynamically. Don't worry about it.
+
+Tremolo 
+-------
+
+A simple, musical, square-wave tremolo.
+
+Parameters
+~~~~~~~~~~
+
+:depth mix: 
+
+   Amount of tremolo. Bound to ``Main Input Tremolo Depth (uni)``
+
+:duty cycle: 
+
+   The fraction of one period in which the signal is active. Bound to ``Main Input Tremolo Duty (bi)``
+
+   .. image:: media/PWM_duty_cycle_with_label.gif
+      :width: 20%
+      :align: center
+      :alt: duty
+
+Filter
+------
+
+Also inspired by Pioneer, a classic DJ filter.
+
+Parameters
+~~~~~~~~~~
+
+:filter sweep:
+
+   Bypass at 50%. Approaching 100% is a lowpass sweep up, and approaching 0% is a highpass sweep down. The filters are an MS20-like 24 dB/oct `Sallen Key filter <https://en.wikipedia.org/wiki/Sallen%E2%80%93Key_topology>`_ by :ref:`Surreal Machines <SousaFX Max Patches>`. Bound to ``Main Input Filters (bi)``
+
+:smooth:
+
+   Smooths the filter frequency modulation. If mapped to a joystick, lower values follow the joystick more closely, while higher values glide towards the joystick.
 
 
 

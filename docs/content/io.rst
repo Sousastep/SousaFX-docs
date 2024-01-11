@@ -1,5 +1,5 @@
-Audio IO
-========
+Audio IO Status
+===============
 
 To start, only three channels need to be set up: The Live Mic input, and the Monitor L & R outputs.
 

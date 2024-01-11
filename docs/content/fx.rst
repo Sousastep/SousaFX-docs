@@ -13,6 +13,7 @@ Many effects are from the `rnbo guitar pedals package <https://rnbo.cycling74.co
    xfade.rst
    crossover.rst
    mixbus.rst
+   delay.rst
    loop.rst
    mainstutter.rst
    duck.rst
