@@ -1,7 +1,5 @@
-🚂 Startup
-==========
-
-
+Startup
+=======
 
 SousaFX
 -------

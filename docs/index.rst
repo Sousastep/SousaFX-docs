@@ -16,10 +16,10 @@ It features a number of standard audio effects, thoughtfully refined so that mod
 
 SousaFX can run either on its own, or alongside Ableton Live to utilize drum loops, backing tracks, networked jamming plugins, etc. A "SousaPlayback template Project" for Live is provided.
 
-SousaFX may be :ref:`downloaded <💾 Installation>` and evaluated for free, however a license must be :ref:`purchased <Purchase>` for continued use.
+SousaFX may be :ref:`downloaded <Installation>` and evaluated for free, however a license must be :ref:`purchased <Purchase>` for continued use.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
 
    content/hardreq.rst
    content/install.rst
