@@ -57,8 +57,3 @@ SousaVFX Max Patches
 - `dude837 <https://cutelab.nyc/>`_ // `That primitive action <https://www.youtube.com/watch?v=oKRB-gu30C8>`_
 
 - `Guy Dupont <https://github.com/dupontgu/twitch-plays-max>`_ & `Frederik <https://github.com/faaip/Twitch_Maxmsp_HPGL>`_ // `Twitch Max Bot <https://github.com/jbaylies/Twitch_MaxMSP_Simple-Bot#studio_microphone-introduction>`_
-
-.. note::
-
-	Endorsement of SousaFX by the aformentioned parties is not implied.
-

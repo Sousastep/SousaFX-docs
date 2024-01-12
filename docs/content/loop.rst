@@ -20,7 +20,7 @@ Hitting the button advances the looper state from Idle to Prepared, and playing 
 The loopers can be muted via the ``mute loopers`` binding.
 
 .. image:: media/loopers.png
-   :width: 80%
+   :width: 60%
    :align: center
    :alt: loopers
 
