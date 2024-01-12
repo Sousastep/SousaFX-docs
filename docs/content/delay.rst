@@ -7,17 +7,20 @@ The delay routing is inspired by `dub <https://youtu.be/nA8OBQMt9WY>`_. When del
 
 The reverb send is only for the Main Input as a standard send, post-delays.
 
-
+.. image:: media/sends.png
+   :width: 70%
+   :align: center
+   :alt: sends
 
 :swirl symbol:
 
-	Allows one delay to be sent into another when they're mapped to a joystick by combining the four delay sends' stereo outputs into one stereo signal for the feedback loop
+	Allows one delay to be sent into another by combining the four delay sends' stereo outputs into one stereo signal for the feedback loop. Only works for sends that are mapped to a joystick.
 
 :max send:
 
 	When delay sends are mapped to joysticks, the feedback loop is allowed to be slightly positive, which can increase the feedback over time. The "max send" parameter sets how slight that positive potential is. 
 
-
+Delays 1, 2, and 3 default to an RNBO FilterDelay, and Delay 4 defaults to an empty plugin slot, because four FilterDelays can't be loaded at once for some reason.
 
 
 

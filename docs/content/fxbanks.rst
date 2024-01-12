@@ -1,7 +1,12 @@
 FX Banks
 ========
 
-An fx bank runs four plugins in parallel. The first plugin slot in each bank has an `rnbo guitar pedal <https://rnbo.cycling74.com/explore/rnbo-pedals>`_ effect available as well. The fifth slot bypasses the fx bank.
+.. image:: media/fxbanks.png
+   :width: 95%
+   :align: center
+   :alt: fxbanks
+
+There are three separate FX Banks that each run four FX slots in parallel. Each FX slot can load one plugin, and the first FX slot in each Bank also has an `RNBO guitar pedal <https://rnbo.cycling74.com/explore/rnbo-pedals>`_ effect available as well. The fifth slot bypasses the fx bank.
 
 The fx banks are represented in the :ref:`main window <Main Window>` like so:
 
@@ -34,10 +39,5 @@ The on/off toggle has two options for fx selection when unbypassing:
 - Off, return to original FX when unbypassing.
 
 These options, and plugin selections, are saved within the :ref:`Main Presets <Main Window>`.
-
-.. image:: media/fxbanks.png
-   :width: 95%
-   :align: center
-   :alt: fxbanks
 
 Latency compensation varies depending on the currently selected plugins. This ensures the lowest possible latency.
