@@ -57,7 +57,7 @@ Main Track List
 
 			percussion clips w/ Beat Repeat, Stutter
 
-		Twelve parameters pertaining to the percussion bus tracks are :ref:`bound to SousaFX <Controller Bindings>`_. 
+		Twelve parameters pertaining to the percussion bus tracks are :ref:`bound to SousaFX <Controller Bindings>`. 
 
 			- mute drumloops
 
@@ -114,7 +114,7 @@ A. Monitor
 
 	The monitor mix, adjusted via the A sends from talkback mic, playback bus, click, MAIN REC, and NETWORK tracks.
 
-	The "playback bus" monitor send volume is also saved in SousaFX's :ref:`Monitor Mix <Monitor Mix>`
+	The "playback bus" monitor send volume is also saved in SousaFX's :ref:`Monitor Mix <Monitor Mix>`.
 
 B. Network
 
