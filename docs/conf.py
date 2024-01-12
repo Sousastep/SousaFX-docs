@@ -46,8 +46,9 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.autosectionlabel',
-    "sphinx_new_tab_link",
-    'sphinx_design'
+    'sphinx_new_tab_link',
+    'sphinx_design',
+    'sphinxcontrib.googleanalytics'
 ]
 
 # sphinx_design https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#badges
@@ -70,16 +71,7 @@ html_theme_options = {
     'titles_only': False
 }
 
-
-#  https://github.com/citusdata/citus_docs/issues/623#issue-301567791
-def setup(app):
-"""Insert Google Analytics tracker
-Based on this Stackoverflow suggestion: https://stackoverflow.com/a/41885884
-"""
-app.add_javascript("https://www.googletagmanager.com/gtag/js?id=G-XC8M12NVX5")
-app.add_javascript("google_analytics_tracker.js")
-
-
+googleanalytics_id = "G-XC8M12NVX5"
 
 # https://favicon.io/favicon-converter/
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_logo
