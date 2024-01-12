@@ -6,10 +6,9 @@ Docs
 
 - `SousaFX docs <https://github.com/Sousastep/SousaFX-docs>`_ built with `Sphinx <https://www.sphinx-doc.org/>`_ using a `theme <https://github.com/readthedocs/sphinx_rtd_theme>`_ provided by `Read the Docs <https://readthedocs.org/>`_. 
 
-- `Dark theme provided by MrDogeBro <https://github.com/MrDogeBro/sphinx_rtd_dark_mode>`_.
-
 - `Deployed to Github Pages via a tutorial by Michael Altfield <https://github.com/maltfield/rtd-github-pages/tree/master#continuous-documentation-hosting-read-the-docs-on-github-pages>`_ 
 
+- `Dark theme provided by MrDogeBro <https://github.com/MrDogeBro/sphinx_rtd_dark_mode>`_.
 
 Patches
 -------
@@ -37,8 +36,6 @@ Patches
 - `VIDVOX <https://vdmx.vidvox.net/blog/opensource>`_ // `Interactive Shader Format for Jitter <https://isf.vidvox.net/isf-for-jitter/>`_
 
 - `Mark Mojo Johnson <https://tranceam.org/mark-johnson-dr-mojo/>`_ // `ISF Shaders <https://editor.isf.video/u/mojovideotech>`_
-
-- `Timo Hoogland <https://www.timohoogland.com/>`_ // 
 
 - `dude837 <https://cutelab.nyc/>`_ // `That primitive action <https://www.youtube.com/watch?v=oKRB-gu30C8>`_
 

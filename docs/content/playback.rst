@@ -41,9 +41,9 @@ Main Track List
 
 			A MIDI track with a drum rack that lets you program custom `click tracks <https://www.sweetwater.com/insync/click-track/>`_ if needed.
 
-	- percussion bus
+	- drum bus
 
-		Group percussion and send thru EQ, filters, reverb, tremolo, delay, risset, compressor, glue comp.
+		Group percussion and send thru EQ, filters, reverb, tremolo, delay, risset, compressor, glue comp. The Drum Bus's external audio output is intended to be routed to SousaFX to control the :ref:`ducker <Kick Ducker>`.
 
 		- perc 1
 

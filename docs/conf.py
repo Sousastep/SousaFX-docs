@@ -53,7 +53,8 @@ extensions = [
 # sphinx_design https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html#badges
 
 html_theme_options = {
-    'analytics_id': 'G-XC8M12NVX5',  #  Provided by Google in your dashboard
+    # 'analytics_id': 'G-XC8M12NVX5',#  Provided by Google in your dashboard
+    #  https://github.com/citusdata/citus_docs/issues/623#issue-301567791
     'analytics_anonymize_ip': False,
     'logo_only': False,
     'display_version': False,
@@ -69,6 +70,17 @@ html_theme_options = {
     'titles_only': False
 }
 
+
+#  https://github.com/citusdata/citus_docs/issues/623#issue-301567791
+def setup(app):
+"""Insert Google Analytics tracker
+Based on this Stackoverflow suggestion: https://stackoverflow.com/a/41885884
+"""
+app.add_javascript("https://www.googletagmanager.com/gtag/js?id=UA-XC8M12NVX5")
+app.add_javascript("google_analytics_tracker.js")
+
+
+
 # https://favicon.io/favicon-converter/
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-html_logo
 html_logo = 'content/media/icon.png'
@@ -81,7 +93,7 @@ html_show_sphinx = False
 html_show_sourcelink = False
 
 # user starts in dark mode
-default_dark_mode = False
+default_dark_mode = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
