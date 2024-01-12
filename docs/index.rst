@@ -22,7 +22,6 @@ SousaFX may be :ref:`downloaded <Installation>` and evaluated for free, however 
    :maxdepth: 3
 
    content/hardreq.rst
-   content/rigpic.rst
    content/install.rst
    content/startup.rst
    content/SousaFX.rst

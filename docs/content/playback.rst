@@ -128,7 +128,7 @@ C. Main Out
 
 .. note::
 
-	All of SousaPlayback's MIDI Mappings correspond to :ref:`SousaFX's MIDI IO <MIDI Preferences>` by default.
+	All of SousaPlayback's MIDI Mappings correspond to :ref:`SousaFX's MIDI Preferences <MIDI Preferences>` by default.
 
 	.. image:: media/SousaPlaybacktemplateMIDI.png
 	   :width: 95%
