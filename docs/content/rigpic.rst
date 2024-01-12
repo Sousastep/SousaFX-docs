@@ -1,5 +1,5 @@
 Rig Pictures
-============
+------------
 
 .. image:: media/rig1.jpg
    :width: 40%

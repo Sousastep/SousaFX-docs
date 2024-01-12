@@ -37,8 +37,9 @@ p {
         text-align: justify;
     }
 
-I tried it and it resulted in no change. No worries. Could you try again? */
+I tried it and it resulted in no change. No worries. Could you try again?
 
 dl.field-list > dt, dl.field-list > dd {
     text-align: justify;
 }
+ */

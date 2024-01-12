@@ -28,8 +28,8 @@ Main Track List
 		- automation
 
 			A MIDI device that lets you automate two aspects of SousaFX: 
-			The :ref:`Mix Bus mutes and gains <Mix Bus>`_, and 
-			the :ref:`Main Preset number <Main Window>`_.
+			The :ref:`Mix Bus mutes and gains <Mix Bus>`, and 
+			the :ref:`Main Preset number <Main Window>`.
 
 			This device also sends BPM data to SousaFX.
 
