@@ -4,7 +4,7 @@ Startup
 SousaFX
 -------
 
-Steps 2, 3, and 4 are only necessary the first time SousaFX starts.
+Steps 2 - 5 are only necessary the first time SousaFX starts.
 
 1. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​SousaFX.maxproj``. You may want to drag this file into your dock for easy access. SousaFX's Startup Preferences window will appear.
 
@@ -34,22 +34,22 @@ From here, you can use SousaFX on its own, or you can run it alongside SousaPlay
 SousaPlayback
 -------------
 
-Steps 6, 7, and 8 are only necessary the first time SousaPlayback starts.
+Steps 7 - 9 are only necessary the first time SousaPlayback starts.
 
-5. Open ``~/Documents/​Max 8/​Projects/
+6. Open ``~/Documents/​Max 8/​Projects/
    ​sousastep/​default/
    ​SousaPlayback template Project/
    ​SousaPlayback template.als``. You may want to drag this file into your dock for easy access.
 
-6. If you followed :ref:`installation step 7 <SousaPlayback>` then the percussion clips will be available, but feel free to delete them all and add your own.
+7. If you followed :ref:`installation step 7 <SousaPlayback>` then the percussion clips will be available, but feel free to delete them all and add your own.
 
-7. Ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to their proper audio outputs.
+8. Ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to their proper audio outputs.
 
-8. Set SousaFX's :ref:`Tempo Source <Tempo Source>` to "Ableton's Tempo".
+9. Set SousaFX's :ref:`Tempo Source <Tempo Source>` to "Ableton's Tempo".
 
-9. `Enable Link <https://help.ableton.com/hc/en-us/articles/209072789-Enabling-Link-in-Live>`_ by clicking its button on the far left of Live's control bar.
+10. `Enable Link <https://help.ableton.com/hc/en-us/articles/209072789-Enabling-Link-in-Live>`_ by clicking its button on the far left of Live's control bar.
 
-10. Select the first `scene <https://www.ableton.com/en/manual/session-view/#tracks-and-scenes>`_ and hit enter.
+11. Select the first `scene <https://www.ableton.com/en/manual/session-view/#tracks-and-scenes>`_ and hit enter.
 
 
 

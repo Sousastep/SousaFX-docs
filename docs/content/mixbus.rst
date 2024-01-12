@@ -1,7 +1,7 @@
 Mix Bus
 =======
 
-The Mix Bus contains compressors for the Attack and Sustain FX Banks, after they're passed through the Envelope Crossfade.
+The Mix Bus contains compressors for the Attack and Sustain FX Banks, post-crossfade, before they're recombined.
 
 .. image:: media/mixbus.png
    :width: 100%
