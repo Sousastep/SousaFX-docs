@@ -41,7 +41,7 @@ Steps 7 - 9 are only necessary the first time SousaPlayback starts.
    ​SousaPlayback template Project/
    ​SousaPlayback template.als``. You may want to drag this file into your dock for easy access.
 
-7. If you followed :ref:`installation step 7 <SousaPlayback>` then the percussion clips will be available, but feel free to delete them all and add your own.
+7. If you followed :ref:`installation step 7 <Installation>` then the percussion clips will be available, but feel free to delete them and add your own.
 
 8. Ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to their proper audio outputs.
 

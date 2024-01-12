@@ -1,7 +1,12 @@
 Loopers
 =======
 
-A simple one-button looper. The button is :ref:`bound <Controller Bindings>` to ``looper record / fade out``.
+A simple "one-button" looper followed by a handful of effects.
+
+.. image:: media/loopers.png
+   :width: 60%
+   :align: center
+   :alt: loopers
 
 The looper has five states.
 
@@ -15,14 +20,38 @@ The looper has five states.
    
    5. Fading Out
 
-Hitting the button advances the looper state from Idle to Prepared, and playing tuba advances from Prepared to Recording. After 8 bars or so, the looper automatically stops Recording and starts Looping. Hitting the button a second time begins Fading Out the looper over the course of 8 bars. A second loop can be recorded while the first's fading out.
+Hitting the button (called ``looper record / fade out`` in the bindings) 
+advances the looper state from Idle to Prepared, 
+and playing tuba advances from Prepared to Recording. 
+After 8 bars or so, the looper automatically stops Recording 
+and starts Looping. Hitting the button a second time 
+begins Fading Out the looper over the course of 8 bars. 
+A second loop can be recorded while the first's fading out.
 
-The loopers can be muted via the ``mute loopers`` binding.
+Below the two loopers are the post-loop :ref:`Stutter, Tremolo, & Filters <Main Stutter Tremolo & Filters>`. The following :ref:`bindings <Controller Bindings>` are available:
 
-.. image:: media/loopers.png
-   :width: 60%
-   :align: center
-   :alt: loopers
+- ``Looper Stutter Enable (trig)``
 
-Below the two loopers are the post-loop :ref:`Stutter, Tremolo, & Filters <Main Stutter Tremolo & Filters>` 
-The same bindings as ``Main Stutter Tremolo & Filters`` exist for the loopers.
+- ``Looper Stutter Accel (bi)``
+
+- ``Looper Stutter Random Rhythm (trig)``
+
+- ``Looper Filters (bi)``
+
+- ``Looper Tremolo Duty (bi)``
+
+- ``Looper Tremolo Depth (uni)``
+
+- ``Looper Delay Send 1 (uni)``
+
+- ``Looper Delay Send 2 (uni)``
+
+- ``Looper Delay Send 3 (uni)``
+
+- ``Looper Delay Send 4 (uni)``
+
+- ``loopers tremolo and stutter subdivision``
+
+- ``looper record / fade out``
+
+- ``mute loopers``

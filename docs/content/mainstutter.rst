@@ -74,10 +74,12 @@ Parameters
 
    The fraction of one period in which the signal is active. Bound to ``Main Input Tremolo Duty (bi)``
 
-   .. image:: media/PWM_duty_cycle_with_label.gif
+   .. figure:: media/PWM_duty_cycle_with_label.gif
       :width: 80%
       :align: left
       :alt: duty
+
+      `Wikipedia - Duty Cycle <https://en.wikipedia.org/w/index.php?title=Duty_cycle&oldid=1180108380>`_
 
 Filter
 ------

@@ -3,32 +3,35 @@ Kick Ducker
 
 This allows the tuba to duck out of the way of the kick drum.
 
-For this to work, :ref:`SousaPlayback's drum bus's <SousaPlayback>` external output 
-must be routed to SousaFX's :ref:`"drum tracks L/R" inputs <Audio IO Status>`_.
+For this to work, :ref:`SousaPlayback's drum bus's <Main Track List>` external output 
+must be routed to SousaFX's :ref:`"drum tracks L/R" inputs <Audio IO Status>`.
+
+.. image:: media/duck.png
+   :width: 60%
+   :align: center
+   :alt: duck
 
 :enable sidechain kick with looper intelligence:
 
-   The duck affects the loopers, delays & reverb, 
+   Available in the :ref:`bindings <Controller Bindings>` as ``toggle sidechained kick``.
+
+   The ducker affects the loopers, delays & reverb, 
    and main input separately. When this parameter 
    is enabled, all three duckers are enabled, 
    except for the main input's when the 
    looper status is "looping" or "fading out".
 
-   looper status - activated duckers
+   looper status - activated duckers:
    
-      1. Idle - looper, delays & reverb, main input
+      1. Idle -       looper, delays & reverb, main input
    
-      2. Prepared - looper, delays & reverb, main input
+      2. Prepared -   looper, delays & reverb, main input
       
-      3. Recording - looper, delays & reverb, main input
+      3. Recording -  looper, delays & reverb, main input
       
-      4. Looping - looper, delays & reverb
+      4. Looping -    looper, delays & reverb
       
       5. Fading Out - looper, delays & reverb
-
-:disable sidechain kick when drum clip stutter enabled:
-
-   I must not've liked how the drum clip stutter sounded with the ducker enabled.
 
 :function:
 
@@ -50,8 +53,6 @@ must be routed to SousaFX's :ref:`"drum tracks L/R" inputs <Audio IO Status>`_.
 
    The left slider sets the point at which the rising envelope will trigger the duck. The duck cannot be triggered again until the falling envelope passes the right slider.
 
+:disable sidechain kick when drum clip stutter enabled:
 
-.. image:: media/duck.png
-   :width: 60%
-   :align: center
-   :alt: duck
+   I must not've liked how the drum clip stutter sounded with the ducker enabled.
