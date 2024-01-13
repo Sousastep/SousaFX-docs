@@ -25,6 +25,6 @@ SousaFX may be :ref:`downloaded <Installation>` and evaluated for free, however 
    content/startup.rst
    content/SousaFX.rst
    content/playback.rst
-   content/SousaVFX.rst
+   content/sousavfx.rst
    content/purchase.rst
    content/attrib.rst
