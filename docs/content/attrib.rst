@@ -54,4 +54,12 @@ Media
 
 - `zzkt <https://github.com/zzkt/oblique-strategies>`_ // `do it home <https://curatorsintl.org/records/20290-do-it-home>`_ & `Prompts for Programmers <https://web.archive.org/web/20230817122306/https://kevinlawler.com/prompts>`_
 
+- Prestige System //
 
+	- `Tuba Warrior Fandom <https://tuba-warriors.fandom.com/wiki/Heavy_Tuba_Gunner#Navigation>`_
+
+	- `Halo Infinite <https://www.halopedia.org/Rank_(Halo_Infinite)>`_
+
+	- `Valorant <https://www.ign.com/wikis/valorant/Valorant_Ranks%3A_Ascendant%2C_Immortal%2C_Radiant_Explained>`_
+
+	- `DOTA 2 <https://www.esports.net/wiki/guides/dota-2-ranks/>`_
