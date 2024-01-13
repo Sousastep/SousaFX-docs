@@ -346,7 +346,7 @@ distributed under the Apache 2.0 license.
 
 .. important::
     
-    For SousaFX to comply with the license I must inform you that I recolored the following icon:
+    For SousaFX to comply with the license I must inform you that I recolored the following icons:
     
       - https://iconduck.com/icons/92336/weather-sunset-down
       

@@ -7,7 +7,7 @@ visual effects for `LED sousaphone bells <https://jbaylies.github.io/Electrobras
 SousaVFX may run on the same computer 
 as SousaFX, or on a separate computer. 
 For example, I have SousaFX on my mac, 
-and send those five outputs to my RME MADIface 
+and send those five signals to my RME MADIface 
 via USB, then to the Eventide H9000R via MADI, 
 then from MADI to Dante thru the H9000R, 
 to Dante Via on my windows PC via ethernet, 
