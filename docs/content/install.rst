@@ -70,6 +70,8 @@ SousaPlayback
 
     The SousaPlayback template project will not work after Ableton Live's `free trial <https://www.ableton.com/en/trial/>`_ ends. The template uses Max for live devices that require Ableton Live 11/12 Suite or Standard with the Max for Live addon.
 
+.. _blackoctopus:
+
 7. Download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​default/​SousaPlayback template Project/​Clips/``, or skip this step and use your own drum samples.
 
 |

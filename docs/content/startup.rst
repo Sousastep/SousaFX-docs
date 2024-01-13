@@ -43,7 +43,7 @@ Steps 7 - 9 are only necessary the first time SousaPlayback starts.
    ​SousaPlayback template Project/
    ​SousaPlayback template.als``.
 
-7. If the :ref:`Black Octopus Drum Loops are installed <Installation>` then the drum clips will be available, but if not then feel free to delete them and add your own.
+7. If the :ref:`Black Octopus Drum Loops are installed <blackoctopus>` then drum clips will be available in session view, but if they're missing then feel free to delete them and add your own.
 
 8. Ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to the audio interface's Main and Headphone/Aux outputs, respectively.
 
