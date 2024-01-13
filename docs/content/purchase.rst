@@ -52,6 +52,9 @@ Classroom licenses and discounted-to-commercial license upgrades are also offere
    :align: center
    :alt: window-about-nolicense.png
 
+.. toctree::
+   :maxdepth: 2
 
-
+   EULA.rst
+   prestige.rst
 
