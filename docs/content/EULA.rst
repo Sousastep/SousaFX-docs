@@ -3,22 +3,22 @@ End User License Agreement For SousaFX
 
 .. important:: 
     
-    This SousaFX ("Software") End User License Agreement ("EULA") is a legal agreement between you (either an individual or, if purchased for an entity, an entity) and Sousastep.  READ IT CAREFULLY BEFORE COMPLETING THE INSTALLATION PROCESS AND USING THIS SOFTWARE.  It provides a license to use this software and contains warranty and liability disclaimers.  BY DOWNLOADING OR INSTALLING THE SOFTWARE YOU ARE INDICATING YOUR FULL AND VOLUNTARY ASSENT TO THE TERMS OF THIS LICENSE.  If you do not agree to all of the following terms, do not download or install the software or discontinue use immediately and destroy all copies on your computer. 
+    This SousaFX ("Software") End User License Agreement ("EULA") is a legal agreement between you (either an individual or, if purchased for an entity, an entity) and Sousastep.  Read it carefully before completing the :ref:`installation <Installation>` process and using this software.  It provides a license to use this software and contains warranty and liability disclaimers.  By downloading or installing the software you are indicating your full and voluntary assent to the terms of this license.  If you do not agree to all of the following terms, do not download or install the software or discontinue use immediately and destroy all copies on your computer. 
 
 
 License Grants and Purchase
 ---------------------------
 
-1.1  Trial Period License.  You may download and use the Software for free for thirty (30) days after installation ("Trial Period").  During the Trial Period, Sousastep grants you a limited, non-exclusive and non-transferable license to copy and use the Software for evaluation purposes only. The evaluation copy of the Software is fully functional, aside from the prestige system.
+1.1  Trial Period License.  You may download and use the Software for free for thirty (30) days after installation ("Trial Period").  During the Trial Period, Sousastep grants you a limited, non-exclusive and non-transferable license to copy and use the Software for evaluation purposes only. The evaluation copy of the Software is fully functional, aside from the :ref:`prestige system <Prestige System>`.
 
-1.2  License After Trial Period. If you continue to use this Software after the Trial Period, you are required to purchase a license.  The license fee varies according to your use, as follows:
+1.2  License After Trial Period. If you continue to use this Software after the Trial Period, you are required to purchase a license.  The license fee varies according to your use, as follows.
   a)  A commercial license currently is $225.00 USD. 
   b)  The following users are granted permission to purchase a discounted license for $60 USD:
     i) You are an individual, using SousaFX only for personal and non-commercial uses.
     ii) You are either an individual or business, using SousaFX for a commercial purpose, and your annual gross revenue derived from commercial activity does not exceed $20,000 USD.
     iii) You are an educational or other non-profit organization.
 
-1.3  To Purchase License.  To purchase one of the licenses specified above, visit our web site at https://sousastep.github.io/SousaFX-docs/en/master/content/purchase.html
+1.3  To purchase one of the licenses specified above, visit our web site at https://sousastep.github.io/SousaFX-docs/en/master/content/purchase.html
 
 1.4  Those interested in licensing SousaFX for any other purpose should contact Sousastep at sousastep@gmail.com
 

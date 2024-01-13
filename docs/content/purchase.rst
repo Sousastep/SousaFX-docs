@@ -1,7 +1,7 @@
 Purchase
 ========
 
-SousaFX has a 30-day evaluation period, after which a closeable popup will appear when SousaFX is launched, directing you to purchase a license. Purchasing a SousaFX license supports further development and unlocks a :ref:`prestige system <Prestige System>` that tracks how many hours you've used SousaFX for. Be sure to :ref:`read the End User License Agreement. <End User License Agreement For SousaFX>`.
+SousaFX has a 30-day evaluation period, after which a closeable popup will appear when SousaFX is launched, directing you to purchase a license. Purchasing a SousaFX license supports further development and unlocks a :ref:`prestige system <Prestige System>` that tracks how many hours you've used SousaFX for. Be sure to :ref:`read the End User License Agreement <End User License Agreement For SousaFX>`.
 
 A commercial license is $225 and a discounted license is $60.
 
