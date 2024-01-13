@@ -3,7 +3,7 @@ SousaVFX
 
 SousaFX integrates with SousaVFX via five 
 audio-rate control signals to provide 
-visual effects for LED sousaphone bells. 
+visual effects for `LED sousaphone bells <https://jbaylies.github.io/Electrobrass_Encyclopedia/en/master/content/tutorials/LED-sousa-bell.html>`_. 
 SousaVFX may run on the same computer 
 as SousaFX, or on a separate computer. 
 For example, I have SousaFX on my mac, 
@@ -22,10 +22,10 @@ to SousaVFX.
 
 .. figure:: media/vfx3.png
    :align: center
-   :width: 100%
+   :width: 60%
    :alt: vfx3
 
-   SousaVFX screenshot #1
+   ISF shader preset
 
 Startup
 -------
@@ -57,25 +57,31 @@ Screenshots
    :width: 100%
    :alt: vfx1
 
-   SousaVFX screenshot #2
+   dude837's primitive action shader
+
+|
 
 .. figure:: media/vfx2.png
    :align: center
    :width: 100%
    :alt: vfx2
 
-   SousaVFX screenshot #3
+   Supports scrolling text.
+
+|
 
 .. figure:: media/isfobject.png
    :align: center
    :width: 100%
    :alt: international shafer format for jitter
 
-   patching mode. ISF preset switcher.
+   ISF preset switcher.
+
+|
 
 .. figure:: media/serialobject.png
    :align: center
    :width: 100%
    :alt: serial
 
-   patching mode. Sending RGB data to a Teensy via ``serial``.
+   Sending RGB data to a Teensy via ``serial``.
