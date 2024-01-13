@@ -1,19 +1,21 @@
 Startup
 =======
 
+Here's how to start up SousaFX and SousaPlayback.
+
 SousaFX
 -------
 
 Steps 2 - 5 are only necessary the first time SousaFX starts.
 
-1. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​SousaFX.maxproj``. You may want to drag this file into your dock for easy access. SousaFX's Startup Preferences window will appear.
+1. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​SousaFX.maxproj``. SousaFX's Startup Preferences window will appear.
 
 .. image:: media/startup.gif
    :width: 90%
    :align: center
    :alt: startup
 
-2. Click on ``menubar > Settings > Audio Status...`` and set your preferred driver, sample rate, and vector size. 48 kHz and 256 samples are recommended.
+2. Click on ``menubar > Settings > Audio Status...`` and set your preferred driver, sample rate, and vector size. 48 kHz and 128 samples are recommended. If the audio crackles during use then try a vector size of 256, or 512.
 
 3. Close the Audio Status window and select your preferred audio interface in SousaFX's Startup Preferences.
 
@@ -22,9 +24,9 @@ Steps 2 - 5 are only necessary the first time SousaFX starts.
    :align: center
    :alt: maxaudiostatus
 
-4. Uncheck the Startup Preferences' pause button. :ref:`SousaFX will appear in 2 - 5 minutes <Main Window>`.
+4. Uncheck the Startup Preferences' pause button. :ref:`SousaFX will appear<Main Window>` in 2 - 5 minutes.
 
-5. Open the :ref:`Audio IO <Audio IO Status>` and ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to their proper audio outputs.
+5. Open the :ref:`Audio IO Status window<Audio IO Status>` and ensure that the Main and Monitor :ref:`outputs <Output Mapping>` are routed to the audio interface's Main and Headphone/Aux outputs, respectively.
 
 From here, you can use SousaFX on its own, or you can run it alongside SousaPlayback.
 
@@ -39,11 +41,11 @@ Steps 7 - 9 are only necessary the first time SousaPlayback starts.
 6. Open ``~/Documents/​Max 8/​Projects/
    ​sousastep/​default/
    ​SousaPlayback template Project/
-   ​SousaPlayback template.als``. You may want to drag this file into your dock for easy access.
+   ​SousaPlayback template.als``.
 
-7. If you followed :ref:`installation step 7 <Installation>` then the percussion clips will be available, but feel free to delete them and add your own.
+7. If the :ref:`Black Octopus Drum Loops are installed <Installation>` then the drum clips will be available, but if not then feel free to delete them and add your own.
 
-8. Ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to their proper audio outputs.
+8. Ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to the audio interface's Main and Headphone/Aux outputs, respectively.
 
 9. Set SousaFX's :ref:`Tempo Source <Tempo Source>` to "Ableton's Tempo".
 

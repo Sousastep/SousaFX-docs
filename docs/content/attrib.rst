@@ -46,6 +46,8 @@ Patches
 Media
 -----
 
+- Black Octopus Sound // `Free Samples Bundle <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_
+
 - Austin Andrews // `Material Design Icons <https://iconduck.com/sets/material-design-icons>`_
 
 - Luan Himmlisch // `Icofont Icon Set <https://iconduck.com/icons/249084/swirl>`_
