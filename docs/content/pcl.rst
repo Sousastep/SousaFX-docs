@@ -8,7 +8,7 @@ when the tuba starts or stops playing, or they can wait
 until the gamepad's respective joystick axis 
 touches its :ref:`deadzone or default value <Deadzones>`.
 
-The aformentioned settings can be chosen per each of the four :ref:`looper states <Loopers>`.
+The aformentioned settings can be chosen per each of the four main :ref:`looper states <Loopers>`.
 
 - idle, prepared: Playing bassline
 
