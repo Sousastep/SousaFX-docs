@@ -1,6 +1,8 @@
 SousaPlayback
 =============
 
+.. _SousaPlaybackTemplate:
+
 .. image:: media/SousaPlaybacktemplate.png
    :width: 100%
    :align: center

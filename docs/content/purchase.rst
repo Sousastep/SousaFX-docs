@@ -55,6 +55,5 @@ Classroom licenses and discounted-to-commercial license upgrades are also offere
 .. toctree::
    :maxdepth: 2
 
-   EULA.rst
    prestige.rst
-
+   EULA.rst

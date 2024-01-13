@@ -4,7 +4,7 @@ Installation
 SousaFX
 -------
 
-1. :ref:`Read the End User License Agreement For SousaFX. <End User License Agreement For SousaFX>`
+1. First, please read the :ref:`End User License Agreement<End User License Agreement For SousaFX>`.
 
 2. `Download Max <https://cycling74.com/downloads>`_ from Cycling '74. 
 
@@ -16,13 +16,13 @@ SousaFX
 
 4. Open Max's Package Manager: ``Menubar > File > Show Package Manager``, and install the following packages:
 
-    - ease
+    - `ease <c74max://packagemanager/ease>`_
 
-    - link
+    - `link <c74max://packagemanager/link>`_
 
-    - RNBO Synth Building Blocks
+    - `RNBO Synth Building Blocks <c74max://packagemanager/RNBO%20Synth%20Building%20Blocks>`_
 
-    - ISF
+    - `ISF <c74max://packagemanager/ISF>`_
 
 5. Add ``/sousastep/`` to Max's global search path: Go to ``Menubar > Options... > File Preferences...``, "Add Path" +, "choose", and select ``~/Documents/​Max 8/​Project/​sousastep``.
 
