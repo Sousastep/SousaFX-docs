@@ -22,7 +22,7 @@ Steps 2 - 5 are only necessary the first time SousaFX starts.
    :align: center
    :alt: maxaudiostatus
 
-4. Uncheck the Startup Preferences' pause button. :ref:`SousaFX will appear momentarily <Main Window>`. It takes a couple minutes to boot, but while it does, you may ponder a randomly selected prompt from :ref:`"Do It (Home)", or "Prompts for Programmers" <SousaFX Media>`.
+4. Uncheck the Startup Preferences' pause button. :ref:`SousaFX will appear in 2 - 5 minutes <Main Window>`.
 
 5. Open the :ref:`Audio IO <Audio IO Status>` and ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to their proper audio outputs.
 

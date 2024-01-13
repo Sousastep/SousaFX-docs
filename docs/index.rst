@@ -6,7 +6,6 @@ SousaFX Documentation
    :align: center
    :alt: Work In Progress
 
-
 Introduction
 ------------
 
@@ -26,5 +25,6 @@ SousaFX may be :ref:`downloaded <Installation>` and evaluated for free, however 
    content/startup.rst
    content/SousaFX.rst
    content/playback.rst
+   content/SousaVFX.rst
    content/purchase.rst
    content/attrib.rst
