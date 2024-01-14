@@ -15,6 +15,8 @@ It features a number of :ref:`audio effects <Audio Effects>`, thoughtfully refin
 
 SousaFX can run either on its own, or alongside Ableton Live to utilize drum loops, backing tracks, networked jamming plugins, etc. A :ref:`SousaPlayback template Project <SousaPlaybackTemplate>` for Live is provided.
 
+Five audio-rate control signal outputs let SousaFX send LFO and envelope data to VFX apps such as :ref:`SousaVFX <SousaVFX>`, VDMX, Resolume, Touchdesigner, etc.
+
 SousaFX may be :ref:`downloaded <Installation>` and evaluated for free, however a license must be :ref:`purchased <Purchase>` for continued use.
 
 .. toctree::

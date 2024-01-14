@@ -40,4 +40,4 @@ The on/off toggle has two options for fx selection when unbypassing:
 
 These options, and plugin selections, are saved within the :ref:`Main Presets <Main Window>`.
 
-Latency compensation varies depending on the currently selected plugins. This ensures the lowest possible latency.
+:ref:`Latency compensation <Latency Compensation>` varies depending on the currently selected plugins. This ensures the lowest possible latency.

@@ -35,7 +35,7 @@ except for the following:
 - :ref:`FX Banks <FX Banks>` slots 2 - 4.
 
 
-selectable effects
+Selectable Effects
 ------------------
 
 -	Sustain EQ
@@ -53,9 +53,10 @@ selectable effects
 - 	:ref:`Low Pass Filter <Lowpass Filter Selector>`; 
 	only plugins supported are 
 	`MF-101S <https://software.moogmusic.com/store/mf-101s>`_ and 
-	`The Drop <https://cytomic.com/product/drop/>`_.
+	`The Drop <https://cytomic.com/product/drop/>`_
 
-- 	:ref:`crossover filter <Crossover>`; only plugin supported is ProQ3.
+- 	:ref:`crossover filter <Crossover>`; 
+	only plugin supported is `ProQ3 <https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in>`_
 
 - 	octaver compressor
 
@@ -66,7 +67,7 @@ selectable effects
 - 	high crossover :ref:`sustain compressor <Mix Bus>`
 
 - 	four :ref:`delay sends <Delay and Reverb Sends>`; 
-	also supports external routing.
+	also supports external routing
 
 - 	:ref:`reverb send <Delay and Reverb Sends>`
 
@@ -82,7 +83,8 @@ selectable effects
 Latency Compensation
 --------------------
 
-Latency compensation is recalculated whenever a plugin loads, or the FX Banks change. If a plugin parameter changes the plugins latency after it loads, then manually recalculate the latency by clicking "check latency".
+Latency compensation is recalculated whenever a plugin loads, 
+or an FX Bank selection changes. This ensure the lowest possible latency depending on which effects are in use. If a plugin parameter changes its plugin's latency after said plugin loads, you must manually trigger a recalculation by clicking "check latency". 
 
 .. image:: media/latency.png
    :width: 100%
