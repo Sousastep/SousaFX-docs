@@ -8,6 +8,7 @@ Many effects are from the `rnbo guitar pedals package <https://rnbo.cycling74.co
 .. toctree::
    :maxdepth: 2
 
+   MaxOrPluginSelector.rst
    modparms.rst
    xfade.rst
    fxbanks.rst

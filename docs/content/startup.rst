@@ -11,7 +11,7 @@ Steps 2 - 5 are only necessary the first time SousaFX starts.
 1. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​SousaFX.maxproj``. SousaFX's Startup Preferences window will appear.
 
 .. image:: media/startup.gif
-   :width: 90%
+   :width: 80%
    :align: center
    :alt: startup
 
@@ -20,13 +20,18 @@ Steps 2 - 5 are only necessary the first time SousaFX starts.
 .. image:: media/maxaudiostatus.png
    :width: 70%
    :align: center
-   :alt: maxaudiostatus
+   :alt: max audio status
 
 3. Close the Audio Status window and select your preferred audio interface in SousaFX's Startup Preferences.
 
 4. Uncheck the Startup Preferences' pause button. :ref:`SousaFX will appear<Main Window>` in 2 - 5 minutes.
 
-5. Open the :ref:`Audio IO Status window<Audio IO Status>` and ensure that the Main and Monitor :ref:`outputs <Output Mapping>` are routed to the audio interface's Main and Headphone/Aux outputs, respectively.
+.. image:: media/startupengine.png
+   :width: 40%
+   :align: center
+   :alt: startup engine
+
+5. Once SousaFX is running, open the :ref:`Audio IO Status window<Audio IO Status>` and ensure that the Main and Monitor :ref:`outputs <Output Mapping>` are routed to the audio interface's Main and Headphone/Aux outputs, respectively.
 
 From here, you can use SousaFX on its own, or you can run it alongside SousaPlayback.
 
