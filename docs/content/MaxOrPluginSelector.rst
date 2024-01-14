@@ -5,7 +5,7 @@ Many effects in SousaFX are presented in a way
 that lets you choose between a max-native effect 
 or an external audio plugin.
 
-To choose, first turn off the audio engine by clicking the power button in the :ref:`main window <Main Window>`. Then click the effect's main menu to select Max or Plugin, and then turn the audio engine back on. Your choice is auto-saved. 
+To choose, first turn off the audio engine by clicking the blue power button in the :ref:`main window <Main Window>`. Click the effect's main menu to select Max or Plugin, then click the power button again to turn the audio engine back on. Your choice is auto-saved.
 
 .. image:: media/maxselected.png
    :width: 100%
@@ -84,7 +84,7 @@ Latency Compensation
 --------------------
 
 Latency compensation is recalculated whenever a plugin loads, 
-or an FX Bank selection changes. This ensure the lowest possible latency depending on which effects are in use. If a plugin parameter changes its plugin's latency after said plugin loads, you must manually trigger a recalculation by clicking "check latency". 
+or an FX Bank selection changes. This ensures the lowest possible latency depending on which effects are in use. If a plugin parameter changes its plugin's latency after said plugin loads, you must manually trigger a recalculation by clicking "check latency". 
 
 .. image:: media/latency.png
    :width: 100%
