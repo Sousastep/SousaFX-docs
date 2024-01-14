@@ -24,6 +24,9 @@ Several mod params are available in the :ref:`bindings <Controller Bindings>`.
    
    - LPF Resonance Amount (either)
 
+Lowpass Filter Selector
+-----------------------
+
 The lowpass filter selector switches between a collection of gen~ filters, and optionally, two paid plugins: `Moog MF101S <https://www.moogmusic.com/products/moogerfooger-mf-101-lowpass-filter>`_, and `Cytomic The Drop <https://cytomic.com/product/drop/>`_. This selection is saved independently of the :ref:`main presets <Main Window>`, and shouldn't be switched live.
 
 .. image:: media/lfs1.jpg
