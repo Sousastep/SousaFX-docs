@@ -49,7 +49,7 @@ Startup
 	then SousaFX's aformentioned audio outputs must be routed 
 	to SousaVFX's audio inputs of the same name.
 
-.. toctree::
-   :maxdepth: 2
+Screenshots
+-----------
    
-	sousavfxscreenshots.rst
+:ref:`More pictures of SousaVFX. <Screenshots>`
