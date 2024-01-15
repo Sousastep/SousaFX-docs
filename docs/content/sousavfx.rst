@@ -20,6 +20,11 @@ to SousaVFX.
 	or `Touchdesigner <https://derivative.ca/>`_ 
 	would also play nicely with SousaFX's control signals.
 
+.. toctree::
+   :maxdepth: 1
+
+	sousavfxscreenshots.rst
+
 .. figure:: media/vfx3.png
    :align: center
    :width: 60%
@@ -48,40 +53,3 @@ Startup
 	If SousaVFX and SousaFX are running on different computers, 
 	then SousaFX's aformentioned audio outputs must be routed 
 	to SousaVFX's audio inputs of the same name.
-
-Screenshots
------------
-
-.. figure:: media/vfx1.png
-   :align: center
-   :width: 100%
-   :alt: vfx1
-
-   dude837's primitive action shader
-
-|
-
-.. figure:: media/vfx2.png
-   :align: center
-   :width: 100%
-   :alt: vfx2
-
-   Supports scrolling text.
-
-|
-
-.. figure:: media/isfobject.png
-   :align: center
-   :width: 100%
-   :alt: international shafer format for jitter
-
-   ISF preset switcher.
-
-|
-
-.. figure:: media/serialobject.png
-   :align: center
-   :width: 100%
-   :alt: serial
-
-   Sending RGB data to a Teensy via ``serial``.
