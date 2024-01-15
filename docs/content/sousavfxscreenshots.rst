@@ -1,5 +1,5 @@
 Screenshots
------------
+===========
 
 .. figure:: media/vfx1.png
    :align: center
