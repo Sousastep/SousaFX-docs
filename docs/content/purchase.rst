@@ -15,18 +15,19 @@ You may use the discounted license if:
 
 Payment may be sent via any of the following platforms. Please be sure to include the email address that you would like the license key sent to.
 
-.. button-link:: https://ko-fi.com/sousafx
+
+.. button-link:: https://ko-fi.com/sousafx/shop
     :color: primary
     :outline:
 
     ko-fi
 
 
-.. button-link:: https://patreon.com/sousastep
+.. button-link:: https://github.com/sponsors/jbaylies?frequency=one-time
     :color: primary
     :outline:
 
-    patreon
+    github
 
 
 .. button-link:: https://venmo.com/sousastep
@@ -36,14 +37,7 @@ Payment may be sent via any of the following platforms. Please be sure to includ
     venmo
 
 
-.. button-link:: https://github.com/sponsors/jbaylies
-    :color: primary
-    :outline:
-
-    github
-
-
-When you complete your purchase, a license key will be emailed to you ASAP (usually within 24 hours). License purchases are non-refundable. Be sure that email from sousastep@gmail.com is not going into your spam folder.
+When you complete your purchase, send an email to sousastep@gmail.com and a license key will be emailed to you ASAP. License purchases are non-refundable. Be sure that email from sousastep@gmail.com is not going into your spam folder.
 
 Classroom licenses and discounted-to-commercial license upgrades are also offered. For these and any other license needs, please email sousastep@gmail.com
 
