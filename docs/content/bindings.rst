@@ -7,7 +7,7 @@ Controller Bindings
    pcl.rst
    deadzones.rst
 
-The controller bindings window uses `max's crosspatch <https://docs.cycling74.com/max8/refpages/crosspatch object>`_ to connect gamepad inputs with effect parameters.
+The controller bindings window uses Max's `crosspatch <https://docs.cycling74.com/max8/refpages/crosspatch>`_ object to connect gamepad inputs with effect parameters.
 
 To create a binding, click one circle and drag the connection to a circle on the other side of crosspatch. To delete a binding, click the connection and press the delete key. To save bindings, click "save / overwrite".
 
