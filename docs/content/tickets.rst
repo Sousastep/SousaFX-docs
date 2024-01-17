@@ -17,6 +17,8 @@ Known Bugs
 
 - :ref:`Param Control Logic's <Parameter Control Logic>` "This control is mapped to the joystick" message is only correct on load and won't update when switching presets. It will update when manually adding and removing connections. It also can't say when it's bound to a button.
 
+- to initialize properly, the gamepad's joysticks must be jiggled after connecting to Max, which'll happen eventually anyways.
+
 
 Upcoming Features
 -----------------
