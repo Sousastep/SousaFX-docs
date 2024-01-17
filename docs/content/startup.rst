@@ -31,7 +31,7 @@ Steps 2 - 5 are only necessary the first time SousaFX starts.
    :align: center
    :alt: startup engine
 
-5. Once SousaFX is running, open the :ref:`Audio IO Status window<Audio IO Status>` and ensure that the Main and Monitor :ref:`outputs <Output Mapping>` are routed to the audio interface's Main and Headphone/Aux outputs, respectively.
+5. Once SousaFX is running, open the :ref:`Audio IO Status window<Audio IO Status>`, set the Imput Mapping menu to "Mic Live", and ensure that the Main and Monitor :ref:`outputs <Output Mapping>` are routed to the audio interface's Main and Headphone/Aux outputs, respectively.
 
 From here, you can use SousaFX on its own, or you can run it alongside SousaPlayback.
 
