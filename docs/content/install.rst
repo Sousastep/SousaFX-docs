@@ -24,7 +24,9 @@ SousaFX
 
     - `ISF <c74max://packagemanager/ISF>`_
 
-5. `Download sousastep <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. ``sousastep`` contains SousaFX, SousaVFX, and SousaPlayback.
+5. `Download sousastep-0.9.3 <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback.
+
+6. Rename ``sousastep-0.9.3`` to ``sousastep``.
 
 6. Add ``/sousastep/`` to Max's global search path: Go to ``Menubar > Options... > File Preferences...``, "Add Path" +, "choose", and select ``~/Documents/​Max 8/​Project/​sousastep``.
 
