@@ -36,6 +36,7 @@ SousaFX may be :ref:`downloaded <Installation>` and evaluated for free, however 
    content/purchase.rst
    content/mailinglist.rst
    content/attrib.rst
+   content/tickets.rst
 
 .. image:: content/media/sousagamepad.png
    :width: 60%
