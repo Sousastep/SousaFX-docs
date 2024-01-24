@@ -9,9 +9,13 @@ Controller Bindings
 
 The controller bindings window uses Max's `crosspatch <https://docs.cycling74.com/max8/refpages/crosspatch>`_ object to connect gamepad inputs with effect parameters.
 
-To create a binding, click one circle and drag the connection to a circle on the other side of crosspatch. To delete a binding, click the connection and press the delete key. To save bindings, click "save / overwrite". The factory presets can not be overwritten.
-
 There are two factory preset slots for the default preset and a blank preset. The five user preset slots are empty, so the factory presets may be copied to the user preset by selecting the factory preset first, then selecting the empty user preset and saving.
+
+.. note::
+
+   Factory presets can not be edited.
+
+To create a binding, click one circle and drag the connection to a circle on the other side of crosspatch. To delete a binding, click the connection and press the delete key. To save bindings, click "save / overwrite". The factory presets can not be overwritten.
 
 The bindings are mapped to be ergonomic for having the controller attached to the side of a tuba. The right bumper, right trigger, and left trigger all change which bindings the X A B Y buttons are assigned to. The left trigger also changes the dpad and LB's assignments, to allow for a second bank of subdivisions.
 
