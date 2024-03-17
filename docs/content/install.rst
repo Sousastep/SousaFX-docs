@@ -24,6 +24,8 @@ SousaFX
 
     - `ISF <c74max://packagemanager/ISF>`_
 
+    - `zero <c74max://packagemanager/zero>`_
+
 5. `Download sousastep-0.9.3 <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback.
 
 6. Rename ``sousastep-0.9.3`` to ``sousastep``.
