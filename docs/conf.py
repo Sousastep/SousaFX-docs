@@ -41,12 +41,12 @@ release = '0.9.3'
 # ones.
 extensions = [
     'sphinx_rtd_theme',
-#    'sphinx_rtd_dark_mode',
+    'sphinx_rtd_dark_mode',
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.autosectionlabel',
-#    'sphinx_new_tab_link',
+    'sphinx_new_tab_link',
     'sphinx_design',
     'sphinxcontrib.googleanalytics'
 ]
