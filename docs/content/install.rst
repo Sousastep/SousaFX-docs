@@ -38,24 +38,24 @@ Install SousaFX & SousaVFX
 
 .. important::
 
-    SousaFX remains fully operational after Max's `30 day trial ends <https://support.cycling74.com/hc/en-us/articles/360049995834-Max-8-Max-7-Authorization#link-2>`_ thanks to Max not disabling `pattrstorage <https://docs.cycling74.com/max8/refpages/pattrstorage>`_. 🙏
-
-.. important::
-
     When updating to new versions of SousaFX, 
-    copy all files from ``~/Documents/​Max 8/​Projects/​sousastep/ ​SousaFX/​data/`` 
+    copy all files from ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​data/`` 
     to the new version's 
     ``sousastep/​SousaFX/​data/`` 
     folder to ensure that user presets are carried over.
+
+.. note::
+
+    SousaFX remains fully operational after Max's `30 day trial ends <https://support.cycling74.com/hc/en-us/articles/360049995834-Max-8-Max-7-Authorization#link-2>`_ thanks to Max not disabling `pattrstorage <https://docs.cycling74.com/max8/refpages/pattrstorage>`_. 🙏
 
 |
 
 Install SousaPlayback
 ---------------------
 
-7. To open the SousaPlayback Project, `download Live Suite <https://www.ableton.com/en/trial/>`_ from Ableton.
+8. To open the SousaPlayback Project, `download Live Suite <https://www.ableton.com/en/trial/>`_ from Ableton.
 
-    Go to Live's settings: ``Menubar > Live > Settings...``, and set the following:
+    Open Live, open its settings ``Menubar > Live > Settings...``, and set the following:
 
     a. Audio > Audio Device [select your audio interface]
 
@@ -74,13 +74,13 @@ Install SousaPlayback
     f. Link Tempo MIDI > Show Link Toggle [show]
 
 
-.. important::
+.. note::
 
     The SousaPlayback template project will not work after Ableton Live's `free trial <https://www.ableton.com/en/trial/>`_ ends. The template uses Max for live devices that require Ableton Live 11/12 Suite or Standard with the Max for Live addon.
 
 .. _blackoctopus:
 
-8. Optionally, download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​default/​SousaPlayback template Project/​Clips/``, or skip this step and use your own drum samples.
+9. Optionally, download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​default/​SousaPlayback template Project/​Clips/``, or skip this step and use your own drum samples.
 
 |
 
@@ -91,7 +91,9 @@ Recommended Free Plugins
 
 2.  `Jamtaba <https://github.com/elieserdejesus/JamTaba/releases>`_ for networked jamming with folks in different continents.
 
-Sonobus or Jamtaba may be placed in SousaPlayback's "NETWORK" track.
+.. note:: 
+    
+    Sonobus or Jamtaba may be placed in SousaPlayback's "NETWORK" track.
 
 3. `ToneLib BassDrive <https://tonelib.net/tl-bassdrive.html>`_ "Ready to unleash the true power of the lowest guitar frequencies."
 

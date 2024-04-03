@@ -6,6 +6,8 @@ SousaFX Documentation
    :align: center
    :alt: deadzones.png
 
+|
+
 Introduction
 ------------
 
@@ -15,6 +17,8 @@ SousaFX is a multi-effects rig made with `MaxMSP <https://cycling74.com/products
    :width: 100%
    :align: center
    :alt: deadzones.png
+
+|
 
 It features a number of :ref:`audio effects <Audio Effects>`, thoughtfully refined so that modulating their parameters with a game controller is as musical as possible. A :ref:`controller bindings page <Controller Bindings>` allows you to remap controls and set :ref:`deadzones <Deadzones>`, and to make things more fun, the bindings can also be relinquished and established :ref:`on-the-fly <Parameter Control Logic>`, based on looper status, joystick positioning, and whether or not the tuba's playing.
 
@@ -30,6 +34,7 @@ SousaFX may be :ref:`downloaded <Installation>` and evaluated for free, however 
    content/hardreq.rst
    content/install.rst
    content/startup.rst
+   content/soundcheck.rst
    content/SousaFX.rst
    content/playback.rst
    content/sousavfx.rst

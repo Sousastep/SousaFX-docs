@@ -1,67 +1,76 @@
 Audio IO Status
 ===============
 
-To start, only three channels need to be set up: The Live Mic input, and the Monitor L & R outputs.
+.. image:: media/ioopen.png
+   :width: 100%
+   :align: center
+   :alt: io.png
 
-Assign the Live Mic input to the audio interface input that your tuba's mic is connected to.
+|
 
-Assign the Monitor L & R outputs to your audio interface's headphone outputs.
+To start, set the "live mic" input to your audio interface's microphone input. 
+
+If you plan on using headphones, set the "Monitor L & R" outputs to your audio interface's headphone output.
+
+If you're using a loudspeaker or amplifier, set the "Main L & R" outputs to your audio interface's main output.
 
 .. image:: media/io.png
    :width: 100%
    :align: center
    :alt: io.png
 
+
+
 The menu to the right of "Input Mapping" sets the main input to SousaFX. Its options are as follows:
 
-- Silentbrass Live: from "live silentbrass L / R", which connects to the interface's line inputs.
+:Silentbrass Live: from "live silentbrass L / R", which connects to the interface's line inputs.
 
-- Silentbrass Prerecorded: from "prerecorded silentbrass L / R", which connects to SousaPlayback's "silentbrass" track.
+:Silentbrass Prerecorded: from "prerecorded silentbrass L / R", which connects to SousaPlayback's "silentbrass" track.
 
-- Mic Live: from "live mic", which connects to the interface's tuba mic input.
+:Mic Live: from "live mic", which connects to the interface's tuba mic input.
 
-- Mic Prerecorded: from "prerecorded mic", which connects to SousaPlayback's "sousa mic" track.
+:Mic Prerecorded: from "prerecorded mic", which connects to SousaPlayback's "sousa mic" track.
 
-- Mic Live Pitch Correct: from "pitch correct", which I use with a custom algorithm on the Eventide H9000.
+:Mic Live Pitch Correct: from "pitch correct", which I use with a custom algorithm on the Eventide H9000.
 
 
 
 Input Mapping
 -------------
 
-- live mic: connects to the interface's tuba mic input.
+:live mic: connects to the interface's tuba mic input.
 
-- prerecorded mic: connects to SousaPlayback's "sousa mic" track.
+:prerecorded mic: connects to SousaPlayback's "sousa mic" track.
 
-- live silentbrass L / R: connects to the interface's line inputs.
+:live silentbrass L / R: connects to the interface's line inputs.
 
-- prerecorded silentbrass L / R: connects to SousaPlayback's "silentbrass" track.
+:prerecorded silentbrass L / R: connects to SousaPlayback's "silentbrass" track.
 
-- drum tracks L / R: connects to SousaPlayback's "drum bus" track's "Risset Ext FX" device's "Audio To" output.
+:drum tracks L / R: connects to SousaPlayback's "drum bus" track's "Risset Ext FX" device's "Audio To" output.
 
-- external delay receive 1 - 4, L / R: 4 stereo channels of external delay receives. 
+:external delay receive 1 - 4, L / R: 4 stereo channels of external delay receives. 
 
-- phasor~ from Ableton: connects to SousaPlayback's "sync signal" track.
+:phasor~ from Ableton: connects to SousaPlayback's "sync signal" track.
 
-- external octaver receive mono: When the Octaver is set to "ext fx", this input receives audio from the Octaver.
+:external octaver receive mono: When the Octaver is set to "ext fx", this input receives audio from the Octaver.
 
-- Main 1-bar Phasor: this and the next 5 inputs are only needed by :ref:`SousaVFX <SousaVFX>` if it's running on a different computer than SousaFX.
+:Main 1-bar Phasor: this and the next 5 inputs are only needed by :ref:`SousaVFX <SousaVFX>` if it's running on a different computer than SousaFX.
 
-- Phasor offset rate: VFX only.
+:Phasor offset rate: VFX only.
 
-- high_freq_mod_mixed: VFX only.
+:high_freq_mod_mixed: VFX only.
 
-- low_amp_mod_mixed: VFX only.
+:low_amp_mod_mixed: VFX only.
 
-- tuba + timefx env: VFX only.
+:tuba + timefx env: VFX only.
 
-- talkback_mic: connects to the interface's talkback mic input.
+:talkback_mic: connects to the interface's talkback mic input.
 
-- pitch correct: connects to an external pitch correction FX.
+:pitch correct: connects to an external pitch correction FX.
 
-- harmonizer sustain L / R: connects to an external harmonizer FX.
+:harmonizer sustain L / R: connects to an external harmonizer FX.
 
-- harmonizer attack L / R: connects to an external harmonizer FX.
+:harmonizer attack L / R: connects to an external harmonizer FX.
 
 
 Output Mapping
@@ -69,24 +78,24 @@ Output Mapping
 
 The output menu sets whether the main outputs are mono or stereo.
 
-- Main L / R: connects to the interface's main output, AKA "Front Of House" output
+:Main L / R: connects to the interface's main output, AKA "Front Of House" output
 
-- Monitor L / R: connects to the interface's headphone output, AKA "monitor mix" output
+:Monitor L / R: connects to the interface's headphone output, AKA "monitor mix" output
 
-- Metronome Click: allows SousaFX's metronome to be mixed independently if there're multiple monitor mixes. 
+:Metronome Click: allows SousaFX's metronome to be mixed independently if there're multiple monitor mixes. 
 
-- Drum Clips Risset L / R: connects to SousaPlayback's "drum bus" track's "Risset Ext FX" device's "Audio From" input.
+:Drum Clips Risset L / R: connects to SousaPlayback's "drum bus" track's "Risset Ext FX" device's "Audio From" input.
 
-- external delay send 1 - 4, L / R: 4 stereo channels of external delay sends.
+:external delay send 1 - 4, L / R: 4 stereo channels of external delay sends.
 
-- external octaver send mono: When the Octaver is set to "ext fx", this output sends audio to the Octaver.
+:external octaver send mono: When the Octaver is set to "ext fx", this output sends audio to the Octaver.
 
-- Main 1-bar Phasor: this and the following are sent to :ref:`SousaVFX <SousaVFX>` if it's running on a different computer.
+:Main 1-bar Phasor: this and the following are sent to :ref:`SousaVFX <SousaVFX>` if it's running on a different computer.
 
-- Phasor offset rate: VFX only.
+:Phasor offset rate: VFX only.
 
-- high_freq_mod_mixed: VFX only.
+:high_freq_mod_mixed: VFX only.
 
-- low_amp_mod_mixed: VFX only.
+:low_amp_mod_mixed: VFX only.
 
-- tuba + timefx env: VFX only.
+:tuba + timefx env: VFX only.
