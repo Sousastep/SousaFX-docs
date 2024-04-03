@@ -1,8 +1,8 @@
 Startup
 =======
 
-SousaFX
--------
+Setup SousaFX
+-------------
 
 Steps 2 - 8 are only necessary the first time SousaFX starts.
 
@@ -45,8 +45,8 @@ Steps 2 - 8 are only necessary the first time SousaFX starts.
 
 From here, you can do a :ref:`quick soundcheck <Soundcheck>` and start using SousaFX on its own, or you can set up SousaPlayback to utilize drum loops and networked jamming plugins, which is recommended.
 
-SousaPlayback
--------------
+Setup SousaPlayback
+-------------------
 
 Steps 9 - 12 are only necessary the first time SousaPlayback starts.
 

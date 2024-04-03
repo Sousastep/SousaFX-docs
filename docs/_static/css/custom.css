@@ -31,14 +31,11 @@ p {
     text-align: justify;
 }
 
-/* https://github.com/sphinx-doc/sphinx/blob/cb8a28dd7e11a7a0a5bc9694163fc164433e2f36/sphinx/themes/epub/static/epub.css_t#L363C1-L399C2 */
-
-/* start field-body on a new line after long field names */
-
+/* start field-body on a new line 
 dl.field-list > dd > *:first-child,
-dl.option-list > dd > *:first-child
-{
-    display: inline-block;
-    width: 100%;
-    margin: 0;
+dl.option-list > dd > *:first-child {
+  display: block;
+  width: 100%;
+  margin: 0;
 }
+*/
