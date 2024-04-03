@@ -33,29 +33,6 @@ p {
 
 /* https://github.com/sphinx-doc/sphinx/blob/cb8a28dd7e11a7a0a5bc9694163fc164433e2f36/sphinx/themes/epub/static/epub.css_t#L363C1-L399C2 */
 
-/* bold field name, content starts on the same line */
-
-dl.field-list > dt,
-dl.option-list > dt,
-dl.docinfo > dt,
-dl.footnote > dt,
-dl.citation > dt {
-    font-weight: bold;
-    clear: left;
-    float: left;
-    margin: 0;
-    padding: 0;
-    padding-right: 0.5em;
-}
-
-/* Offset for field content (corresponds to the --field-name-limit option) */
-
-dl.field-list > dd,
-dl.option-list > dd,
-dl.docinfo > dd {
-    margin-left:  9em; /* ca. 14 chars in the test examples */
-}
-
 /* start field-body on a new line after long field names */
 
 dl.field-list > dd > *:first-child,
@@ -64,9 +41,4 @@ dl.option-list > dd > *:first-child
     display: inline-block;
     width: 100%;
     margin: 0;
-}
-
-dl.field-list > dt:after,
-dl.docinfo > dt:after {
-    content: ":";
 }
