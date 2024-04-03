@@ -1,8 +1,8 @@
 Installation
 ============
 
-SousaFX
--------
+Install SousaFX & SousaVFX
+--------------------------
 
 1. First, please read the :ref:`End User License Agreement<End User License Agreement For SousaFX>`.
 
@@ -50,8 +50,8 @@ SousaFX
 
 |
 
-SousaPlayback
--------------
+Install SousaPlayback
+---------------------
 
 7. To open the SousaPlayback Project, `download Live Suite <https://www.ableton.com/en/trial/>`_ from Ableton.
 

@@ -12,10 +12,15 @@ License Grants and Purchase
 1.1  Trial Period License.  You may download and use the Software for free for thirty (30) days after installation ("Trial Period").  During the Trial Period, Sousastep grants you a limited, non-exclusive and non-transferable license to copy and use the Software for evaluation purposes only. The evaluation copy of the Software is fully functional, aside from the :ref:`prestige system <Prestige System>`.
 
 1.2  License After Trial Period. If you continue to use this Software after the Trial Period, you are required to purchase a license.  The license fee varies according to your use, as follows.
-  a)  A commercial license currently is $225.00 USD. 
+
+  a)  A commercial license currently is $225.00 USD.
+
   b)  The following users are granted permission to purchase a discounted license for $60 USD:
+
     i) You are an individual, using SousaFX only for personal and non-commercial uses.
+
     ii) You are either an individual or business, using SousaFX for a commercial purpose, and your annual gross revenue derived from commercial activity does not exceed $20,000 USD.
+
     iii) You are an educational or other non-profit organization.
 
 1.3  To purchase one of the licenses specified above, visit our web site at https://sousastep.github.io/SousaFX-docs/en/master/content/purchase.html

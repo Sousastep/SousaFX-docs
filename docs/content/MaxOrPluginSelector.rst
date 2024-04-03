@@ -5,7 +5,7 @@ Many effects in SousaFX are presented in a way
 that lets you choose between a max-native effect 
 or an external audio plugin. Your choice is auto-saved.
 
-.. image:: media/maxselected.png
+.. figure:: media/maxselected.png
    :width: 100%
    :align: center
    :alt: maxselected
@@ -14,7 +14,7 @@ or an external audio plugin. Your choice is auto-saved.
 
 |
 
-.. image:: media/pluginselected.png
+.. figure:: media/pluginselected.png
    :width: 100%
    :align: center
    :alt: pluginselected
