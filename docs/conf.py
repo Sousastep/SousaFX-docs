@@ -46,7 +46,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
     'sphinx.ext.autosectionlabel',
-    'sphinx_new_tab_link',
+#    'sphinx_new_tab_link',
     'sphinx_design',
     'sphinxcontrib.googleanalytics'
 ]
