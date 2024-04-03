@@ -15,9 +15,9 @@ There are two factory preset slots for the default preset and a blank preset. Th
 
    Factory presets can not be edited.
 
-To create a binding, click one circle and drag the connection to a circle on the other side of crosspatch. To delete a binding, click the connection and press the delete key. To save bindings, click "save / overwrite". The factory presets can not be overwritten.
+To create a binding, click one of the input's circles and drag the connection to an output's circle. To delete a binding, click the connection and press the delete key. To save bindings, click "save / overwrite". The factory presets can not be overwritten.
 
-The bindings are mapped to be ergonomic for having the controller attached to the side of a tuba. The right bumper, right trigger, and left trigger all change which bindings the X A B Y buttons are assigned to. The left trigger also changes the dpad and LB's assignments, to allow for a second bank of subdivisions.
+The layout is set up to be ergonomic for having the controller attached to the side of a tuba. The right bumper, right trigger, and left trigger all change which bindings the X A B Y buttons are assigned to. The left trigger also changes the dpad and LB's assignments, to allow for a second bank of subdivisions.
 
 Click the parameter labels to open their :ref:`control logic settings <Parameter Control Logic>`.
 
@@ -27,6 +27,10 @@ Click to the right of the parameter labels to open the parameters window that th
    :width: 100%
    :align: center
    :alt: bindings window
+
+:set initial preset:
+
+   Set which bindings preset loads when SousaFX starts.
 
 :Latch / Delay: 
 

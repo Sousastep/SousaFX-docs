@@ -3,14 +3,14 @@ Max or Plugin Selector
 
 Many effects in SousaFX are presented in a way 
 that lets you choose between a max-native effect 
-or an external audio plugin.
-
-To choose, first turn off the audio engine by clicking the blue power button in the :ref:`main window <Main Window>`. Click the effect's main menu to select Max or Plugin, then click the power button again to turn the audio engine back on. Your choice is auto-saved.
+or an external audio plugin. Your choice is auto-saved.
 
 .. image:: media/maxselected.png
    :width: 100%
    :align: center
    :alt: maxselected
+
+   Default RNBO effects.
 
 |
 
@@ -18,6 +18,10 @@ To choose, first turn off the audio engine by clicking the blue power button in 
    :width: 100%
    :align: center
    :alt: pluginselected
+
+   Plugin replacements.
+
+|
 
 This selector is available for every effect in SousaFX 
 except for the following:
@@ -79,14 +83,3 @@ Selectable Effects
 
 - 	:ref:`monitor mix EQ <Monitor Mix>`
 
-
-Latency Compensation
---------------------
-
-Latency compensation is recalculated whenever a plugin loads, 
-or an FX Bank selection changes. This ensures the lowest possible latency depending on which effects are in use. If a plugin parameter changes its plugin's latency after said plugin loads, you must manually trigger a recalculation by clicking "check latency". 
-
-.. image:: media/latency.png
-   :width: 100%
-   :align: center
-   :alt: latency compensation

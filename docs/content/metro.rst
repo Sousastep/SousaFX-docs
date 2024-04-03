@@ -50,7 +50,7 @@ Picks which beats the metronome should emit a click on.
 Continuous Accelerando
 ----------------------
 
-This is an experimental feature that affects the Metronome, Modulation, Loopers, and Drum Clips.
+This is an experimental feature that affects the Metronome, Modulation, Loopers, and Drum Clips. It is only enabled when the Tempo Source is Ableton.
 
 "Bars Per Accel Loop" sets how long it takes for a continuous accelerando to reach its original tempo.
 

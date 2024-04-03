@@ -2,7 +2,7 @@ Envelope Crossfade
 ==================
 
 The Envelope Crossfade was created to fade between subtle effects, and dubstep effects, 
-based on the envelope of the tuba's input. Since instrumental sounds are 
+based on the loudness of the tuba's input. Since instrumental sounds are 
 `mainly identified by their attacks <https://doi.org/10.1121/1.5091778>`_, 
 this allows the tuba to still be identifiable as a tuba while also having wild effects.
 
