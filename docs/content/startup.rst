@@ -19,7 +19,7 @@ Steps 2 - 8 are only necessary the first time SousaFX starts.
 
 3. Close Max's Audio Status window and select your preferred audio interface in SousaFX's Startup Preferences.
 
-4. Uncheck the Startup Preferences' pause button. :ref:`SousaFX will appear<Main Window>` in 2 - 5 minutes.
+4. Uncheck the Startup Preferences' pause button. SousaPlayback will appear within a minute, and SousaFX will appear in 2 - 5 minutes. SousaPlayback will automatically start playing the first scene once SousaFX launches.
 
 .. image:: media/startupengine.png
    :width: 40%
@@ -43,20 +43,18 @@ Steps 2 - 8 are only necessary the first time SousaFX starts.
 
 8. If you're using a loudspeaker or amplifier, set the "Main L & R" outputs to your audio interface's main output.
 
-From here, you can do a :ref:`quick soundcheck <Soundcheck>` and start using SousaFX on its own, or you can continue to set up SousaPlayback to utilize drum loops and networked jamming plugins, which is recommended.
+From here, you can do a :ref:`quick soundcheck <Soundcheck>` and start using SousaFX on its own, or you can set up SousaPlayback to utilize drum loops and networked jamming plugins, which is recommended.
 
 SousaPlayback
 -------------
 
-Steps 10 - 14 are only necessary the first time SousaPlayback starts.
+Steps 9 - 12 are only necessary the first time SousaPlayback starts.
 
-9. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaPlayback Project/​SousaPlayback.als``.
+9. Ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to the audio interface's Main and Headphone/Aux outputs, respectively.
 
 10. If the :ref:`Black Octopus Drum Loops are installed <blackoctopus>` then drum clips will be available in session view, but if they're missing then feel free to delete them and add your own.
 
-11. Ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to the audio interface's Main and Headphone/Aux outputs, respectively.
+11. Set SousaFX's :ref:`Tempo Source <Tempo Source>` to "Ableton's Tempo".
 
-12. Set SousaFX's :ref:`Tempo Source <Tempo Source>` to "Ableton's Tempo".
-
-13. `Enable Link <https://help.ableton.com/hc/en-us/articles/209072789-Enabling-Link-in-Live>`_ by clicking its button on the far left of Live's control bar.
+12. `Enable Link <https://help.ableton.com/hc/en-us/articles/209072789-Enabling-Link-in-Live>`_ by clicking its button on the far left of Live's control bar.
 

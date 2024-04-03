@@ -1,20 +1,20 @@
 Installation
 ============
 
+First, please read the :ref:`End User License Agreement<End User License Agreement For SousaFX>`.
+
 Install SousaFX & SousaVFX
 --------------------------
 
-1. First, please read the :ref:`End User License Agreement<End User License Agreement For SousaFX>`.
+1. `Download Max <https://cycling74.com/downloads>`_ from Cycling '74. 
 
-2. `Download Max <https://cycling74.com/downloads>`_ from Cycling '74. 
-
-3. Open Max, go to ``Menubar > Max > Preferences...``, and set the following preferences:
+2. Open Max, go to ``Menubar > Max > Preferences...``, and set the following preferences:
 
     - Interface > Restore Windows on Launch [uncheck]
 
     - Mixer > Enable Mixer Parallel Processing [check]
 
-4. Open Max's Package Manager: ``Menubar > File > Show Package Manager``, and install the following packages:
+3. Open Max's Package Manager: ``Menubar > File > Show Package Manager``, and install the following packages:
 
     - `ease <c74max://packagemanager/ease>`_
 
@@ -30,11 +30,11 @@ Install SousaFX & SousaVFX
 
     - `XRAY <c74max://packagemanager/XRAY>`_
 
-5. `Download sousastep-0.9.3 <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback.
+4. `Download sousastep-0.9.3 <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback.
 
-6. Rename ``sousastep-0.9.3`` to ``sousastep``.
+5. Rename ``sousastep-0.9.3`` to ``sousastep``.
 
-7. Add ``/sousastep/`` to Max's global search path: Go to ``Menubar > Options... > File Preferences...``, "Add Path" +, "choose", and select ``~/Documents/​Max 8/​Project/​sousastep``.
+6. Add ``/sousastep/`` to Max's global search path: Go to ``Menubar > Options... > File Preferences...``, "Add Path" +, "choose", and select ``~/Documents/​Max 8/​Project/​sousastep``.
 
 .. important::
 
@@ -53,7 +53,7 @@ Install SousaFX & SousaVFX
 Install SousaPlayback
 ---------------------
 
-8. To open the SousaPlayback Project, `download Live Suite <https://www.ableton.com/en/trial/>`_ from Ableton.
+7. To open the SousaPlayback Project, `download Live Suite <https://www.ableton.com/en/trial/>`_ from Ableton.
 
     Open Live, open its settings ``Menubar > Live > Settings...``, and set the following:
 
@@ -80,7 +80,7 @@ Install SousaPlayback
 
 .. _blackoctopus:
 
-9. Optionally, download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​default/​SousaPlayback template Project/​Clips/``, or skip this step and use your own drum samples.
+8. Optionally, download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​default/​SousaPlayback template Project/​Clips/``, or skip this step and use your own drum samples.
 
 |
 
