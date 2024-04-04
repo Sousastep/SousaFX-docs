@@ -33,7 +33,6 @@ SousaFX may be :ref:`downloaded <Installation>` and evaluated for free, however 
 
    content/hardreq.rst
    content/install.rst
-   content/startup.rst
    content/soundcheck.rst
    content/SousaFX.rst
    content/playback.rst
