@@ -72,4 +72,4 @@ Media
 .. toctree::
    :maxdepth: 2
 
-   content/thirdpartylicenses.rst
+   thirdpartylicenses.rst

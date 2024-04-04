@@ -136,6 +136,8 @@ C. Main Out
 
 	The "front of house" mix, adjusted via the C sends from talkback mic, playback bus, MAIN REC, and NETWORK tracks.
 
+.. _sousaPlaybackMIDI:
+
 .. note::
 
 	All of SousaPlayback's MIDI Mappings correspond to :ref:`SousaFX's MIDI Preferences <MIDI Preferences>` by default.
