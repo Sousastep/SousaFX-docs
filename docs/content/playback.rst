@@ -13,7 +13,7 @@ Main Track List
 
 1. talkback mic
 
-	- This track has a simple channel strip for a `talkback mic <https://www.sweetwater.com/insync/talkback-mic/>`_.
+	- This track has a simple channel strip for a `talkback mic <https://www.sweetwater.com/insync/talkback-mic/>`_. This channel is sidechained to several compressors on other tracks to mute audio while you're speaking. 
 
 2. playback bus
 
@@ -43,23 +43,27 @@ Main Track List
 
 			A MIDI track with a drum rack that lets you program custom `click tracks <https://www.sweetwater.com/insync/click-track/>`_ if needed.
 
+	- drum SC vox
+
+		Sidechains the talkback mic to the drum bus before sending it to Return Track A and C.
+
 	- drum bus
 
-		Group percussion and send thru EQ, filters, reverb, tremolo, delay, risset, compressor, glue comp. The Drum Bus's external audio output is intended to be routed to SousaFX to control the :ref:`ducker <Kick Ducker>`.
+		Groups the percussion tracks and sends them through EQ, filters, reverb, tremolo, delay, risset, and compressor.
 
 		- perc 1
 
-			kick and snare clips w/ Stutter
+			For kick/snare clips w/ Stutter.
 
 		- perc 2
 
-			percussion clips w/ Beat Repeat, Stutter, Auto Pan
+			For percussion clips w/ Beat Repeat, Stutter, Auto Pan.
 
 		- perc 3
 
-			percussion clips w/ Beat Repeat, Stutter
+			For percussion clips w/ Beat Repeat, Stutter.
 
-		Twelve parameters pertaining to the percussion bus tracks are :ref:`bound to SousaFX <Controller Bindings>`. 
+		Twelve drum bus effect parameters are :ref:`bound to SousaFX <Controller Bindings>`. 
 
 			- mute drumloops
 
@@ -97,11 +101,15 @@ Main Track List
 
 	This track's "Audio To: Ext. Out" should loopback to SousaFX's :ref:`"prerecorded silentbrass" inputs <Input Mapping>`, and SousaFX's Audio IO Status' input menu should be set to ``prerecorded silentbrass``.
 
-5. MAIN REC
+5. SousaFX
 
-	Records the main "front of house" output. Doesn't record SousaFX.
+	Records SousaFX.
 
-6. sync signal
+6. MON REC
+
+	Records SousaFX and Return Track A.
+
+7. sync signal
 
 	Syncs SousaPlayback to SousaFX via a 1-bar audio-rate phasor that ramps from 0 to 1 :ref:`in lieu of Live Link <Audio Input or Live Link>`.
 

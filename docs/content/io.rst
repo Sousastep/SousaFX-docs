@@ -1,25 +1,12 @@
 Audio IO Status
 ===============
 
-.. image:: media/ioopen.png
-   :width: 100%
-   :align: center
-   :alt: io.png
-
-|
-
-To start, set the "live mic" input to your audio interface's microphone input. 
-
-If you plan on using headphones, set the "Monitor L & R" outputs to your audio interface's headphone output.
-
-If you're using a loudspeaker or amplifier, set the "Main L & R" outputs to your audio interface's main output.
-
 .. image:: media/io.png
    :width: 100%
    :align: center
    :alt: io.png
 
-
+|
 
 The menu to the right of "Input Mapping" sets the main input to SousaFX. Its options are as follows:
 

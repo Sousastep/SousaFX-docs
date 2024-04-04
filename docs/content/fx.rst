@@ -6,12 +6,12 @@ SousaFX has a number of custom effects such as a dubstep-style lowpass filter, a
 Many default effects are from the `rnbo guitar pedals package <https://rnbo.cycling74.com/explore/rnbo-pedals>`_. These effects can be swapped with plugins if desired.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    mainenv.rst
    xfade.rst
-   MaxOrPluginSelector.rst
    modparms.rst
+   octaver.rst
    fxbanks.rst
    crossover.rst
    mixbus.rst
@@ -19,4 +19,5 @@ Many default effects are from the `rnbo guitar pedals package <https://rnbo.cycl
    loop.rst
    mainstutter.rst
    duck.rst
+   MaxOrPluginSelector.rst
    latency.rst

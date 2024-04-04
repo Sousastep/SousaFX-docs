@@ -3,6 +3,8 @@ Installation
 
 First, please read the :ref:`End User License Agreement<End User License Agreement For SousaFX>`.
 
+|
+
 Install SousaFX & SousaVFX
 --------------------------
 
@@ -30,9 +32,11 @@ Install SousaFX & SousaVFX
 
     - `XRAY <c74max://packagemanager/XRAY>`_
 
-4. `Download sousastep-0.9.3 <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback.
+4. `Download sousastep-0.9.3 <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
 
 5. Rename ``sousastep-0.9.3`` to ``sousastep``.
+
+.. note:: If you're familiar with `git <https://docs.github.com/en/get-started/using-git/about-git>`_ then cloning the repo to your Projects folder is recommended.
 
 6. Add ``/sousastep/`` to Max's global search path: Go to ``Menubar > Options... > File Preferences...``, "Add Path" +, "choose", and select ``~/Documents/​Max 8/​Project/​sousastep``.
 
@@ -42,7 +46,7 @@ Install SousaFX & SousaVFX
     copy all files from ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​data/`` 
     to the new version's 
     ``sousastep/​SousaFX/​data/`` 
-    folder to ensure that user presets are carried over.
+    folder to ensure that user presets are carried over. If you clone the repo with git, this isn't necessary.
 
 .. note::
 

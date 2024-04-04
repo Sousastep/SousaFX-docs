@@ -30,12 +30,3 @@ code {
 p {
     text-align: justify;
 }
-
-/* start field-body on a new line 
-dl.field-list > dd > *:first-child,
-dl.option-list > dd > *:first-child {
-  display: block;
-  width: 100%;
-  margin: 0;
-}
-*/

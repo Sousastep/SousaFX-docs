@@ -10,6 +10,8 @@ Docs
 
 - `Dark theme provided by MrDogeBro <https://github.com/MrDogeBro/sphinx_rtd_dark_mode>`_.
 
+- `EULA <End User License Agreement For SousaFX>`_ copied from `Reaper <https://www.reaper.fm/>`_
+
 Patches
 -------
 
@@ -45,6 +47,8 @@ Patches
 
 - `Chapelier Fou <https://www.chapelierfoumusic.com>`_ // `random clip launcher <https://www.maxforlive.com/library/device/3624/random-clip-launcher-audio>`_
 
+- `Alexander Panos <https://alexanderpanos.com/about>`_ // `octave synth <https://discord.com/channels/289378508247924738/289378711533387777/1216486861493633094>`_
+
 Media
 -----
 
@@ -60,8 +64,12 @@ Media
 
 	- `Tuba Warrior Fandom <https://tuba-warriors.fandom.com/wiki/Heavy_Tuba_Gunner#Navigation>`_
 
-	- `Halo Infinite <https://www.halopedia.org/Rank_(Halo_Infinite)>`_
+	- `Halo Infinite <https://www.halopedia.org/Rank_(Halo_Infinite)>`_, `Valorant <https://www.ign.com/wikis/valorant/Valorant_Ranks%3A_Ascendant%2C_Immortal%2C_Radiant_Explained>`_, `DOTA 2 <https://www.esports.net/wiki/guides/dota-2-ranks/>`_
 
-	- `Valorant <https://www.ign.com/wikis/valorant/Valorant_Ranks%3A_Ascendant%2C_Immortal%2C_Radiant_Explained>`_
+3rd Party Licenses
+------------------
 
-	- `DOTA 2 <https://www.esports.net/wiki/guides/dota-2-ranks/>`_
+.. toctree::
+   :maxdepth: 2
+
+   content/thirdpartylicenses.rst
