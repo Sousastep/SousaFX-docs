@@ -9,11 +9,7 @@ Controller Bindings
 
 The controller bindings window uses Max's `crosspatch <https://docs.cycling74.com/max8/refpages/crosspatch>`_ object to connect gamepad inputs with effect parameters.
 
-There are two factory preset slots for the default preset and a blank preset. The five user preset slots are empty, so the factory presets may be copied to the user preset by selecting the factory preset first, then selecting the empty user preset and saving.
-
-.. note::
-
-   Factory presets can not be edited.
+There are two factory preset slots for the default preset and a blank preset. The five user preset slots are empty, so the factory presets may be copied to the user preset by selecting the factory preset first, then selecting the empty user preset and saving. The factory presets can not be modified.
 
 To create a binding, click one of the input's circles and drag the connection to an output's circle. To delete a binding, click the connection and press the delete key. To save bindings, click "save / overwrite". The factory presets can not be overwritten.
 
@@ -28,11 +24,13 @@ Click to the right of the parameter labels to open the parameters window that th
    :align: center
    :alt: bindings window
 
-:set initial preset:
+|
+
+- set initial preset
 
    Set which bindings preset loads when SousaFX starts.
 
-:Latch / Delay: 
+- Latch / Delay 
 
    This determines how diagonals are triggered.
       
@@ -40,15 +38,15 @@ Click to the right of the parameter labels to open the parameters window that th
 
       - Delay: ↑ → ↓ ← can trigger after a diagonal without releasing the dpad
 
-:pre-delay:
+- pre-delay
 
    Before pressing a diagonal, this is the amount of time you have to hold ↑ → ↓ ← before they trigger.
 
-:post-delay:
+- post-delay
 
    After releasing a diagonal, this is the amount of time you have to release ↑ → ↓ ← before they trigger. Only available in Delay mode.
 
-:cycle / count:
+- cycle / count
 
    This determines how the Controller Bindings Preset Selector functions. This is a global parameter that's auto-saved.
 
@@ -58,11 +56,11 @@ Click to the right of the parameter labels to open the parameters window that th
 
    Hold the button to load the default preset.
 
-:top-right toggle:
+- top-right toggle
 
    Enable to have the crosspatch object highlight conections that are in-use. This is useful for debugging, but uses a lot of CPU, so disable it while performing.
 
-:latch / trigger:
+- latch / trigger
 
    This determines how the dpad and LB react to their modifier key, LT.
 
@@ -72,7 +70,7 @@ Click to the right of the parameter labels to open the parameters window that th
 
    This parameter is saved with the bindings' user presets.
 
-:Presets 1 - 4:
+- Presets 1 - 4
 
    These four bindings can select each of the first 16 :ref:`Main Presets <Main Window>`. Clicking them selects a preset, and holding them for more than 1 second sets the preset bank. Holding preset 1 sets preset bank 1 (presets 1 - 4), holding preset 2 sets preset bank 2 (presets 5 - 8), holding Preset 3 sets preset bank 3 (presets 9 - 12), and holding preset 4 sets preset bank 4 (presets 13 - 16).
 
