@@ -128,7 +128,7 @@ A. Monitor
 
 B. Network
 
-	Place :ref:`network jamming plugins <Recommended Free Plugins>` here.
+	Place :ref:`network jamming plugins <freeplugins>` here.
 
 C. Main Out
 

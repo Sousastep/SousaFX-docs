@@ -27,7 +27,7 @@ Startup
 1. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaVFX/​SousaVFX.maxproj``
 
 2.	If SousaVFX is running on the same computer as SousaFX, 
-	then the following :ref:`Audio IO <Audio IO>` may be set to Off.
+	then the following :ref:`Audio IO <Audio IO Status>` may be set to Off.
 		
 		- Main 1-bar Phasor
 		
@@ -43,7 +43,7 @@ Startup
 	then SousaFX's aformentioned audio outputs must be routed 
 	to SousaVFX's audio inputs of the same name.
 
-Screenshots
------------
+Pictures
+--------
    
 :ref:`More pictures of SousaVFX. <Screenshots>`

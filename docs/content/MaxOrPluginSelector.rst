@@ -54,7 +54,7 @@ Selectable Effects
 
 -	:ref:`Post-crossfade FX <FX Banks>` slot 1
 
-- 	:ref:`Low Pass Filter <Lowpass Filter Selector>`; 
+- 	:ref:`Low Pass Filter <Select Lowpass Filter Type>`; 
 	only plugins supported are 
 	`MF-101S <https://software.moogmusic.com/store/mf-101s>`_ and 
 	`The Drop <https://cytomic.com/product/drop/>`_

@@ -1,3 +1,6 @@
+Background Color
+================
+
 Click the Color Select icon to adjust the main window's background color.
 
 .. image:: media/coloselecticon.png

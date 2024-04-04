@@ -3,7 +3,7 @@ Mix Bus
 
 The Mix Bus contains two separate compressors for the :ref:`High's <Crossover>` Attack and Sustain signal paths, which are post-:ref:`crossfade <Envelope Crossfade>`.
 
-The compressors for the Octaver and the :ref:`Lows` are separate from the Mix Bus and can be opened by clicking the orange circles on the bottom left.
+The compressors for the Octaver and the :ref:`Lows <Crossover>` are separate from the Mix Bus and can be opened by clicking the orange circles on the bottom left.
 
 The toggle in the bottom-middle allows the Octaver to automatically be muted while the :ref:`looper <Loopers>`'s looping / fading.
 
