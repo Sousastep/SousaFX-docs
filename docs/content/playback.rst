@@ -37,7 +37,7 @@ Main Track List
 
 		- tempo
 
-			Automate this tempo device instead of live's main tempo so that the tempo automation is more easily viewable.
+			Automate this tempo device instead of live's main tempo so that the tempo automation is more easily viewable. Also auto-enables Live link.
 
 		- click
 
