@@ -3,7 +3,7 @@ SousaVFX
 
 SousaFX integrates with SousaVFX via five 
 audio-rate control signals to provide 
-visual effects for `LED sousaphone bells <https://jbaylies.github.io/Electrobrass_Encyclopedia/en/master/content/tutorials/LED-sousa-bell.html>`_. 
+visual effects for `LED sousaphone bells <https://jbaylies.github.io/Electrobrass_Encyclopedia/content/tutorials/LED-sousa-bell.html>`_. 
 SousaVFX may run on the same computer 
 as SousaFX, or on a separate computer. 
 
