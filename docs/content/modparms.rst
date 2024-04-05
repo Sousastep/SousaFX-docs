@@ -24,15 +24,15 @@ Several mod params can be set via the :ref:`bindings <Controller Bindings>`.
    
    - LPF Resonance Amount [LPF Resonance Range & Amount]
 
-:Show LFO Visualizer: 
+- Show LFO Visualizer 
    
    Displays a visualization of the four LFOs.
 
-:env sens: 
+- env sens 
    
    Adjust the envelope sensitivity, which corresponds to the x-axis input of the ceiling and floor functions. 
 
-:ceiling and floor: 
+- ceiling and floor 
    
    Determines the depth of the lowpass filter frequency modulation, AKA the frequency range of the dubstep wobble. Bindable via "LFO Ceiling Envelope Curve (bi)". The "env smooth" dials determine how quickly the range can change.
 

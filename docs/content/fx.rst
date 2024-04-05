@@ -21,3 +21,4 @@ Many default effects are from the `rnbo guitar pedals package <https://rnbo.cycl
    duck.rst
    MaxOrPluginSelector.rst
    latency.rst
+   basicfx.rst

@@ -37,10 +37,11 @@ SousaFX may be :ref:`downloaded <Installation>` and evaluated for free, however 
    content/SousaFX.rst
    content/playback.rst
    content/sousavfx.rst
+   content/attrib.rst
+   content/releasenotes.rst
    content/purchase.rst
    content/mailinglist.rst
-   content/attrib.rst
-   content/tickets.rst
+
 
 .. image:: content/media/sousagamepad.png
    :width: 60%

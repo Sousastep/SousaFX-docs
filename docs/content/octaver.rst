@@ -43,22 +43,22 @@ partially based on the `EHX Micro Synth <https://www.ehx.com/products/micro-synt
    :align: center
    :alt: octave custom
 
-:sub mix: 
+- sub mix 
 	
 	Sets the volume of the effect.
 
-:bottom right toggle: 
+- bottom right toggle 
 	
 	When enabled, the octave will sweep down whenever the tuba starts playing.
 
-:bottom mid toggle:
+- bottom mid toggle
 
 	Enables pitch correction for the octave.
 
-:rightmost numboxes:
+- rightmost numboxes
 
 	Sets the octave's slide amount, up and down, in samples (~48 samples per millisecond).
 
-:leftmost numboxes:
+- leftmost numboxes
 	
 	Sets the frequency range (for the octave) within which the octave will sound. Generally, you don't need an octave below 30 Hz.

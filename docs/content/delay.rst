@@ -12,11 +12,13 @@ The reverb send is only for the Main Input as a standard send.
    :align: center
    :alt: sends
 
-:swirl symbol:
+.. _swirl:
+
+- swirl symbol
 
 	Allows all delays to be sent into eachother by combining the four delay sends' stereo outputs into one stereo signal for the feedback loop. Only works for sends that are mapped to a joystick.
 
-:max send:
+- max send
 
 	When delay sends are mapped to joysticks, the feedback loop is allowed to be slightly positive, which can increase the feedback over time. The "max send" parameter sets how slight that positive potential is. 
 

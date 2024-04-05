@@ -17,6 +17,8 @@ The FX Banks are represented in the :ref:`main window <Main Window>` like so:
 
 |
 
+.. _postxfadefx:
+
 .. image:: media/postxfadebank.png
    :width: 60%
    :align: center

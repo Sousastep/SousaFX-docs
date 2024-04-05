@@ -105,6 +105,8 @@ Installation
     
     b. Uncheck the Startup Preferences' pause button. SousaPlayback will appear within a minute, and SousaFX will appear in 2 - 5 minutes. SousaPlayback will automatically start playing the first scene once SousaFX launches.
 
+.. _startupprefs:
+
 .. image:: media/startup.png
    :width: 80%
    :align: center
