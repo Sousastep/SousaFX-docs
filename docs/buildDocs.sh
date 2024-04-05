@@ -108,7 +108,7 @@ pushd "${docroot}"
 git init
 git remote add deploy "https://token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 git checkout -b gh-pages
- 
+
 # add .nojekyll to the root so that github won't 404 on content added to dirs
 # that start with an underscore (_), such as our "_content" dir..
 touch .nojekyll
@@ -141,6 +141,10 @@ For more information on how this documentation is built using Sphinx, Read the D
  * https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1
 EOF
  
+# https://stackoverflow.com/questions/67183664/why-is-my-github-pages-custom-domain-constantly-reset
+# https://github.com/jhweintraub/the-crypto-conundrum/blob/063c186865493fbcfb20c22cb0a79303afbe2bde/docs/buildDocs.sh#L74
+echo "doc.sousastep.quest" > CNAME
+
 # copy the resulting html pages built from sphinx above to our new git repo
 git add .
  
