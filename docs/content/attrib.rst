@@ -10,7 +10,8 @@ Docs
 
 - `Dark theme provided by MrDogeBro <https://github.com/MrDogeBro/sphinx_rtd_dark_mode>`_.
 
-- `EULA <End User License Agreement For SousaFX>`_ copied from `Reaper <https://www.reaper.fm/>`_
+- :ref:`EULA <End User License Agreement For SousaFX>`
+  copied from `Reaper <https://www.reaper.fm/>`_
 
 Patches
 -------
