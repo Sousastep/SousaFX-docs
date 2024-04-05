@@ -7,13 +7,13 @@ Installation
 
 .. note::
 
-    SousaFX & SousaVFX remains fully operational after Max's `30 day trial ends <https://support.cycling74.com/hc/en-us/articles/360049995834-Max-8-Max-7-Authorization#link-2>`_ thanks to Max not disabling `pattrstorage <https://docs.cycling74.com/max8/refpages/pattrstorage>`_ 🙏
+    SousaFX & SousaVFX remains fully operational after Max's `30-day trial ends <https://support.cycling74.com/hc/en-us/articles/360049995834-Max-8-Max-7-Authorization#link-2>`_ thanks to Max not disabling `pattrstorage <https://docs.cycling74.com/max8/refpages/pattrstorage>`_ 🙏
 
 3. `Download Live Suite <https://www.ableton.com/en/download/>`_ from Ableton.
 
 .. note::
 
-    The SousaPlayback template project cannot be saved after Ableton Live's `30 day trial ends <https://www.ableton.com/en/trial/>`_. The template uses Max for live devices that require Ableton Live 11/12 Suite or Standard with the Max for Live addon.
+    The SousaPlayback template project cannot be saved after Ableton Live's `30-day trial ends <https://www.ableton.com/en/trial/>`_. The template uses Max for live devices that require Ableton Live 11/12 Suite or Standard with the Max for Live addon.
 
 4. Open Max, go to ``Menubar > Max > Preferences...``, and set the following preferences:
 

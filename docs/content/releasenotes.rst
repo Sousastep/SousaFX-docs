@@ -4,8 +4,8 @@ Release Notes
 0.9.4
 -----
 
-SousaFX 
-~~~~~~~~~~~~~
+Sousa​FX
+~~~~~~~~~~~~~~~
 
 - Works in time signatures other than 4/4
 
@@ -36,8 +36,8 @@ SousaFX 
 - Add :ref:`BasicFX <BasicFX>` for using SousaVFX without SousaFX.
 
 
-SousaPlayback 
-~~~~~~~~~~~~~~~~~~~
+Sousa​Playback
+~~~~~~~~~~~~~~~~~~~~~
 
 - On startup, enable Live Link.
 
@@ -48,8 +48,8 @@ SousaPlayback 
 - Talkback mic auto-mutes itself when tuba starts playing.
 
 
-SousaVFX 
-~~~~~~~~~~~~~~
+Sousa​VFX
+~~~~~~~~~~~~~~~~
 
 - Improve efficiency by using ``xray.jit.cellvalue`` instead of ``getcell``
 
