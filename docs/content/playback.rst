@@ -126,6 +126,8 @@ A. Monitor
 
 	The "playback bus" monitor send volume is also saved in SousaFX's :ref:`Monitor Mix <Monitor Mix>`.
 
+.. _NETWORK:
+
 B. Network
 
 	Place :ref:`network jamming plugins <freeplugins>` here.
