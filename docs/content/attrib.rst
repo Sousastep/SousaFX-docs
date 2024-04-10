@@ -53,15 +53,13 @@ Patches
 Media
 -----
 
-- Black Octopus Sound // `Free Samples Bundle <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_
+- `zzkt <https://github.com/zzkt/oblique-strategies>`_ // `do it home <https://curatorsintl.org/records/20290-do-it-home>`_ & `Prompts for Programmers <https://web.archive.org/web/20230817122306/https://kevinlawler.com/prompts>`_
 
 - Austin Andrews // `Material Design Icons <https://iconduck.com/sets/material-design-icons>`_
 
 - Luan Himmlisch // `Icofont Icon Set <https://iconduck.com/icons/249084/swirl>`_
 
-- `zzkt <https://github.com/zzkt/oblique-strategies>`_ // `do it home <https://curatorsintl.org/records/20290-do-it-home>`_ & `Prompts for Programmers <https://web.archive.org/web/20230817122306/https://kevinlawler.com/prompts>`_
-
-- Prestige System //
+- :ref:`Prestige System <Prestige System>` //
 
 	- `Tuba Warrior Fandom <https://tuba-warriors.fandom.com/wiki/Heavy_Tuba_Gunner#Navigation>`_
 

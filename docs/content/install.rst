@@ -7,7 +7,7 @@ Installation
 
 .. note::
 
-    SousaFX & SousaVFX remains fully operational after Max's `30-day trial ends <https://support.cycling74.com/hc/en-us/articles/360049995834-Max-8-Max-7-Authorization#link-2>`_ thanks to Max not disabling `pattrstorage <https://docs.cycling74.com/max8/refpages/pattrstorage>`_ 🙏
+    SousaFX & SousaVFX remains fully functional after Max's `30-day trial ends <https://support.cycling74.com/hc/en-us/articles/360049995834-Max-8-Max-7-Authorization#link-2>`_ thanks to Max not disabling `pattrstorage <https://docs.cycling74.com/max8/refpages/pattrstorage>`_
 
 3. `Download Live Suite <https://www.ableton.com/en/download/>`_ from Ableton.
 
@@ -73,7 +73,7 @@ Installation
     
     .. note:: 
         
-        Sonobus or Jamtaba may be placed in SousaPlayback's "NETWORK" track.
+        Sonobus or Jamtaba may be placed in :ref:`SousaPlayback's "NETWORK" track <NETWORK>`.
     
     c. `ToneLib BassDrive <https://tonelib.net/tl-bassdrive.html>`_ "Ready tunleash the true power of the lowest guitar frequencies."
     
