@@ -52,4 +52,6 @@ a random riser clip whenever the looper starts fading out.
 
 The toggle to the right of the aformentioned toggle makes the looper auto-record after the tuba drops below the :ref:`noise gate <Envelope Crossfade>` a certain number of times /after/ the looper finishes fading out.
 
+.. _cliptrigger:
+
 The menu on the bottom-right chooses how to trigger drum clips in :ref:`SousaPlayback <SousaPlayback>` after the looper fades out.

@@ -39,15 +39,15 @@ Sousa​FX
 Sousa​Playback
 ~~~~~~~~~~~~~~~~~~~~~
 
-- Allow Live Link to be enabled automatically on startup.
+- Allow :ref:`Live Link <autolink>` to be enabled automatically on startup.
 
 - On startup, play first scene, and select second scene.
 
-- Next scene can auto-play when SousaFX's looper finishes fading out.
+- Next scene can :ref:`auto-play <cliptrigger>` when SousaFX's looper finishes fading out.
 
-- Clips can randomize when SousaFX's looper finishes fading out.
+- Clips can :ref:`randomize <cliptrigger>` when SousaFX's looper finishes fading out.
 
-- Talkback mic auto-mutes itself when tuba starts playing.
+- Talkback mic :ref:`auto-mutes <talkbacktrack>` itself when tuba starts playing.
 
 - New track to auto-play risers when :ref:`SousaFX's looper <risers>` starts fading out.
 
@@ -59,7 +59,7 @@ Sousa​VFX
 
 - Improve efficiency by using ``xray.jit.cellvalue`` instead of ``getcell``
 
-- Allow Kick & Snare envelope, to affect params.
+- Allow Kick & Snare envelope to affect params.
 
 |
 
@@ -80,8 +80,6 @@ Known Bugs
 - plugin selectors can only clear plugin slot by manually deleting json file in data folder.
 
 - the About window shows "0 0" as install date on first boot.
-
-- four rnbo filterdelays can't load at once, but three can. So if delay send 4 is bypassed, which it is by default, it will insta-feedback when opened, so no bindings are connected to it by default.
 
 - :ref:`Param Control Logic's <Parameter Control Logic>` "This control is mapped to the joystick" message is only correct on load and won't update when switching presets. It will update when manually adding and removing connections.
 

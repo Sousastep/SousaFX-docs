@@ -15,6 +15,8 @@ You may want to save a copy of SousaPlayback to ``~/Music/Ableton/Projects/``, a
 Main Track List
 ---------------
 
+.. _talkbacktrack:
+
 1. talkback mic
 
 	- This track has a simple channel strip for a `talkback mic <https://www.sweetwater.com/insync/talkback-mic/>`_. This channel is sidechained to several compressors on other tracks to mute audio while you're speaking. It's auto-muted when the tuba starts playing, and must be manually unmuted when the tuba stops playing. The "v" key mutes and unmutes the track.
