@@ -45,6 +45,8 @@ Below the two loopers are the post-loop :ref:`Stutter, Tremolo, & Filters <Main 
 
 - ``mute loopers``
 
+.. _risers:
+
 Enabling the toggle on the bottom-left makes Ableton play 
 a random riser clip whenever the looper starts fading out.
 

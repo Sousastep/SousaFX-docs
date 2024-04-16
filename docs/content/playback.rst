@@ -13,7 +13,7 @@ Main Track List
 
 1. talkback mic
 
-	- This track has a simple channel strip for a `talkback mic <https://www.sweetwater.com/insync/talkback-mic/>`_. This channel is sidechained to several compressors on other tracks to mute audio while you're speaking. 
+	- This track has a simple channel strip for a `talkback mic <https://www.sweetwater.com/insync/talkback-mic/>`_. This channel is sidechained to several compressors on other tracks to mute audio while you're speaking. It's auto-muted when the tuba starts playing, and must be manually unmuted when the tuba stops playing. The "v" key mutes and unmutes the track.
 
 2. playback bus
 
@@ -33,15 +33,25 @@ Main Track List
 			The :ref:`Mix Bus mutes and gains <Mix Bus>`, and 
 			the :ref:`Main Preset number <Main Window>`.
 
-			This device also sends BPM data to SousaFX.
+			This device also sends :ref:`BPM data <Tempo Source>` to SousaFX.
 
 		- tempo
 
-			Automate this tempo device instead of live's main tempo so that the tempo automation is more easily viewable. Also auto-enables Live link.
+			The "tempo_auto" device allows you to automate Live's (and SousaFX's) tempo via clips. It also allows Live Link to be enabled on startup.
+
+			.. image:: media/amxd_tempo-auto.png
+   			:width: 40%
+   			:align: center
+   			:alt: amxd_tempo-auto
 
 		- click
 
 			A MIDI track with a drum rack that lets you program custom `click tracks <https://www.sweetwater.com/insync/click-track/>`_ if needed.
+
+			.. image:: media/click.png
+   			:width: 40%
+   			:align: center
+   			:alt: Drum Rack
 
 	- drum SC vox
 
@@ -51,9 +61,13 @@ Main Track List
 
 		Groups the percussion tracks and sends them through EQ, filters, reverb, tremolo, delay, risset, and compressor.
 
+		- risers
+
+			For looper-length risers to :ref:`auto-play <risers>` prior to "the drop".
+
 		- perc 1
 
-			For kick/snare clips w/ Stutter.
+			For kick/snare clips w/ Stutter. The "Ext. Audio Effect" Device's "Audio To" can correspond to SousaVFX's :ref:`Kick&Snare L/R audio input <Audio IO Status>` to allow the VFX to react to the kick and snare.
 
 		- perc 2
 
@@ -67,7 +81,7 @@ Main Track List
 
 			- mute drumloops
 
-			- toggle continuous accelerando
+			- toggle :ref:`continuous accelerando <Continuous Accelerando>`
 
 			- scene selection
 

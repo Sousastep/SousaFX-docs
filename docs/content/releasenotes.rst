@@ -7,9 +7,9 @@ Release Notes
 Sousa​FX
 ~~~~~~~~~~~~~~~
 
-- Works in time signatures other than 4/4
+- :ref:`Delay sends <swirl>` allow cross-feedback.
 
-- Transients can trigger :ref:`octaver <Octaver>` synth ramp down
+- Transients can trigger :ref:`octaver <Octaver>` synth ramp down.
 
 - :ref:`Startup Preferences <startupprefs>` can launch custom Ableton projects.
 
@@ -17,9 +17,9 @@ Sousa​FX
 
 - After the looper's done fading out, the auto-preset change now waits until the tuba stops playing.
 
-- Drum and looper mute buttons now unmute when held, and toggle mute when single-clicked.
+- :ref:`Drum and looper mute buttons <Controller Bindings>` now unmute when held, and toggle mute when single-clicked.
 
-- Main output sidechained to the talkback mic.
+- Main output is now sidechained to the talkback mic, which must be manually unmuted after the tuba stops playing.
 
 - :ref:`Lowpass filter type <Select Lowpass Filter Type>` can randomize when looper finishes fading out.
 
@@ -27,7 +27,6 @@ Sousa​FX
 
 - Refactor envelopes and add :ref:`main envelope sensitivity <Main Envelope>` parameter.
 
-- Allow :ref:`delay sends <swirl>` to feedback into eachother
 
 - Allow :ref:`RNBO compressors' <Mix Bus>` sidechain EQ's midfreq to boost up to 36 dB.
 
@@ -39,21 +38,31 @@ Sousa​FX
 Sousa​Playback
 ~~~~~~~~~~~~~~~~~~~~~
 
-- On startup, enable Live Link.
+- Allow Live Link to be enabled automatically on startup.
 
 - On startup, play first scene, and select second scene.
 
-- Next scene auto-plays when SousaFX's looper finishes fading out.
+- Next scene can auto-play when SousaFX's looper finishes fading out.
+
+- Clips can randomize when SousaFX's looper finishes fading out.
 
 - Talkback mic auto-mutes itself when tuba starts playing.
+
+- New track to auto-play risers when :ref:`SousaFX's looper <risers>` starts fading out.
 
 
 Sousa​VFX
 ~~~~~~~~~~~~~~~~
 
+- Remove Twitch bot. Will return later. 
+
 - Improve efficiency by using ``xray.jit.cellvalue`` instead of ``getcell``
 
-- Remove Twitch bot. Will return later. 
+- Allow Kick&Snare envelope to affect params.
+
+- Allow Ceiling Env Curve to affect params.
+
+
 
 |
 

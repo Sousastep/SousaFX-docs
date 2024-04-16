@@ -37,23 +37,23 @@ Input Mapping
 
 - live mic 
   
-    connects to the interface's tuba mic input.
+    Connects to the audio interface's tuba mic input.
 
 - prerecorded mic 
   
-    connects to SousaPlayback's "sousa mic" track.
+    Connects to SousaPlayback's "sousa mic" track.
 
 - live silentbrass L / R 
   
-    connects to the interface's line inputs.
+    Connects to the audio interface's line inputs.
 
 - prerecorded silentbrass L / R 
   
-    connects to SousaPlayback's "silentbrass" track.
+    Connects to SousaPlayback's "silentbrass" track.
 
 - drum tracks L / R 
   
-    connects to SousaPlayback's "drum bus" track's "Risset Ext FX" device's "Audio To" output.
+    Connects to SousaPlayback's "drum bus" track's "Risset Ext FX" device's "Audio To" output.
 
 - external delay receive 1 - 4, L / R 
   
@@ -61,7 +61,7 @@ Input Mapping
 
 - phasor~ from Ableton 
   
-    connects to SousaPlayback's "sync signal" track.
+    Connects to SousaPlayback's "sync signal" track.
 
 - external octaver receive mono 
   
@@ -69,7 +69,7 @@ Input Mapping
 
 - Main 1-bar Phasor 
   
-    this and the next 5 inputs are only needed by :ref:`SousaVFX <SousaVFX>` if it's running on a different computer than SousaFX.
+    This and the next 5 inputs are only needed by :ref:`SousaVFX <SousaVFX>` if it's running on a different computer than SousaFX.
 
 - Phasor offset rate 
   
@@ -89,19 +89,23 @@ Input Mapping
 
 - talkback_mic 
   
-    connects to the interface's talkback mic input.
+    Connects to the interface's talkback mic input.
 
 - pitch correct 
   
-    connects to an external pitch correction FX.
+    Connects to an external pitch correction FX.
 
 - harmonizer sustain L / R 
   
-    connects to an external harmonizer FX.
+    Connects to an external harmonizer FX.
 
 - harmonizer attack L / R 
   
-    connects to an external harmonizer FX.
+    Connects to an external harmonizer FX.
+
+- kick&snare L / R
+    
+    Connects to SousaPlayback's "perc 1" track to allow VFX to respond to kick and snare.
 
 
 Output Mapping
