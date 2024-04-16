@@ -77,11 +77,11 @@ Installation
     
     c. `ToneLib BassDrive <https://tonelib.net/tl-bassdrive.html>`_ "Ready to unleash the true power of the lowest guitar frequencies."
     
-    d. `Valhalla Super Massive <https://valhalladsp.com/shop/reverb/valhalla-supermassive/>`_ "Designed from the ground up for MASSIVE delays anreverbs."
+    d. `Valhalla Super Massive <https://valhalladsp.com/shop/reverb/valhalla-supermassive/>`_ "Designed from the ground up for MASSIVE delays and reverbs."
     
     e.  `Kilohearts Essentials <https://kilohearts.com/products/kilohearts_essentials>`_ "A free collection of extremely useful effects."
     
-    f.  `Melda Production <https://www.meldaproduction.com/MFreeFxBundle>`_ "The biggest and the most powerful free plugins pack available."
+    f.  `Melda Production <https://www.meldaproduction.com/MFreeFxBundle>`_ "The biggest and most powerful free plugins pack available."
 
 11. `Download sousastep-0.9.3 <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
 
