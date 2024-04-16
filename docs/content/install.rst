@@ -75,13 +75,13 @@ Installation
         
         Sonobus or Jamtaba may be placed in :ref:`SousaPlayback's "NETWORK" track <NETWORK>`.
     
-    c. `ToneLib BassDrive <https://tonelib.net/tl-bassdrive.html>`_ "Ready tunleash the true power of the lowest guitar frequencies."
+    c. `ToneLib BassDrive <https://tonelib.net/tl-bassdrive.html>`_ "Ready to unleash the true power of the lowest guitar frequencies."
     
     d. `Valhalla Super Massive <https://valhalladsp.com/shop/reverb/valhalla-supermassive/>`_ "Designed from the ground up for MASSIVE delays anreverbs."
     
     e.  `Kilohearts Essentials <https://kilohearts.com/products/kilohearts_essentials>`_ "A free collection of extremely useful effects."
     
-    f.  `Melda Production <https://www.meldaproduction.com/MFreeFxBundle>`_ "Thebiggest and the most powerful free plugins pack available."
+    f.  `Melda Production <https://www.meldaproduction.com/MFreeFxBundle>`_ "The biggest and the most powerful free plugins pack available."
 
 11. `Download sousastep-0.9.3 <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
 
@@ -97,7 +97,7 @@ Installation
     copy all files from ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​data/`` 
     to the new version's 
     ``sousastep/​SousaFX/​data/`` 
-    folder to ensure that user presets are carried over. This isn't necessary if you clone the repo with git because the data folder is gitignored.
+    folder, and repeat with ``/SousaVFX/``, to ensure that user presets are carried over. This isn't necessary if you clone the repo with git because the data folders are gitignored.
 
 13. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​SousaFX.maxproj``. SousaFX's Startup Preferences window will appear.
     
@@ -125,7 +125,7 @@ Installation
 
 15. If the :ref:`Black Octopus Drum Loops are installed <blackoctopus>` then drum clips will be available in session view, but if they're missing then feel free to delete them and add your own.
 
-16. `Live Link <https://help.ableton.com/hc/en-us/articles/209072789-Enabling-Link-in-Live>`_ should auto-enable thanks to the M4L device in the "tempo" track.
+16. `Live Link <https://help.ableton.com/hc/en-us/articles/209072789-Enabling-Link-in-Live>`_ should auto-enable thanks to the M4L device in the :ref:`"tempo" track <autolink>`.
 
 17. Once SousaFX is running, open the :ref:`Audio IO Status window <Audio IO Status>`.
 

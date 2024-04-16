@@ -1,12 +1,16 @@
 SousaPlayback
 =============
 
+SousaPlayback is a template for Ableton Live that handles a talkback mic, reference tracks, backing tracks, drum loops & FX, riser clips, count-ins, recordings, and network jamming plugins. It tightly syncs to SousaFX & SousaVFX via various gamepad parameters and audio envelopes.
+
 .. _SousaPlaybackTemplate:
 
 .. image:: media/SousaPlaybacktemplate.png
    :width: 100%
    :align: center
    :alt: SousaPlaybacktemplate
+
+You may want to save a copy of SousaPlayback to ``~/Music/Ableton/Projects/``, and set it to auto-launch via :ref:`SousaFX's Startup Preferences <startupprefs>`. That way you won't have to worry about copying the project file when :ref:`updating <updating>` SousaFX.
 
 Main Track List
 ---------------
@@ -35,23 +39,19 @@ Main Track List
 
 			This device also sends :ref:`BPM data <Tempo Source>` to SousaFX.
 
+.. _autolink:
+
 		- tempo
 
 			The "tempo_auto" device allows you to automate Live's (and SousaFX's) tempo via clips. It also allows Live Link to be enabled on startup.
 
 			.. image:: media/amxd_tempo-auto.png
-   			:width: 40%
-   			:align: center
-   			:alt: amxd_tempo-auto
 
 		- click
 
 			A MIDI track with a drum rack that lets you program custom `click tracks <https://www.sweetwater.com/insync/click-track/>`_ if needed.
 
 			.. image:: media/click.png
-   			:width: 40%
-   			:align: center
-   			:alt: Drum Rack
 
 	- drum SC vox
 

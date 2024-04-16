@@ -27,12 +27,13 @@ Sousa​FX
 
 - Refactor envelopes and add :ref:`main envelope sensitivity <Main Envelope>` parameter.
 
-
 - Allow :ref:`RNBO compressors' <Mix Bus>` sidechain EQ's midfreq to boost up to 36 dB.
 
 - Allow :ref:`post-crossfade FX <postxfadefx>` to effect the attack signal path, sustain signal path, or both, and let this be set by looper status.
 
 - Add :ref:`BasicFX <BasicFX>` for using SousaVFX without SousaFX.
+
+- Allow the :ref:`Modulation Parameters' <Modulation Parameters>` function's breakpoint positions to be adjusted and saved to the main preset.
 
 
 Sousa​Playback
@@ -58,11 +59,7 @@ Sousa​VFX
 
 - Improve efficiency by using ``xray.jit.cellvalue`` instead of ``getcell``
 
-- Allow Kick&Snare envelope to affect params.
-
-- Allow Ceiling Env Curve to affect params.
-
-
+- Allow Kick & Snare envelope, to affect params.
 
 |
 

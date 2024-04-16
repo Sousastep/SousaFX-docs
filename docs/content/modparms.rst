@@ -34,7 +34,7 @@ Several mod params can be set via the :ref:`bindings <Controller Bindings>`.
 
 - ceiling and floor 
    
-   Determines the depth of the lowpass filter frequency modulation, AKA the frequency range of the dubstep wobble. Bindable via "LFO Ceiling Envelope Curve (bi)". The "env smooth" dials determine how quickly the range can change.
+   Determines the depth of the lowpass filter frequency modulation, AKA the frequency range of the dubstep wobble. Bindable via "LFO Ceiling Envelope Curve (bi)". The "env smooth" dials determine how quickly the range can change. The "y pos", "x pos", and "ceil max" dials set the shape of the function.
 
 
 Select Lowpass Filter Type

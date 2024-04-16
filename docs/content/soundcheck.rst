@@ -1,7 +1,7 @@
 Soundcheck
 ==========
 
-After SousaFX is installed and set up, you'll want to run a quick soundcheck.
+After SousaFX is installed and running, you'll want to do a quick soundcheck.
 
 1. Adjust the gain of your audio interface's microphone input.
 	

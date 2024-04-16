@@ -26,9 +26,9 @@ The FX Banks are represented in the :ref:`main window <Main Window>` like so:
 
 The "bleed" dial allows the Attack FX's output into the Sustain FX's output and vice-versa. A little bit goes a long way.
 
-The "pitch amount" dials mix external audio into the Attack and Sustain FX paths. This external audio input is set via the "harmonizer" inputs in the :ref:`Audio IO Status window <Audio IO Status>`. 
-I mainly use the `Diatonic <https://cdn.eventideaudio.com/manuals/h9000/2.1.12/content/appendix/algorithms/93_PitchFactor.html#diatonic>`_ and 
-`Polyphony <https://cdn.eventideaudio.com/manuals/h9000/2.1.12/content/appendix/algorithms/98_Next_Gen_Harmonizer.html#polyphony>`_ algorithms on my Eventide H9000 for this.
+The "pitch amount" dials mix external audio into the Attack and Sustain FX paths, and are only visible if the "harmonizer" inputs in the :ref:`Audio IO Status window <Audio IO Status>` are enabled. 
+I mainly use this with the H9000's `Diatonic <https://cdn.eventideaudio.com/manuals/h9000/2.1.12/content/appendix/algorithms/93_PitchFactor.html#diatonic>`_ and 
+`Polyphony <https://cdn.eventideaudio.com/manuals/h9000/2.1.12/content/appendix/algorithms/98_Next_Gen_Harmonizer.html#polyphony>`_ algorithms.
 
 The small menu has three options for auto-bypassing the fx bank:
 
