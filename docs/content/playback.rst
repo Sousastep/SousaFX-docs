@@ -154,6 +154,12 @@ B. Network
 
 	Place :ref:`network jamming plugins <freeplugins>` here.
 
+	.. note::
+
+		To mute yourself in JamTaba's monitor mix, mute the input channel, but keep the volume slider at 0 dB. Participants will still be able to heard your audio even though the input channel doesn't show a signal.
+
+		.. image:: media/jtba.png
+
 C. Main Out
 
 	This track's "Audio To: Ext. Out" should be routed to your audio interface's main output.
