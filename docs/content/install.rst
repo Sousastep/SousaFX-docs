@@ -132,16 +132,10 @@ Installation
 .. _startupprefs:
 
 .. image:: media/startup.png
-   :width: 80%
-   :align: left
-   :alt: startup
 
 |
 
 .. image:: media/startupengine.png
-   :width: 90%
-   :align: left
-   :alt: startup engine
 
 |
 
@@ -157,7 +151,7 @@ Installation
 
     .. image:: media/ioopen.png
        :width: 40%
-       :align: left
+       :align: center
        :alt: io.png
     
     a. Set the "live mic" input to your audio interface's microphone input. 
@@ -168,4 +162,4 @@ Installation
 
 |
 
-Now, it's time for a :ref:`soundcheck <Soundcheck>`.
+Now, it's time for a :ref:`soundcheck <Soundcheck>`!
