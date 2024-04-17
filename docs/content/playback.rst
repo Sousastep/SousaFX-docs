@@ -156,7 +156,7 @@ B. Network
 
 	.. note::
 
-		To mute yourself in JamTaba's monitor mix, mute the input channel, but keep the volume slider at 0 dB. Participants will still be able to heard your audio even though the input channel doesn't show a signal.
+		To mute yourself in JamTaba's monitor mix, mute the input channel, but keep the volume slider at 0 dB. Participants will still be able to hear your audio even though the input channel won't show a signal.
 
 		.. image:: media/jtba.png
 

@@ -123,19 +123,15 @@ Installation
 
 |
 
+.. _startupprefs:
+
 13. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​SousaFX.maxproj``. SousaFX's Startup Preferences window will appear.
     
     a. Select your preferred audio interface.
     
     b. Uncheck the Startup Preferences' pause button. SousaPlayback will appear within a minute, and SousaFX will appear in 2 - 5 minutes. SousaPlayback will automatically start playing the first scene once SousaFX launches.
 
-.. _startupprefs:
-
-.. image:: media/startup.png
-
-|
-
-.. image:: media/startupengine.png
+    .. image:: media/startup.png
 
 |
 
