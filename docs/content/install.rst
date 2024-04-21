@@ -103,11 +103,11 @@ Installation
 
 |
 
-11. `Download sousastep-0.9.3 <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
+11. `Download sousastep-0.9.4's Source code (zip) <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
 
 |
 
-12. Rename ``sousastep-0.9.3`` to ``sousastep``.
+12. Rename ``sousastep-0.9.4`` to ``sousastep``.
 
 .. note:: If you're familiar with `git <https://docs.github.com/en/get-started/using-git/about-git>`_ then cloning the repo to your Projects folder is recommended.
 
