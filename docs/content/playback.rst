@@ -65,6 +65,8 @@ Main Track List
 
 		Groups the percussion tracks and sends them through EQ, filters, reverb, tremolo, delay, risset, and compressor.
 
+.. riserstrack::
+
 		- risers
 
 			For looper-length risers to :ref:`auto-play <risers>` prior to "the drop".
