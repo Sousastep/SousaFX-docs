@@ -51,11 +51,31 @@ Installation
 
 |
 
-7. Add ``/sousastep/`` to Max's global search path: Go to ``Menubar > Options... > File Preferences...``, "Add Path" +, "choose", and select ``~/Documents/​Max 8/​Project/​sousastep``.
+7. `Download sousastep-0.9.4's Source code (zip) <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
 
 |
 
-8. Open Live, open its settings ``Menubar > Live > Settings...``, and set the following:
+8. Rename ``sousastep-0.9.4`` to ``sousastep``.
+
+.. note:: If you're familiar with `git <https://docs.github.com/en/get-started/using-git/about-git>`_ then cloning the repo to your Projects folder is recommended.
+
+.. _updating:
+
+.. important::
+
+    When updating to new versions of SousaFX, 
+    copy all files from ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​data/`` 
+    to the new version's 
+    ``sousastep/​SousaFX/​data/`` 
+    folder, and repeat with ``/SousaVFX/``, to ensure that user presets are carried over. This isn't necessary if you clone the repo with git because the data folders are gitignored.
+
+|
+
+9. Add ``/sousastep/`` to Max's global search path. Go to Max's menubar > ``Options... > File Preferences...``, "Add Path" +, "choose", and select ``~/Documents/​Max 8/​Project/​sousastep``.
+
+|
+
+10. Open Live, open its settings ``Menubar > Live > Settings...``, and set the following:
 
     a. Audio > Audio Device [select your audio interface]
 
@@ -77,13 +97,13 @@ Installation
 
 .. _blackoctopus:
 
-9. Optionally, download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​default/​SousaPlayback template Project/​Clips/``, or skip this step and use your own drum samples.
+11. Optionally, download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​default/​SousaPlayback template Project/​Clips/``, or skip this step and use your own drum samples.
 
 |
 
 .. _freeplugins:
 
-10. Optionally, download these free plugins:
+12. Optionally, download these free plugins:
     
     a.  `Sonobus <https://sonobus.net/#download>`_ for networked jamming with folks in the same continent.
     
@@ -100,26 +120,6 @@ Installation
     e.  `Kilohearts Essentials <https://kilohearts.com/products/kilohearts_essentials>`_ "A free collection of extremely useful effects."
     
     f.  `Melda Production <https://www.meldaproduction.com/MFreeFxBundle>`_ "The biggest and most powerful free plugins pack available."
-
-|
-
-11. `Download sousastep-0.9.4's Source code (zip) <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
-
-|
-
-12. Rename ``sousastep-0.9.4`` to ``sousastep``.
-
-.. note:: If you're familiar with `git <https://docs.github.com/en/get-started/using-git/about-git>`_ then cloning the repo to your Projects folder is recommended.
-
-.. _updating:
-
-.. important::
-
-    When updating to new versions of SousaFX, 
-    copy all files from ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​data/`` 
-    to the new version's 
-    ``sousastep/​SousaFX/​data/`` 
-    folder, and repeat with ``/SousaVFX/``, to ensure that user presets are carried over. This isn't necessary if you clone the repo with git because the data folders are gitignored.
 
 |
 
