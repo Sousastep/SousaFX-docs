@@ -131,7 +131,7 @@ Installation
     
     b. Uncheck the Startup Preferences' pause button. SousaPlayback will appear within a minute, and SousaFX will appear in 2 - 5 minutes. SousaPlayback will automatically start playing the first scene once SousaFX launches.
 
-    .. image:: media/startup.png
+    .. image:: media/startup.webp
 
 |
 
@@ -145,7 +145,7 @@ Installation
 
 15. Once SousaFX is running, open the :ref:`Audio IO Status window <Audio IO Status>`.
 
-    .. image:: media/ioopen.png
+    .. image:: media/ioopen.webp
        :width: 40%
        :align: center
        :alt: io.png

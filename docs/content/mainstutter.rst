@@ -3,7 +3,7 @@ Main Stutter Tremolo & Filters
 
 Six parameters here are available in the :ref:`bindings <Controller Bindings>`. Both the stutter and tremolo's subdivisions are attached to the binding's subdivisions.
 
-.. image:: media/mainstutter.png
+.. image:: media/mainstutter.webp
    :width: 65%
    :align: center
    :alt: loopers
@@ -74,7 +74,7 @@ Parameters
 
    The fraction of one period in which the signal is active. :ref:`Bound <Controller Bindings>` to ``Main Input Tremolo Duty``
 
-   .. figure:: media/PWM_duty_cycle_with_label.gif
+   .. figure:: media/PWM_duty_cycle_with_label.webp
       :width: 80%
       :align: left
       :alt: duty

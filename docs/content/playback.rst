@@ -5,7 +5,7 @@ SousaPlayback is a template for Ableton Live that handles a talkback mic, refere
 
 .. _SousaPlaybackTemplate:
 
-.. image:: media/SousaPlaybacktemplate.png
+.. image:: media/SousaPlaybacktemplate.webp
    :width: 100%
    :align: center
    :alt: SousaPlaybacktemplate
@@ -41,7 +41,7 @@ Main Track List
 
 			This device also sends :ref:`BPM data <Tempo Source>` to SousaFX.
 
-			.. image:: media/amxd_automator.png
+			.. image:: media/amxd_automator.webp
 
 .. _autolink:
 
@@ -49,13 +49,13 @@ Main Track List
 
 			The "tempo_auto" device allows you to automate Live's (and SousaFX's) tempo via clips. It also allows Live Link to be enabled on startup.
 
-			.. image:: media/amxd_tempo-auto.png
+			.. image:: media/amxd_tempo-auto.webp
 
 		- click
 
 			A MIDI track with a drum rack that lets you program custom `click tracks <https://www.sweetwater.com/insync/click-track/>`_ if needed.
 
-			.. image:: media/click.png
+			.. image:: media/click.webp
 
 	- drum SC vox
 
@@ -135,7 +135,7 @@ Main Track List
 
 	Syncs SousaPlayback to SousaFX via a 1-bar audio-rate phasor that ramps from 0 to 1 :ref:`in lieu of Live Link <Audio Input or Live Link>`.
 
-	.. image:: media/amxd_phasor1n.png
+	.. image:: media/amxd_phasor1n.webp
 
 	This track's "Audio To: Ext. Out" should loopback to SousaFX's :ref:`"phasor~ from Ableton" input <Input Mapping>`. To enable this, Set SousaFX's Metronome's :ref:`Tempo Source <Audio Input or Live Link>` to "Ableton's Tempo", set the Live Link menu to Audio Input, and turn off auto-link in SousaPlayback's :ref:`tempo track <autolink>`.
 
@@ -160,7 +160,7 @@ B. Network
 
 		To mute yourself in JamTaba's monitor mix, mute the input channel, but keep the volume slider at 0 dB. Participants will still be able to hear your audio even though the input channel won't show a signal.
 
-		.. image:: media/jtba.png
+		.. image:: media/jtba.webp
 
 C. Main Out
 
@@ -174,7 +174,7 @@ C. Main Out
 
 	All of SousaPlayback's MIDI Mappings correspond to :ref:`SousaFX's MIDI Preferences <MIDI Preferences>` by default.
 
-	.. image:: media/SousaPlaybacktemplateMIDI.png
+	.. image:: media/SousaPlaybacktemplateMIDI.webp
 	   :width: 95%
 	   :align: center
 	   :alt: SousaPlayback template MIDI

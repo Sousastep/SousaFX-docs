@@ -60,10 +60,10 @@ Requirements
 Examples
 --------
 
-.. image:: media/rig1.jpg
+.. image:: media/rig1.webp
 
 |
 
-.. image:: media/rig3.jpg
+.. image:: media/rig3.webp
 
 |

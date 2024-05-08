@@ -3,7 +3,7 @@ Main Window
 
 This window represents SousaFX's audio signal flow, and links to the :ref:`audio effects <Audio Effects>`, :ref:`controller bindings <Controller Bindings>`, and :ref:`settings <Settings>`.
 
-.. image:: media/sousafx.png
+.. image:: media/sousafx.webp
    :align: center
    :width: 100%
    :alt: sousafx.png

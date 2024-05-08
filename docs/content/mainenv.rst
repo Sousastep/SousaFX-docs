@@ -3,14 +3,14 @@ Main Envelope
 
 While playing softly in a home studio, turn up the main envelope sensitivity. Before blasting on a live stage, turn down the main envelope sensitivity.
 
-.. image:: media/mainenvopen.png
+.. image:: media/mainenvopen.webp
    :width: 30%
    :align: center
    :alt: mainenv
 
 |
 
-.. image:: media/mainenv.png
+.. image:: media/mainenv.webp
    :width: 50%
    :align: center
    :alt: mainenv

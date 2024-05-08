@@ -21,7 +21,7 @@ Click the parameter labels to open their :ref:`control logic settings <Parameter
 
 Click to the right of the parameter labels to open the parameters window that they apply to.
 
-.. image:: media/bindings.png
+.. image:: media/bindings.webp
    :width: 100%
    :align: center
    :alt: bindings window

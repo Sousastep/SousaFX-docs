@@ -8,7 +8,7 @@ EQs the "front of house" mix and adds the metronome.
 The metronome can also be sent to its own audio output 
 in the :ref:`Audio I/O Status <Audio IO Status>` window.
 
-.. image:: media/monitor.png
+.. image:: media/monitor.webp
    :width: 60%
    :align: center
    :alt: monitormix

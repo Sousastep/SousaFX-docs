@@ -9,7 +9,7 @@ There are two kinds of crossovers available in sousafx, each with two stereo hig
 
 The first crossover is a :ref:`4th-order Linkwitz Riley crossover <Patches>` that's native to Max.
 
-.. image:: media/crossovergen.png
+.. image:: media/crossovergen.webp
    :width: 60%
    :align: center
    :alt: deadzones.png
@@ -18,7 +18,7 @@ The first crossover is a :ref:`4th-order Linkwitz Riley crossover <Patches>` tha
 
 The second crossover is made with `FabFilter ProQ3 <https://www.youtube.com/watch?v=qrXXNKhjBE8&t=436s>`_, which you can use if you have ProQ3.
 
-.. image:: media/crossoverfab.png
+.. image:: media/crossoverfab.webp
    :width: 85%
    :align: center
    :alt: deadzones.png

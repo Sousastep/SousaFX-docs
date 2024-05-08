@@ -13,7 +13,7 @@ The High, Low, and Octaver volume faders adjust the volume of the Attack and Sus
 
 The mutes and volumes can be automated from :ref:`SousaPlayback <Main Track List>`, which is displayed by the sliders to the left of the faders.
 
-.. image:: media/mixbus.png
+.. image:: media/mixbus.webp
    :width: 100%
    :align: center
    :alt: mixbus

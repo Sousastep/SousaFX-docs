@@ -1,7 +1,7 @@
 Audio IO Status
 ===============
 
-.. image:: media/io.png
+.. image:: media/io.webp
    :width: 100%
    :align: center
    :alt: io.png
@@ -159,7 +159,7 @@ The output menu sets whether the main outputs are mono or stereo.
 
 |
 
-.. image:: media/ioall.png
+.. image:: media/ioall.webp
    :width: 100%
    :align: center
    :alt: io.png

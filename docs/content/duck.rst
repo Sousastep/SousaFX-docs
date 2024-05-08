@@ -6,7 +6,7 @@ This allows the tuba to duck out of the way of the kick drum.
 For this to work, :ref:`SousaPlayback's drum bus's <Main Track List>` external output 
 must be routed to SousaFX's :ref:`"drum tracks L/R" inputs <Audio IO Status>`.
 
-.. image:: media/duck.png
+.. image:: media/duck.webp
    :width: 60%
    :align: center
    :alt: duck

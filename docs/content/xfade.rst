@@ -14,7 +14,7 @@ The Envelope Crossfade is post-:ref:`crossover<Crossover>`. It basically control
 
    3. The high crossover's mix between the :ref:`attack fx and sustain fx <FX Banks>`.
 
-.. image:: media/xfade.png
+.. image:: media/xfade.webp
    :width: 60%
    :align: center
    :alt: xfade

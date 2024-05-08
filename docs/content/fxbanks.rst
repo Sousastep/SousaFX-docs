@@ -1,7 +1,7 @@
 FX Banks
 ========
 
-.. image:: media/fxbanks.png
+.. image:: media/fxbanks.webp
    :width: 95%
    :align: center
    :alt: fxbanks
@@ -10,7 +10,7 @@ There are three separate FX Banks that each run four FX slots in parallel. Each 
 
 The FX Banks are represented in the :ref:`main window <Main Window>` like so:
 
-.. image:: media/prexfadebanks.png
+.. image:: media/prexfadebanks.webp
    :width: 80%
    :align: center
    :alt: prexfadebanks
@@ -19,7 +19,7 @@ The FX Banks are represented in the :ref:`main window <Main Window>` like so:
 
 .. _postxfadefx:
 
-.. image:: media/postxfadebank.png
+.. image:: media/postxfadebank.webp
    :width: 60%
    :align: center
    :alt: postxfadebank

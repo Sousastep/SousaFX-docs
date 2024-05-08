@@ -7,7 +7,7 @@ The delay sends are :ref:`bound <Controller Bindings>` via "Main Input Delay Sen
 
 The reverb send is only for the Main Input as a standard send.
 
-.. image:: media/sends.png
+.. image:: media/sends.webp
    :width: 70%
    :align: center
    :alt: sends

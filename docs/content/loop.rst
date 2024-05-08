@@ -3,7 +3,7 @@ Loopers
 
 A simple "one-button" looper with a handful of effects.
 
-.. image:: media/loopers.png
+.. image:: media/loopers.webp
    :width: 60%
    :align: center
    :alt: loopers

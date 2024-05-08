@@ -14,7 +14,7 @@ as SousaFX, or on a separate computer.
 	or `Touchdesigner <https://derivative.ca/>`_ 
 	would also play nicely with SousaFX's control signals.
 
-.. figure:: media/vfx1.png
+.. figure:: media/vfx1.webp
    :align: center
    :width: 100%
    :alt: SousaVFX
