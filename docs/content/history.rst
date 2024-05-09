@@ -1,6 +1,15 @@
 Timeline
 ========
 
+2008
+----
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/uQCedk3-gm8?si=rkwI-fN3BTTR97wt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+|
+
 2014
 ----
 
@@ -49,8 +58,6 @@ Timeline
    :align: center
    :alt: turbulence doom choir lava flow
 
-   Turbulence Doom Choir: Lava Flow
-
 |
 
 2017
@@ -59,8 +66,6 @@ Timeline
 .. figure:: media/2017-june-21.webp
    :align: center
    :alt: Turbulence Doom Choir Angular Velocity Vectors
-
-   Turbulence Doom Choir: Angular Velocity Vectors
 
 |
 
@@ -97,6 +102,12 @@ Timeline
 2020
 ----
 
+.. figure:: media/numbered-indices.webp
+   :align: center
+   :alt: jan 14 2020.webp
+
+|
+
 .. figure:: media/mar\ 25\ 2020.webp
    :align: center
    :alt: mar 25 2020.webp
@@ -112,12 +123,6 @@ Timeline
 .. figure:: media/2020-4-3.webp
    :align: center
    :alt: 2020-4-3.webp
-
-|
-
-.. figure:: media/numbered-indices.webp
-   :align: center
-   :alt: jan 14 2020.webp
 
 |
 
