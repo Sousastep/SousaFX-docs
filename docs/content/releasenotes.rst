@@ -70,6 +70,16 @@ Sousa​VFX
 
 |
 
+Past
+----
+
+.. toctree::
+   :maxdepth: 2
+
+   history.rst
+
+|
+
 Known Bugs
 ----------
 
