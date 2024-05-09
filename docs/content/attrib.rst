@@ -77,6 +77,6 @@ History
 -------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    history.rst

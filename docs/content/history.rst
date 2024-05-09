@@ -64,12 +64,6 @@ Timeline
 
 |
 
-.. raw:: html
-
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/pHmV1dUcNEQ?si=f1EuVaImeZYAm01r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-|
-
 2018
 ----
 
@@ -94,13 +88,13 @@ Timeline
 
 |
 
-.. figure:: media/dec-13-2019.webp
+.. figure:: media/2019-11-23.webp
    :align: center
    :alt: dec-13-2019
 
 |
 
-.. figure:: media/2019-11-23.webp
+.. figure:: media/dec-13-2019.webp
    :align: center
    :alt: dec-13-2019
 
@@ -121,9 +115,9 @@ Timeline
 
 |
 
-.. figure:: media/mar\ 25\ 2020.webp
+.. figure:: media/2020-4-3.webp
    :align: center
-   :alt: mar 25 2020.webp
+   :alt: 2020-4-3.webp
 
 |
 
@@ -133,9 +127,9 @@ Timeline
 
 |
 
-.. figure:: media/2020-4-3.webp
+.. figure:: media/mar\ 25\ 2020.webp
    :align: center
-   :alt: 2020-4-3.webp
+   :alt: mar 25 2020.webp
 
 |
 
@@ -166,14 +160,14 @@ Timeline
 2023
 ----
 
-.. raw:: html
-
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/p4bEzRLGDyA?si=_YdIrFshq62Bomjf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-|
-
 .. figure:: media/dec\ 16\ 2023.webp
    :align: center
    :alt: dec 16 2023.webp
+
+|
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/p4bEzRLGDyA?si=_YdIrFshq62Bomjf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 |
