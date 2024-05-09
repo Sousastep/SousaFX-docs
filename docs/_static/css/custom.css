@@ -30,3 +30,8 @@ code {
 p {
     text-align: justify;
 }
+
+/* https://groups.google.com/g/sphinx-dev/c/NMB7uzB4PNY */
+.align-center {
+    text-align: center;
+}
