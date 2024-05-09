@@ -83,7 +83,7 @@ Past
 Known Bugs
 ----------
 
-- the :ref:`About SousaFX<Prestige System>` window shows "0 0" as install date on first boot.
+- the :ref:`About SousaFX <Prestige System>` window shows "0 0" as install date on first boot.
 
 - if you :ref:`reinstantiate an effect <Selectable Effects>` after saving its first user preset without rebooting SousaFX, the effect will reload its default preset.
 

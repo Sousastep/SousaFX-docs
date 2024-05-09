@@ -46,6 +46,12 @@ Timeline
 
 |
 
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/TwzUYv6-nXs?si=iIHD1Yg0s70y62ZZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+|
+
 2016
 ----
 
@@ -187,8 +193,6 @@ Timeline
 2024
 ----
 
-.. raw:: html
-
-   <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@sousastep/video/7326008385885768990" data-video-id="7326008385885768990" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@sousastep" href="https://www.tiktok.com/@sousastep?refer=embed">@sousastep</a> Sousastep presents: SousaFX! Now fully functional with no plugins, and free to try! Link&#39;s in my bio! <a title="sousaphone" target="_blank" href="https://www.tiktok.com/tag/sousaphone?refer=embed">#sousaphone</a> <a title="tuba" target="_blank" href="https://www.tiktok.com/tag/tuba?refer=embed">#tuba</a> <a title="electronicmusic" target="_blank" href="https://www.tiktok.com/tag/electronicmusic?refer=embed">#electronicmusic</a> <a title="dubstep" target="_blank" href="https://www.tiktok.com/tag/dubstep?refer=embed">#dubstep</a> <a title="euphonium" target="_blank" href="https://www.tiktok.com/tag/euphonium?refer=embed">#euphonium</a> <a target="_blank" title="♬ original sound - sousastep" href="https://www.tiktok.com/music/original-sound-7326008547338029854?refer=embed">♬ original sound - sousastep</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+`https://www.tiktok.com/@sousastep/video/7326008385885768990 <https://www.tiktok.com/@sousastep/video/7326008385885768990>`_
 
 |
