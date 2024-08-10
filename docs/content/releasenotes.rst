@@ -1,6 +1,30 @@
 Release Notes
 =============
 
+0.9.5
+-----
+
+Sousa​​FX
+~~~~~~~~~~~~~~~~~~~~~~~
+
+- Add filter boost parameters to :ref:`Main Envelope <Main Envelope>`.
+
+- Scale the :ref:`Modulation Parameters' <Modulation Parameters>` envelope so that it begins at the bottom of the :ref:`Envelope Crossfade's <Envelope Crossfade>` gate.
+
+- Add two bindable parameters to the Modulation Parameters: LFO Auto-Wah Pause, and LFO Env Pause.
+
+- Refactored the :ref:`Mix Bus <Mix Bus>` to make it simpler to use.
+
+- Add limiter parameter to the :ref:`delay's <Delay and Reverb Sends>` feedback loop.
+
+- Allow stutter's startpoint to be modulated via the "staircase" parameter.
+
+- Refactor Post-crossfade FX's signal chain into :ref:`Solo FX <FX Banks>`. Signal path auto-switches from Dubstep FX to Solo FX when :ref:`looper <Loopers>` finishes recording, and vice versa when looper finishes fading out.
+
+- :ref:`Controller Bindings <Controller Bindings>`: Allow multiple imputs to bind to a single output.
+
+- Add :ref:`peak meters <Peak Meters>` to main window.
+
 0.9.4
 -----
 
@@ -29,7 +53,7 @@ Sousa​FX
 
 - Allow :ref:`RNBO compressors' <Mix Bus>` sidechain EQ's midfreq to boost up to 36 dB.
 
-- Allow :ref:`post-crossfade FX <postxfadefx>` to effect the attack signal path, sustain signal path, or both, and let this be set by looper status.
+- Allow :ref:`post-crossfade FX <FX Banks>` to effect the attack signal path, sustain signal path, or both, and let this be set by looper status.
 
 - Add :ref:`BasicFX <BasicFX>` for using SousaVFX without SousaFX.
 

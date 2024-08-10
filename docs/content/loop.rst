@@ -8,24 +8,27 @@ A simple "one-button" looper with a handful of effects.
    :align: center
    :alt: loopers
 
-The looper has five states.
+|
+
+The looper has four main states.
 
    1. Idle
 
-   2. Prepared
+      a. Prepared
    
-   3. Recording
+   2. Recording
    
-   4. Looping
+   3. Looping
+
+      b. Prepared
    
-   5. Fading Out
+   4. Fading Out
 
 Hitting the button (called ``looper record / fade out`` in the :ref:`bindings <Controller Bindings>`) 
 advances the looper state from Idle to Prepared. Playing tuba advances from Prepared to Recording. 
-After 8 bars or so, the looper automatically stops Recording 
+After 8 bars or so, once the tuba's envelope drops below the :ref:`noise gate <Envelope Crossfade>`, the looper automatically stops Recording 
 and starts Looping. Hitting the button a second time 
-begins Fading Out the looper over the course of 8 bars. 
-A second loop can be recorded while the first's fading out.
+prepares the looper to begin Fading Out when the loop repeats.
 
 Below the two loopers are the post-loop :ref:`Stutter, Tremolo, & Filters <Main Stutter Tremolo & Filters>`. The following :ref:`bindings <Controller Bindings>` are available:
 

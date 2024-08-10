@@ -44,10 +44,6 @@ The on/off toggle has two options for fx selection when unbypassing:
 
 - Off, return to original FX when unbypassing.
 
-The "Idle, prepared, recording" menu determines which FX path the post-crossfade FX affects while the :ref:`looper <Loopers>` is idle, prepared, or recording.
-
-The "Looping, fading" menu determines which FX path the post-crossfade FX affects while the :ref:`looper <Loopers>` is looping or fading.
-
 These options, and plugin selections, are saved within the :ref:`Main Presets <Main Window>`.
 
 :ref:`Latency compensation <Latency Compensation>` varies depending on the currently selected plugins. This ensures the lowest possible latency.

@@ -52,7 +52,7 @@ Selectable Effects
 
 -	:ref:`Attack FX <FX Banks>` slot 1
 
--	:ref:`Post-crossfade FX <FX Banks>` slot 1
+-	:ref:`Solo FX <FX Banks>` slot 1
 
 - 	:ref:`Low Pass Filter <Select Lowpass Filter Type>`; 
 	only plugins supported are 

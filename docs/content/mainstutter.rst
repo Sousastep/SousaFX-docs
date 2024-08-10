@@ -1,12 +1,42 @@
 Main Stutter Tremolo & Filters
 ==============================
 
-Six parameters here are available in the :ref:`bindings <Controller Bindings>`. Both the stutter and tremolo's subdivisions are attached to the binding's subdivisions.
+The "Stutter Tremolo & Filters" effect is available for three separate signal paths: Wobble Bass, Dry Solo, and Looper. All of the stutter and tremolo's subdivisions are attached to the binding's subdivisions.
+
+The following bindings affect both the Wobble Bass and Dry Solo's "Stutter Tremolo & Filters" effect:
+
+- ``Main Input Filters``
+
+- ``Main Input Stutter Randon Rhythm``
+
+- ``Main Input Stutter Enable``
+
+- ``Main Input Tremolo Duty``
+
+- ``Main Input Tremolo Depth``
+
+- ``Main Input Stutter Accel``
+
+|
+
+The Looper's "Stutter Tremolo & Filters" effect uses the following bindings:
+
+- ``Looper Filters``
+
+- ``Looper Stutter Randon Rhythm``
+
+- ``Looper Stutter Enable``
+
+- ``Looper Tremolo Duty``
+
+- ``Looper Tremolo Depth``
+
+- ``Looper Stutter Accel``
 
 .. image:: media/mainstutter.webp
    :width: 65%
    :align: center
-   :alt: loopers
+   :alt: stuttertremolofilters
 
 Stutter
 -------
@@ -58,10 +88,18 @@ Parameters
    or always pass through regardless of if the stutter is occuring? 
    This may be hardcoded to change dynamically. Don't worry about it.
 
+- staircase
+
+   modulates the stutter's startpoint as accel increases.
+
+- toggle left of staircase
+
+   determines if the stutter's startpoint modulation amount decreases as accel decreases, or sticks to its maximum value.
+
 Tremolo 
 -------
 
-A simple, musical, square-wave tremolo.
+A simple, musical, square-wave tremolo w/ auto-pan.
 
 Parameters
 ~~~~~~~~~~
@@ -69,6 +107,10 @@ Parameters
 - depth mix 
 
    Amount of tremolo. :ref:`Bound <Controller Bindings>` to ``Main Input Tremolo Depth``
+
+- phase offset
+
+   Pushes the leading edge of the tremolo behind, or in front of, the beat.
 
 - duty cycle 
 
@@ -80,6 +122,14 @@ Parameters
       :alt: duty
 
       `Wikipedia - Duty Cycle <https://en.wikipedia.org/w/index.php?title=Duty_cycle&oldid=1180108380>`_
+
+- smooth
+
+   The amount of smoothing for the square wave.
+
+- boost
+
+   The max amount of volume boost when depth/mix is at 100%.
 
 Filter
 ------
