@@ -7,23 +7,31 @@ Release Notes
 Sousa​​FX
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-- Add filter boost parameters to :ref:`Main Envelope <Main Envelope>`.
+- Refactor Post-crossfade FX's signal chain into :ref:`Solo FX <FX Banks>`. The main signal path auto-switches from Wobble FX to Solo FX when the :ref:`looper <Loopers>` finishes recording, and vice versa when looper finishes fading out.
 
-- Scale the :ref:`Modulation Parameters' <Modulation Parameters>` envelope so that it begins at the bottom of the :ref:`Envelope Crossfade's <Envelope Crossfade>` gate.
-
-- Add two bindable parameters to the Modulation Parameters: LFO Auto-Wah Pause, and LFO Env Pause.
-
-- Refactored the :ref:`Mix Bus <Mix Bus>` to make it simpler to use.
-
-- Add limiter parameter to the :ref:`delay's <Delay and Reverb Sends>` feedback loop.
-
-- Allow stutter's startpoint to be modulated via the "staircase" parameter.
-
-- Refactor Post-crossfade FX's signal chain into :ref:`Solo FX <FX Banks>`. Signal path auto-switches from Dubstep FX to Solo FX when :ref:`looper <Loopers>` finishes recording, and vice versa when looper finishes fading out.
+- Add two bindable parameters to the :ref:`Modulation Parameters <Modulation Parameters>`: LFO Auto-Wah Pause, and LFO Env Pause.
 
 - :ref:`Controller Bindings <Controller Bindings>`: Allow multiple imputs to bind to a single output.
 
+- Refactor the :ref:`Mix Bus <Mix Bus>` and :ref:`Monitor Mix <Monitor Mix>` to make them less confusing.
+
+- Add filter boost parameters to :ref:`Main Envelope <Main Envelope>` to allow frequency weighing.
+
+- Scale the :ref:`Modulation Parameters' <Modulation Parameters>` envelope so that it begins at the bottom of the :ref:`Envelope Crossfade's <Envelope Crossfade>` gate.
+
+- Add limiter parameter to the :ref:`delay's <Delay and Reverb Sends>` feedback loop.
+
+- Allow :ref:`stutter's <Main Stutter Tremolo & Filters>` startpoint to be modulated via the "staircase" parameter.
+
 - Add :ref:`peak meters <Peak Meters>` to main window.
+
+- Remove :ref:`Looper's <Loopers>` option to auto-play next scene in Ableton once looper finishes fading out. Instead, trigger a random drum clip based on the current tempo.
+
+- Fix :ref:`Parameter Control Logic <Parameter Control Logic>` bug where some instances were referring to incorrect bindings.
+
+- Add options for :ref:`Parameter Control Logic <Parameter Control Logic>` to utilize RB, RT, and LT instead of "is tuba playing".
+
+- Remove :ref:`Parameter Control Logic <Parameter Control Logic>`'s cool background because it was using lots of RAM.
 
 0.9.4
 -----
@@ -67,9 +75,9 @@ Sousa​Playback
 
 - When SousaFX starts up, SousaPlayback's first scene auto-plays, and second scene's selected.
 
-- Next scene can :ref:`auto-play <cliptrigger>` when SousaFX's looper finishes fading out.
+- Next scene can :ref:`auto-play <Preferences>` when SousaFX's looper finishes fading out.
 
-- Clips can :ref:`randomize <cliptrigger>` when SousaFX's looper finishes fading out.
+- Clips can :ref:`randomize <Preferences>` when SousaFX's looper finishes fading out.
 
 - Talkback mic :ref:`auto-mutes <talkbacktrack>` itself when tuba starts playing.
 

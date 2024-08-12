@@ -1,7 +1,7 @@
 Main Stutter Tremolo & Filters
 ==============================
 
-The "Stutter Tremolo & Filters" effect is available for three separate signal paths: Wobble Bass, Dry Solo, and Looper. All of the stutter and tremolo's subdivisions are attached to the binding's subdivisions.
+The "Stutter Tremolo & Filters" effect is available for three separate signal paths: Wobble Bass, Dryish Solo, and Looper. The stutter and tremolo's subdivisions are attached to the :ref:`binding's <Controller Bindings>` subdivisions.
 
 The following bindings affect both the Wobble Bass and Dry Solo's "Stutter Tremolo & Filters" effect:
 
@@ -50,38 +50,6 @@ Parameters
 
    Toggle stutter on and off. :ref:`Bound <Controller Bindings>` to ``Main Input Stutter Enable``
 
-- button 
-
-   Selects a random subdivision. :ref:`Bound <Controller Bindings>` to ``Main Input Stutter Random Rhythm``
-
-- vol dip
-
-   Determines how much the stutter volume will decrease as the acceleration increases from neutral.
-
-- offset
-
-   Positive offset can improve transients at the beginning of the loop by shifting them outside of the declick window.
-
-- window
-
-   Prevents clicks by quickly muting the stutter at the loop point. Determines how long muting should take.
-
-- accel
-
-   Slow down and speed up the stutter FX. :ref:`Bound <Controller Bindings>` to ``Main Input Stutter Accel``
-
-- stutter volume
-
-   The volume of the stutter.
-
-- subdiv menu
-
-   The rhythm of the subdivision. Attached to binding's subdivisions.
-
-- sync
-
-   Same as the subdiv menu.
-
 - gated or thru
 
    Should the input be gated by the stutter, 
@@ -95,6 +63,47 @@ Parameters
 - toggle left of staircase
 
    determines if the stutter's startpoint modulation amount decreases as accel decreases, or sticks to its maximum value.
+
+- button 
+
+   Selects a random subdivision. :ref:`Bound <Controller Bindings>` to ``Main Input Stutter Random Rhythm``
+
+- stutter volume
+
+   The volume of the stutter.
+
+- subdiv menu
+
+   The rhythm of the subdivision. Attached to binding's subdivisions.
+
+- sync
+
+   Same as the subdiv menu.
+
+- accel
+
+   Slow down and speed up the stutter FX. Upon returning to the default speed, the stutter will resync to the downbeat. :ref:`Bound <Controller Bindings>` to ``Main Input Stutter Accel`` or ``Looper Stutter Accel``.
+
+- window
+
+   Prevents clicks by quickly muting the stutter at the loop point. Determines how long muting should take.
+
+- offset
+
+   Positive offset can improve transients at the beginning of the loop by shifting them outside of the declick window.
+
+- vol dip
+
+   Determines how much the stutter volume will decrease as the acceleration increases from neutral.
+
+- rightmost menu
+
+   Multiplies the stutter's subdivision.
+
+- centermost menu
+
+   Adjusts the staircase's offset.
+
 
 Tremolo 
 -------
@@ -131,10 +140,14 @@ Parameters
 
    The max amount of volume boost when depth/mix is at 100%.
 
+- rightmost menu
+
+   Multiplies the tremolo's subdivision.
+
 Filter
 ------
 
-Also inspired by Pioneer, a DJ filter.
+Also inspired by `Pioneer <https://www.pioneerdj.com/en/product/features/mixer/filter-fx/>`_, a HP/LP filter.
 
 Parameters
 ~~~~~~~~~~
@@ -147,7 +160,9 @@ Parameters
 
    Smooths the filter frequency modulation. If mapped to a joystick, lower values follow the joystick more closely, while higher values glide towards the joystick.
 
+- filter boost
 
+   Boosts the volume of the filters.
 
 
 

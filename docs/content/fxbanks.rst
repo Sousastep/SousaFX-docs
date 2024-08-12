@@ -17,12 +17,12 @@ The FX Banks are represented in the :ref:`main window <Main Window>` like so:
 
 |
 
-.. _postxfadefx:
-
-.. image:: media/postxfadebank.webp
+.. image:: media/solofxbank.webp
    :width: 60%
    :align: center
    :alt: postxfadebank
+
+SousaFX auto-switches between the Wobble FX and the Solo FX when the :ref:`looper <Loopers>` finishes recording, and finishes fading out.
 
 The "bleed" dial allows the Attack FX's output into the Sustain FX's output and vice-versa. A little bit goes a long way.
 
