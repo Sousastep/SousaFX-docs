@@ -6,12 +6,12 @@ This window outlines SousaFX's audio signal flow, and links to the :ref:`audio e
 .. raw:: html
 
    <map name="imagemap">
-       <area target="" alt="" title="" class="reference internal" href="content/io.html" coords="388,1915,129,1956" shape="rect">
-       <area target="" alt="" title="" class="reference internal" href="monitor.html" coords="207,1632,414,1671" shape="rect">
+       <area target="_self" alt="IO Page" title="IO Page" class="reference internal" href="content/io.html" coords="388,1915,129,1956" shape="rect" />
+       <area target="_self" alt="Monitor Page" title="Monitor Page" class="reference internal" href="monitor.html" coords="207,1632,414,1671" shape="rect" />
    </map> 
 
-   <a class="reference internal image-reference" href="../_images/sousafx.webp">
-      <img alt="sousafx.webp" class="align-center" src="../_images/io.png" usemap="#imagemap" style="width: 100%;" />
+   <a class="reference internal image-reference">
+       <img alt="sousafx.webp" class="align-center" src="../_images/sousafx.webp" usemap="#imagemap" style="width: 100%;" />
    </a>
 
 .. important:: Closing this window quits SousaFX. Click the sunset icon on the bottom-right to quit more gracefully. SousaFX auto-saves some settings on shutdown.
