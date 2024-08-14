@@ -3,10 +3,16 @@ Main Window
 
 This window outlines SousaFX's audio signal flow, and links to the :ref:`audio effects <Audio Effects>`, :ref:`controller bindings <Controller Bindings>`, and :ref:`settings <Settings>`.
 
-.. image:: media/sousafx.webp
-   :align: center
-   :width: 100%
-   :alt: sousafx.png
+.. raw:: html
+
+   <map name="imagemap">
+       <area target="" alt="" title="" class="reference internal" href="content/io.html" coords="388,1915,129,1956" shape="rect">
+       <area target="" alt="" title="" class="reference internal" href="monitor.html" coords="207,1632,414,1671" shape="rect">
+   </map> 
+
+   <a class="reference internal image-reference" href="../_images/sousafx.webp">
+      <img alt="sousafx.webp" class="align-center" src="../_images/io.png" usemap="#imagemap" style="width: 100%;" />
+   </a>
 
 .. important:: Closing this window quits SousaFX. Click the sunset icon on the bottom-right to quit more gracefully. SousaFX auto-saves some settings on shutdown.
 
