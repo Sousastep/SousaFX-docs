@@ -9,7 +9,7 @@ Installation
 
 .. note::
 
-    SousaFX & SousaVFX remain fully functional after Max's `30-day trial ends <https://support.cycling74.com/hc/en-us/articles/360049995834-Max-8-Max-7-Authorization#link-2>`_ thanks to Max not disabling `pattrstorage <https://docs.cycling74.com/max8/refpages/pattrstorage>`_
+    SousaFX & SousaVFX remain fully functional after Max's `30-day trial ends <https://support.cycling74.com/hc/en-us/articles/360049995834-Max-8-Max-7-Authorization#link-2>`_.
 
 |
 
@@ -41,11 +41,11 @@ Installation
 
     - `RNBO Synth Building Blocks <c74max://packagemanager/RNBO%20Synth%20Building%20Blocks>`_
 
-    - `ISF <c74max://packagemanager/ISF>`_
-
     - `zero <c74max://packagemanager/zero>`_
 
     - `CNMAT Externals <c74max://packagemanager/CNMAT%20Externals>`_
+
+    - `ISF <c74max://packagemanager/ISF>`_
 
     - `XRAY <c74max://packagemanager/XRAY>`_
 
@@ -166,5 +166,10 @@ Installation
     c. If you're using a loudspeaker or amplifier, set the "Main L & R" outputs to your audio interface's main output.
 
 |
+
+16. Connect your game controller to your computer either wired or wirelessly. 
+Check that the start/select buttons don't trigger anything outside of SousaFX, 
+such as Steam or your operating system. For example on MacOS Ventura or later, 
+go to System Settings > Game Controller > Add New Profile > Share Gestures > Set "Double Press" to "Off" > Click "Done" > Scroll up to your controller and select it > Set "Use Profile" to the new profile > Click "Done". Also note the "Buddy Controller" setting that allows two controllers to be used as one.
 
 Now, it's time for a :ref:`soundcheck <Soundcheck>`!
