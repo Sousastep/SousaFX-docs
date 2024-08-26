@@ -51,7 +51,7 @@ Installation
 
 |
 
-7. `Download sousastep-0.9.4's Source code (zip) <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
+7. `Download sousastep-0.10.1's Source code (zip) <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
 
 |
 
