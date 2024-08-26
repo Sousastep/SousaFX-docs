@@ -55,7 +55,7 @@ Installation
 
 |
 
-8. Rename ``sousastep-0.9.4`` to ``sousastep``.
+8. Rename ``sousastep-0.10.1`` to ``sousastep``.
 
 .. note:: If you're familiar with `git <https://docs.github.com/en/get-started/using-git/about-git>`_ then cloning the repo to your Projects folder is recommended.
 
