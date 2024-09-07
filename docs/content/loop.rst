@@ -27,7 +27,7 @@ The looper has four main states.
 Hitting the button (called ``looper record / fade out`` in the :ref:`bindings <Controller Bindings>`) 
 advances the looper state from Idle to Prepared. Playing tuba advances from Prepared to Recording. 
 After 8 or 16 bars, once the tuba's envelope drops below the :ref:`noise gate <Envelope Crossfade>`, the looper automatically stops Recording 
-and starts Looping. Once the looper starts looping, the main signal patch switches from Wobble to Solo. Hitting the button a second time 
+and starts Looping. Once the looper starts looping, the main signal path switches from Wobble to Solo. Hitting the ``looper record / fade out`` button a second time 
 prepares the looper to begin Fading Out when the loop repeats.
 
 Below the two loopers are the post-loop :ref:`Stutter, Tremolo, & Filters <Main Stutter Tremolo & Filters>`. The following :ref:`bindings <Controller Bindings>` are available:

@@ -8,14 +8,14 @@ SousaFX Documentation
 
 .. raw:: html
 
-   <iframe width="100%" height="315" src="https://www.youtube.com/embed/NdwLBfzcsgw?si=VqjZhTUza9QnscP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   <iframe width="100%" height="322" src="https://www.youtube.com/embed/btGyGNbQGnY?si=f0cvGBf2IQp5FTMl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 |
 
 Introduction
 ------------
 
-SousaFX is a multi-effects rig made by `John Baylies <https://www.sousastep.quest/links/>`_ with `MaxMSP <https://cycling74.com/products/max>`_, which lets tuba players control audio and visual effects using a game controller attached to the side of the tuba. 
+SousaFX is a multi-effects rig made with `MaxMSP <https://cycling74.com/products/max>`_ by `John Baylies <https://www.sousastep.quest/links/>`_, with the goal of bringing `dubstep <https://www.youtube.com/watch?v=E7fakBm0H_Q>`_ into the repertoire of genres that tubists can play.
 
 .. image:: content/media/tubagamepad.webp
    :width: 100%
