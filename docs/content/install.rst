@@ -35,27 +35,35 @@ Installation
 
 6. Open Max's Package Manager: ``Menubar > File > Show Package Manager``, and install the following packages:
 
+    - `smFilterPack <c74max://packagemanager/smFilterPack>`_
+
     - `ease <c74max://packagemanager/ease>`_
 
     - `link <c74max://packagemanager/link>`_
 
     - `RNBO Synth Building Blocks <c74max://packagemanager/RNBO%20Synth%20Building%20Blocks>`_
 
+    - `RNBO Guitar Pedals <c74max://packagemanager/RNBO%20Guitar%20Pedals>`_
+
     - `zero <c74max://packagemanager/zero>`_
 
     - `CNMAT Externals <c74max://packagemanager/CNMAT%20Externals>`_
 
-    - `ISF <c74max://packagemanager/ISF>`_
-
     - `XRAY <c74max://packagemanager/XRAY>`_
 
+    - `ISF <c74max://packagemanager/ISF>`_
+
+    .. note:: Open the ISF package and download the editor & files.
+
+7. Download `Pix Shaders <https://github.com/tmhglnd/gl-pix-shaders.git>`_ to your ``~/Documents/​Max 8/​Packages/``
+
 |
 
-7. `Download sousastep-0.10.1's Source code (zip) <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
+8. `Download sousastep-0.10.1's Source code (zip) <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
 
 |
 
-8. Rename ``sousastep-0.10.1`` to ``sousastep``.
+9. Rename ``sousastep-0.10.1`` to ``sousastep``.
 
 .. note:: If you're familiar with `git <https://docs.github.com/en/get-started/using-git/about-git>`_ then cloning the repo to your Projects folder is recommended.
 
@@ -71,11 +79,11 @@ Installation
 
 |
 
-9. Add ``/sousastep/`` to Max's global search path. Go to Max's menubar > ``Options... > File Preferences...``, "Add Path" +, "choose", and select ``~/Documents/​Max 8/​Project/​sousastep``.
+10. Add ``/sousastep/`` to Max's global search path. Go to Max's menubar > ``Options... > File Preferences...``, "Add Path" +, "choose", and select ``~/Documents/​Max 8/​Project/​sousastep``.
 
 |
 
-10. Open Live, open its settings ``Menubar > Live > Settings...``, and set the following:
+11. Open Live, open its settings ``Menubar > Live > Settings...``, and set the following:
 
     a. Audio > Audio Device [select your audio interface]
 
@@ -97,13 +105,13 @@ Installation
 
 .. _blackoctopus:
 
-11. Optionally, download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​default/​SousaPlayback template Project/​Clips/``, or skip this step and use your own drum samples.
+12. Optionally, download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​default/​SousaPlayback template Project/​Clips/``, or skip this step and use your own drum samples.
 
 |
 
 .. _freeplugins:
 
-12. Optionally, download these free plugins:
+13. Optionally, download these free plugins:
     
     a.  `Sonobus <https://sonobus.net/#download>`_ for networked jamming with folks in the same continent.
     
@@ -125,7 +133,7 @@ Installation
 
 .. _startupprefs:
 
-13. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​SousaFX.maxproj``. SousaFX's Startup Preferences window will appear.
+14. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​SousaFX.maxproj``. SousaFX's Startup Preferences window will appear.
     
     a. Select your preferred audio interface.
     
@@ -135,7 +143,7 @@ Installation
 
 |
 
-14. In SousaPlayback, ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to the audio interface's Main and Headphone/Aux outputs, respectively.
+15. In SousaPlayback, ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to the audio interface's Main and Headphone/Aux outputs, respectively.
 
 .. note:: If the :ref:`Black Octopus Drum Loops are installed <blackoctopus>` then drum clips will be available in session view, but if they're missing then feel free to delete them and add your own.
 
@@ -152,7 +160,7 @@ Installation
 
 |
 
-15. Once SousaFX is running, open the :ref:`Audio IO Status window <Audio IO Status>`.
+16. Once SousaFX is running, open the :ref:`Audio IO Status window <Audio IO Status>`.
 
     .. image:: media/ioopen.webp
        :width: 40%
@@ -167,7 +175,7 @@ Installation
 
 |
 
-16. Connect your game controller to your computer either wired or wirelessly. 
+17. Connect your game controller to your computer either wired or wirelessly. 
 Check that the start/select buttons don't trigger anything outside of SousaFX, 
 such as Steam or your operating system. For example on MacOS Ventura or later, 
 go to System Settings > Game Controller > Add New Profile > Share Gestures > Set "Double Press" to "Off" > Click "Done" > Scroll up to your controller and select it > Set "Use Profile" to the new profile > Click "Done". Also note the "Buddy Controller" setting that allows two controllers to be used as one.
