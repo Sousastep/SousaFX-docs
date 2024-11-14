@@ -3,6 +3,10 @@ Installation
 
 1. Read SousaFX's :ref:`End User License Agreement<End User License Agreement For SousaFX>`.
 
+.. raw:: html
+   
+   <input type="checkbox">
+
 |
 
 2. `Download Max <https://cycling74.com/downloads>`_ from Cycling '74.
@@ -10,6 +14,10 @@ Installation
 .. note::
 
     SousaFX & SousaVFX remain fully functional after Max's `30-day trial ends <https://support.cycling74.com/hc/en-us/articles/360049995834-Max-8-Max-7-Authorization#link-2>`_.
+
+.. raw:: html
+   
+   <input type="checkbox">
 
 |
 
@@ -19,6 +27,10 @@ Installation
 
     The SousaPlayback template project cannot be saved after Ableton Live's `30-day trial ends <https://www.ableton.com/en/trial/>`_. The template uses Max for live devices that require Ableton Live 11/12 Suite or Standard with the Max for Live addon.
 
+.. raw:: html
+   
+   <input type="checkbox">
+
 |
 
 4. Open Max, go to ``Menubar > Max > Preferences...``, and set the following preferences:
@@ -27,9 +39,17 @@ Installation
 
     - Mixer > Enable Mixer Parallel Processing [check]
 
+.. raw:: html
+   
+   <input type="checkbox">
+
 |
 
 5. Open Max's `Audio Status Window <https://docs.cycling74.com/max8/vignettes/audio_status>`_ by clicking on ``menubar > Settings > Audio Status...`` and set your preferred driver, sample rate, and vector size. A sample rate of 48 kHz and a vector size of 256 is recommended. If the audio crackles during use then restart Max and try a vector size of 512.
+
+.. raw:: html
+   
+   <input type="checkbox">
 
 |
 
@@ -53,13 +73,27 @@ Installation
 
     - `ISF <c74max://packagemanager/ISF>`_
 
-    .. note:: Open the ISF package and download the editor & files.
+      .. note:: Open the ISF package and download the editor & files.
 
-7. Download `Pix Shaders <https://github.com/tmhglnd/gl-pix-shaders.git>`_ to your ``~/Documents/​Max 8/​Packages/``
+.. raw:: html
+   
+   <input type="checkbox">
+
+|
+
+7. Download `Pix Shaders <https://github.com/tmhglnd/gl-pix-shaders.git>`_ to your ``~/Documents/​Max 8/​Packages/`` folder.
+
+.. raw:: html
+   
+   <input type="checkbox">
 
 |
 
 8. `Download sousastep-0.10.1's Source code (zip) <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
+
+.. raw:: html
+   
+   <input type="checkbox">
 
 |
 
@@ -77,9 +111,17 @@ Installation
     ``sousastep/​SousaFX/​data/`` 
     folder, and repeat with ``/SousaVFX/``, to ensure that user presets are carried over. This isn't necessary if you clone the repo with git because the data folders are gitignored.
 
+.. raw:: html
+   
+   <input type="checkbox">
+
 |
 
 10. Add ``/sousastep/`` to Max's global search path. Go to Max's menubar > ``Options... > File Preferences...``, "Add Path" +, "choose", and select ``~/Documents/​Max 8/​Project/​sousastep``.
+
+.. raw:: html
+   
+   <input type="checkbox">
 
 |
 
@@ -101,11 +143,19 @@ Installation
 
     f. Link Tempo MIDI > Show Link Toggle [show]
 
+.. raw:: html
+   
+   <input type="checkbox">
+
 |
 
 .. _blackoctopus:
 
 12. Optionally, download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​default/​SousaPlayback template Project/​Clips/``, or skip this step and use your own drum samples.
+
+.. raw:: html
+   
+   <input type="checkbox">
 
 |
 
@@ -129,6 +179,10 @@ Installation
     
     f.  `Melda Production <https://www.meldaproduction.com/MFreeFxBundle>`_ "The biggest and most powerful free plugins pack available."
 
+.. raw:: html
+   
+   <input type="checkbox">
+
 |
 
 .. _startupprefs:
@@ -140,6 +194,10 @@ Installation
     b. Uncheck the Startup Preferences' pause button. SousaPlayback will appear within a minute, and SousaFX will appear in 2 - 5 minutes. SousaPlayback will automatically start playing the first scene once SousaFX launches.
 
     .. image:: media/startup.webp
+
+.. raw:: html
+   
+   <input type="checkbox">
 
 |
 
@@ -158,6 +216,10 @@ Installation
     is recommended if your audio interface has an available 
     `loopback <https://www.sweetwater.com/insync/loopback-explained-what-is-audio-loopback/>`_ channel.
 
+.. raw:: html
+   
+   <input type="checkbox">
+
 |
 
 16. Once SousaFX is running, open the :ref:`Audio IO Status window <Audio IO Status>`.
@@ -173,6 +235,10 @@ Installation
     
     c. If you're using a loudspeaker or amplifier, set the "Main L & R" outputs to your audio interface's main output.
 
+.. raw:: html
+   
+   <input type="checkbox">
+
 |
 
 17. Connect your game controller to your computer either wired or wirelessly. 
@@ -180,4 +246,12 @@ Check that the start/select buttons don't trigger anything outside of SousaFX,
 such as Steam or your operating system. For example on MacOS Ventura or later, 
 go to System Settings > Game Controller > Add New Profile > Share Gestures > Set "Double Press" to "Off" > Click "Done" > Scroll up to your controller and select it > Set "Use Profile" to the new profile > Click "Done". Also note the "Buddy Controller" setting that allows two controllers to be used as one.
 
+.. raw:: html
+   
+   <input type="checkbox">
+
+|
+
 Now, it's time for a :ref:`soundcheck <Soundcheck>`!
+
+|
