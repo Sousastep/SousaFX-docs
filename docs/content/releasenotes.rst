@@ -24,30 +24,44 @@ Sousa​​​FX
 
   - Allow delays to be effected by stutter.
   
-  - Allow int/ext fx to be set separately for each of the four delays. separate the input volume and feedback amount for the first delay to test separate bindings..
+  - Allow int/ext fx to be set separately for each of the four delays.
   
-  - Add delay send 1 fdbk amount binding.
+  - Add feedback amount binding for delay send 1.
+
+  - Allow talkback mic into main delay sends.
   
+  - Move wobble inputs post-compression.
+
   - Add compressor post-delays.
-  
-  - Don't require swirl to be enabled for max send to be greater than 1. also add input volume params.
-  
-  - Move delay's wobble inputs post-compression.
+
+  - Don't require swirl to be enabled for max send to be >1. 
+
+  - Add input volume params.
 
 
 - :ref:`Controller Bindings <Controller Bindings>`
   
-  - Allow R1 & R1 + dpad to control four_plugin_selector selection.
-  
-  - Allow SousaFX to launch streaming PC & apps via Wake On LAN.
-  
-  - Boost noise gate by 0.2 after tuba's silent for more than 20 seconds. that way when you pick up the tuba after taking a break, the idle vfx animation won't disengage right when you pick up the tuba..
-  
-  - Add octaver mute to controller bindings.
+  - Allow R1 & R1 + dpad to control :ref:`FX Bank <FX Banks>` selection.
+    
+  - Boost noise gate by 0.2 after tuba's silent for more than 20 seconds. That way, after taking a break, the idle vfx animation won't disengage right when the tuba's picked up.
   
   - Remove PCL background picture because it was using a bunch of ram.
   
   - Fix PCL 'is control within deadzone' initialization.
+
+  - Removed Main Preset 1 - 4 bindings.
+
+  - Removed 16th quintuplet, and 32nd quintuplet.
+
+  - Add LFO Main Speed.
+
+  - Add LFO Floor Envelope Curve.
+
+  - Add Main Input Delay 1 fdbk.
+
+  - Add SoloFX Toggle.
+
+  - Add octaver mute.
 
 
 - :ref:`Looper <Loopers>`
@@ -70,45 +84,45 @@ Sousa​​​FX
 - :ref:`Modulation Parameters <Modulation Parameters>`
   
   - Add LFO Main Speed param, with phase-locked loop and consistent min & max speed regardless of bpm or subdivision.
+
+  - Add bindings for LFO Main Speed, and LFO Floor Envelope Curve.
   
-  - Quantize subdiv rate reset to quarter note instead of whole note.
+  - Quantize subdiv rate reset to quarter note instead of whole note, which makes dotted rhythms feel a bit better.
   
   - Fix low amp mod randomized phase offset issue.
   
-  - Lower min freq.
+  - Lower minimum frequency.
   
   - Add squareness param to low amp mod lfos.
   
-  - Allow LPF freq to offset LPF rez.
-  
-  - Link low amp mod to high freq mod main accel.
+  - Allow LPF frequency to offset LPF resonance.
 
 
 - misc
   
-  - Add frequency weighting options to main envelope, and compressors.
+  - Add frequency weighting options to :ref:`main envelope <Main Envelope>`, and compressors.
   
-  - Add window layout preset system.
+  - Add :ref:`window layout preset system <Window Layout Presets>`.
   
   - Add volume param pre-compression.
-  
-  - Allow talkback mic into main delay sends.
-  
-  - Add video playback patcher for collabs.
-  
+    
   - Adjust crossover's signal flow - allows lows signal path to either bypass LPF or sum LPF LR.
   
   - Properly clip pitch detection.
   
   - Improve octaver synth pitch detection.
   
-  - Add speedlim to try to prevent midi port from crashing once in a blue moon.
+  - Add speedlims to try to prevent midi port from crashing once in a blue moon.
   
   - Have mono compressor use the same UI template as the stereo compressor.
   
   - Ensure main UI flashes green on auto-save.
   
   - Fix metro auto-enable logic issue.
+
+  - Add video playback patcher for collabs.
+
+  - Allow SousaFX Startup to launch streaming PC via Wake On LAN.
 
 
 Sousa​​​VFX

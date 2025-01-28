@@ -89,7 +89,7 @@ Installation
 
 |
 
-8. `Download sousastep-0.10.1's Source code (zip) <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
+8. `Download sousastep-0.10.2's Source code (zip) <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. If the ``Projects`` folder does not yet exist, create it.
 
 .. raw:: html
    
@@ -97,7 +97,7 @@ Installation
 
 |
 
-9. Rename ``sousastep-0.10.1`` to ``sousastep``.
+9. Rename ``sousastep-0.10.2`` to ``sousastep``.
 
 .. note:: If you're familiar with `git <https://docs.github.com/en/get-started/using-git/about-git>`_ then cloning the repo to your Projects folder is recommended.
 

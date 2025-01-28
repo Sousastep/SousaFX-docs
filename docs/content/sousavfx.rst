@@ -23,13 +23,6 @@ as SousaFX, but can be modified to run on a separate computer.
 
 SousaVFX has 5 types of VFX:
 
-.. figure:: media/SFX_mainfx.webp
-   :align: center
-   :width: 100%
-   :alt: SousaVFX UI
-
-|
-
 1. Scrolling text, which I don't use much anymore because people can't tell it's text unless I tell them that it's text.
 
 2. `That Primitive Action <https://youtu.be/oKRB-gu30C8>`_ "club-ready" shader by Dude837.
@@ -60,12 +53,7 @@ SousaVFX has 5 types of VFX:
 
 	j. `PlanetOfBaobabs <https://editor.isf.video/shaders/5e7a7fea7c113618206de6ea>`_
 
-|
-
-.. figure:: media/SFX_ISF.webp
-   :align: center
-   :width: 100%
-   :alt: SousaVFX UI
+	k. & more!
 
 |
 

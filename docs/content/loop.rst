@@ -111,4 +111,4 @@ The toggles and menus at the botton of the looper window are preferences for how
 
 - auto switch / manual switch menu
 
-   Sets wether Solo FX is toggled automatically when the looper starts and stope looping, or manually with the ``Toggle SoloFX`` binding. 
+   Sets wether Solo FX is toggled automatically when the looper starts and stops looping, or manually with the ``Toggle SoloFX`` binding. 
