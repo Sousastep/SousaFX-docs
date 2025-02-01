@@ -9,7 +9,7 @@ Installation
 
 |
 
-2. `Download Max <https://cycling74.com/downloads>`_ from Cycling '74.
+2. `Download Max 9 <https://cycling74.com/downloads>`_ from Cycling '74.
 
 .. note::
 
@@ -89,7 +89,9 @@ Installation
 
 |
 
-8. `Download sousastep-0.10.2's Source code (zip) <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. If the ``Projects`` folder does not yet exist, create it.
+8. `Download sousastep-0.10.2's Source code (zip) <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. If the ``/Max 8/Projects/`` directory does not yet exist, create it.
+
+.. note:: Yes, SousaFX still uses the ``/Max 8/Projects/`` folder even though it runs in the Max 9 app.
 
 .. raw:: html
    
