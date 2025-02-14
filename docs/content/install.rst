@@ -45,7 +45,7 @@ Installation
 
 |
 
-5. Open Max's `Audio Status Window <https://docs.cycling74.com/max8/vignettes/audio_status>`_ by clicking on ``menubar > Settings > Audio Status...`` and set your preferred driver, sample rate, and vector size. A sample rate of 48 kHz and a vector size of 256 is recommended. If the audio crackles during use then restart Max and try a vector size of 512.
+5. Open Max's `Audio Status Window <https://docs.cycling74.com/max8/vignettes/audio_status>`_ by clicking on ``menubar > Options > Audio Status...`` and set your preferred driver, sample rate, and vector size. A sample rate of 48 kHz and a vector size of 128 is recommended. If the audio crackles during use then restart Max and try a vector size of 256.
 
 .. raw:: html
    
