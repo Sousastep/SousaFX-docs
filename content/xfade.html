@@ -1,0 +1,228 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XC8M12NVX5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XC8M12NVX5');
+    </script>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Envelope Crossfade &mdash; SousaFX 0.10.2 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
+      <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
+      <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=11e62b30"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
+      <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
+      <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Modulation Parameters" href="modparms.html" />
+    <link rel="prev" title="Main Envelope" href="mainenv.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            SousaFX
+              <img src="../_static/icon.webp" class="logo" alt="Logo"/>
+          </a>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="SousaFX.html">SousaFX</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="main.html">Main Window</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="fx.html">Audio Effects</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="mainenv.html">Main Envelope</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Envelope Crossfade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modparms.html">Modulation Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="octaver.html">Octaver</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fxbanks.html">FX Banks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crossover.html">Crossover</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mixbus.html">Mix Bus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delay.html">Delay and Reverb Sends</a></li>
+<li class="toctree-l3"><a class="reference internal" href="loop.html">Loopers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mainstutter.html">Main Stutter Tremolo &amp; Filters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="duck.html">Kick Ducker</a></li>
+<li class="toctree-l3"><a class="reference internal" href="MaxOrPluginSelector.html">Max or Plugin Selector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="latency.html">Latency Compensation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="basicfx.html">BasicFX</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="bindings.html">Controller Bindings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="settings.html">Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modding.html">Modding</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="playback.html">SousaPlayback</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sousavfx.html">SousaVFX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardreq.html">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="soundcheck.html">Soundcheck</a></li>
+<li class="toctree-l1"><a class="reference internal" href="purchase.html">Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mailinglist.html">Mailing List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="attrib.html">Attributions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SousaFX</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="SousaFX.html">SousaFX</a></li>
+          <li class="breadcrumb-item"><a href="fx.html">Audio Effects</a></li>
+      <li class="breadcrumb-item active">Envelope Crossfade</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="envelope-crossfade">
+<h1>Envelope Crossfade<a class="headerlink" href="#envelope-crossfade" title="Link to this heading"></a></h1>
+<p>The Envelope Crossfade was created to fade between subtle effects, and dubstep effects,
+based on the loudness of the tuba’s input. Since instrumental sounds are
+<a class="reference external" href="https://doi.org/10.1121/1.5091778" rel="noreferrer" target="_blank">mainly identified by their attacks</a>,
+this allows the tuba to still be identifiable as a tuba while also having wild effects.</p>
+<p>The Envelope Crossfade is post-<a class="reference internal" href="crossover.html#crossover"><span class="std std-ref">crossover</span></a>. It basically controlls three things:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>The octaver’s amplitude modulation amount.</p></li>
+<li><p>The low crossover’s amplitude modulation amount.</p></li>
+<li><p>The high crossover’s mix between the <a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">attack fx and sustain fx</span></a>.</p></li>
+</ol>
+</div></blockquote>
+<a class="reference internal image-reference" href="../_images/xfade.webp"><img alt="xfade" class="align-center" src="../_images/xfade.webp" style="width: 60%;" />
+</a>
+<ul>
+<li><p>xfade attack</p>
+<blockquote>
+<div><p>How quickly the crossfade can rise.</p>
+</div></blockquote>
+</li>
+<li><p>xfade decay</p>
+<blockquote>
+<div><p>How quickly the crossfade can fall.</p>
+</div></blockquote>
+</li>
+<li><p>env sens</p>
+<blockquote>
+<div><p>How sensitive the envelope is to the incoming audio.</p>
+</div></blockquote>
+</li>
+<li><p>interp xfades</p>
+<blockquote>
+<div><p>Interpolate between a linear crossfade and an equal-power crossfade. At 0% the crossfade may have a volume dip in the center. At 100% the crossfade may have a volume boost in the center.</p>
+</div></blockquote>
+</li>
+<li><p>high and low val</p>
+<blockquote>
+<div><p>The two large numbers set the crossfade’s range within the envelope.</p>
+</div></blockquote>
+</li>
+<li><p>invert envelope</p>
+<blockquote>
+<div><p>The toggle above the ease menu inverts the crossfade.</p>
+</div></blockquote>
+</li>
+<li><p>ease menu</p>
+<blockquote>
+<div><p>This menu selects the easing function for the crossfade. The steeper the easing function, the more quickly the crossfade occurs.</p>
+</div></blockquote>
+</li>
+<li><p>gate slider</p>
+<blockquote>
+<div><p>Sets SousaFX’s main noise gate. Set it low for playing at home, and higher when performing live. The <a class="reference internal" href="modparms.html#modulation-parameters"><span class="std std-ref">Modulation Parameters’</span></a> envelope begins at the bottom of this gate, regardless of where it’s set. Why is SousaFX’s main noise gate in the Envelope Crossfade window? Because it’s also used to…</p>
+</div></blockquote>
+</li>
+<li><p>“improve envelope’s attack” toggle</p>
+<blockquote>
+<div><p>...improve the attack’s transients by maxing out the envelope whenever it’s below the noise gate.</p>
+</div></blockquote>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>After a period of inactivity, the noise gate auto-increases a little, which prevents the gate from being triggered by simply picking up the tuba.</p>
+</div>
+<ul>
+<li><p>low xfade offset knob</p>
+<blockquote>
+<div><p>Offsets the crossfade’s center for the low frequencies. 0 - 30 % is recommended. This makes the low amplitude modulation fade in before the high frequency modulation fades in, which sounds quite nice. Check out the <a class="reference internal" href="mixbus.html#mix-bus"><span class="std std-ref">Mix Bus</span></a> to observe the effects of this parameter.</p>
+</div></blockquote>
+</li>
+<li><p>xfade menus</p>
+<blockquote>
+<div><p>Set wether or not the octaver and low frequencies are affected by the crossfade.</p>
+</div></blockquote>
+</li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="mainenv.html" class="btn btn-neutral float-left" title="Main Envelope" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="modparms.html" class="btn btn-neutral float-right" title="Modulation Parameters" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p></p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+ <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

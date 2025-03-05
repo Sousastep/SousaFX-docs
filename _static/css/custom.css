@@ -1,0 +1,40 @@
+img.align-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Hide page footer. */
+.bottom-of-page {
+    visibility: hidden;
+    margin:     0;
+    padding:    0;
+}
+
+/* Push bulleted lists a little closer to lead-in paragraph. */
+p + ul.simple {
+    margin-top: -6px;
+}
+
+/* Push ordered lists a little closer to lead-in paragraph. */
+p + ol.simple {
+    margin-top: -6px;
+}
+
+/* https://stackoverflow.com/a/71412970 */
+code {                                 
+    white-space: pre-wrap !important; 
+    word-break: normal;            
+}
+
+p {
+    text-align: justify;
+}
+
+/* https://stackoverflow.com/questions/45413689/youtube-iframe-on-mobile-bad-width */
+iframe[src*=youtube] {
+                    display: block;
+                    margin: 0 center;
+                    max-width: 100%;
+                    padding-bottom: 10px;
+                }

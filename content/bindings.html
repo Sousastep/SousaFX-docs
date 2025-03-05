@@ -1,0 +1,225 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XC8M12NVX5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XC8M12NVX5');
+    </script>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Controller Bindings &mdash; SousaFX 0.10.2 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
+      <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
+      <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=11e62b30"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
+      <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
+      <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Parameter Control Logic" href="pcl.html" />
+    <link rel="prev" title="BasicFX" href="basicfx.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            SousaFX
+              <img src="../_static/icon.webp" class="logo" alt="Logo"/>
+          </a>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="SousaFX.html">SousaFX</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="main.html">Main Window</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fx.html">Audio Effects</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Controller Bindings</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pcl.html">Parameter Control Logic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="deadzones.html">Deadzones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hardcoded-bindings">Hardcoded Bindings</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="settings.html">Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modding.html">Modding</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="playback.html">SousaPlayback</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sousavfx.html">SousaVFX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardreq.html">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="soundcheck.html">Soundcheck</a></li>
+<li class="toctree-l1"><a class="reference internal" href="purchase.html">Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mailinglist.html">Mailing List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="attrib.html">Attributions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SousaFX</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="SousaFX.html">SousaFX</a></li>
+      <li class="breadcrumb-item active">Controller Bindings</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="controller-bindings">
+<h1>Controller Bindings<a class="headerlink" href="#controller-bindings" title="Link to this heading"></a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="pcl.html">Parameter Control Logic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="deadzones.html">Deadzones</a></li>
+</ul>
+</div>
+<p>The controller bindings window allows gamepad inputs to be connected to effect parameters.</p>
+<p>The bindings may be saved as presets. There are two factory preset slots, and five user preset slots. The factory presets can’t be modified, but they may be copied to user presets by first selecting the factory preset, then selecting the empty user preset and saving.</p>
+<p>To create a binding, click one of the input’s circles and drag the connection to an output’s circle. To delete a binding, click on the connection and press the delete key. To save bindings to the selected preset, click “save / overwrite”.</p>
+<p>The right bumper, right trigger, and left trigger all change which bindings the X A B Y buttons are assigned to. The left trigger also changes the dpad and LB’s assignments, to allow for a second bank of subdivisions.</p>
+<p>Click the parameter labels to open their <a class="reference internal" href="pcl.html#parameter-control-logic"><span class="std std-ref">control logic settings</span></a>.</p>
+<p>Click to the right of the parameter labels to open the effect window that they apply to.</p>
+<a class="reference internal image-reference" href="../_images/bindings.webp"><img alt="bindings window" class="align-center" src="../_images/bindings.webp" style="width: 100%;" />
+</a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<ul>
+<li><p>set initial preset</p>
+<blockquote>
+<div><p>Set which bindings preset loads when SousaFX starts.</p>
+</div></blockquote>
+</li>
+<li><p>Latch / Delay</p>
+<blockquote>
+<div><p>This determines how diagonals are triggered.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Latch: after triggering a diagonal, ↑ → ↓ ← can not trigger without first releasing the dpad</p></li>
+<li><p>Delay: ↑ → ↓ ← can trigger after a diagonal without releasing the dpad</p></li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+</li>
+<li><p>pre-delay</p>
+<blockquote>
+<div><p>Before pressing a diagonal, this is the amount of time you have to hold ↑ → ↓ ← before they trigger.</p>
+</div></blockquote>
+</li>
+<li><p>post-delay</p>
+<blockquote>
+<div><p>After releasing a diagonal, this is the amount of time you have to release ↑ → ↓ ← before they trigger. Only available in Delay mode.</p>
+</div></blockquote>
+</li>
+<li><p>cycle / count</p>
+<blockquote>
+<div><p>This determines how the Controller Bindings Preset Selector functions. This is a global parameter that’s auto-saved.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Cycle: Single-click &amp; double click will cycle forward &amp; back through user presets.</p></li>
+<li><p>Count: # of button presses in 1 second sets user preset #.</p></li>
+</ul>
+</div></blockquote>
+<p>Hold the button to load the default preset.</p>
+</div></blockquote>
+</li>
+<li><p>top-right toggle</p>
+<blockquote>
+<div><p>Enable to have the crosspatch object highlight conections that are in-use. This is useful for debugging, but uses a lot of CPU, so disable it while performing.</p>
+</div></blockquote>
+</li>
+<li><p>latch / trigger</p>
+<blockquote>
+<div><p>This determines how the dpad and LB react to their modifier key, LT.</p>
+<ul class="simple">
+<li><p>Hold: Toggling with LT doesn’t trigger dpad or LB. This is useful for being able to lock open sends.</p></li>
+<li><p>Trigger: If dpad or LB is pressed, toggling with LT will trigger them. This is useful for switching between subdivisions.</p></li>
+</ul>
+<p>This parameter is saved with the bindings’ user presets.</p>
+</div></blockquote>
+</li>
+<li><p>Presets 1 - 4</p>
+<blockquote>
+<div><p>These four bindings can select each of the first 16 <a class="reference internal" href="main.html#main-window"><span class="std std-ref">Main Presets</span></a>. Clicking them selects a preset, and holding them for more than 1 second sets the preset bank. Holding preset 1 sets preset bank 1 (presets 1 - 4), holding preset 2 sets preset bank 2 (presets 5 - 8), holding Preset 3 sets preset bank 3 (presets 9 - 12), and holding preset 4 sets preset bank 4 (presets 13 - 16).</p>
+</div></blockquote>
+</li>
+</ul>
+<section id="hardcoded-bindings">
+<h2>Hardcoded Bindings<a class="headerlink" href="#hardcoded-bindings" title="Link to this heading"></a></h2>
+<p>The following bindings are set in stone:</p>
+<p>Holding RB allows the dpad to set the <a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">Sustain FX</span></a>.</p>
+<p>Holding RT allows the dpad to set the Attack FX.</p>
+<p>Holding RB &amp; RT allows the dpad to set the Solo FX.</p>
+<p>Holding LT while pressing RT decreases the tempo. (not active while looper’s looping)</p>
+<p>Holding LT while pressing RB increases the tempo. (not active while looper’s looping)</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="basicfx.html" class="btn btn-neutral float-left" title="BasicFX" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="pcl.html" class="btn btn-neutral float-right" title="Parameter Control Logic" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p></p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+ <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

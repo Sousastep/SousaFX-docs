@@ -1,0 +1,215 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XC8M12NVX5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XC8M12NVX5');
+    </script>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Main Envelope &mdash; SousaFX 0.10.2 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
+      <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
+      <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
+
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=11e62b30"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
+      <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
+      <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Envelope Crossfade" href="xfade.html" />
+    <link rel="prev" title="Audio Effects" href="fx.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            SousaFX
+              <img src="../_static/icon.webp" class="logo" alt="Logo"/>
+          </a>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="SousaFX.html">SousaFX</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="main.html">Main Window</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="fx.html">Audio Effects</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Main Envelope</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#parameters">Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="xfade.html">Envelope Crossfade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modparms.html">Modulation Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="octaver.html">Octaver</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fxbanks.html">FX Banks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crossover.html">Crossover</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mixbus.html">Mix Bus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delay.html">Delay and Reverb Sends</a></li>
+<li class="toctree-l3"><a class="reference internal" href="loop.html">Loopers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mainstutter.html">Main Stutter Tremolo &amp; Filters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="duck.html">Kick Ducker</a></li>
+<li class="toctree-l3"><a class="reference internal" href="MaxOrPluginSelector.html">Max or Plugin Selector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="latency.html">Latency Compensation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="basicfx.html">BasicFX</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="bindings.html">Controller Bindings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="settings.html">Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modding.html">Modding</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="playback.html">SousaPlayback</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sousavfx.html">SousaVFX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardreq.html">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="soundcheck.html">Soundcheck</a></li>
+<li class="toctree-l1"><a class="reference internal" href="purchase.html">Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mailinglist.html">Mailing List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="attrib.html">Attributions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SousaFX</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content style-external-links">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="SousaFX.html">SousaFX</a></li>
+          <li class="breadcrumb-item"><a href="fx.html">Audio Effects</a></li>
+      <li class="breadcrumb-item active">Main Envelope</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="main-envelope">
+<h1>Main Envelope<a class="headerlink" href="#main-envelope" title="Link to this heading"></a></h1>
+<p>The main envelope affects five effects:</p>
+<ol class="arabic simple">
+<li><p><a class="reference internal" href="xfade.html#envelope-crossfade"><span class="std std-ref">Crossfade</span></a></p></li>
+<li><p><a class="reference internal" href="xfade.html#envelope-crossfade"><span class="std std-ref">Noise Gate</span></a></p></li>
+<li><p><a class="reference internal" href="modparms.html#modulation-parameters"><span class="std std-ref">Mod Params</span></a></p></li>
+<li><p><a class="reference internal" href="modparms.html#modulation-parameters"><span class="std std-ref">Transient Detector</span></a></p></li>
+<li><p><a class="reference internal" href="sousavfx.html#sousavfx"><span class="std std-ref">VFX Envelopes</span></a></p></li>
+</ol>
+<p>While playing softly in a home studio, turn up the main envelope sensitivity. Before blasting on a live stage, turn down the main envelope sensitivity.</p>
+<p>The further the mic is in the bell, the lower the main envelope sensitivity will need to be.</p>
+<a class="reference internal image-reference" href="../_images/mainenvopen.webp"><img alt="mainenv" class="align-left" src="../_images/mainenvopen.webp" style="width: 30%;" />
+</a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class="reference internal image-reference" href="../_images/mainenv.webp"><img alt="mainenv" class="align-left" src="../_images/mainenv.webp" style="width: 50%;" />
+</a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section id="parameters">
+<h2>Parameters<a class="headerlink" href="#parameters" title="Link to this heading"></a></h2>
+<ul>
+<li><p>Main</p>
+<blockquote>
+<div><p>Adjusts the overall envelope sensitivity.</p>
+</div></blockquote>
+</li>
+<li><p>Freq</p>
+<blockquote>
+<div><p>Sets the frequency to boost.</p>
+</div></blockquote>
+</li>
+<li><p>Boost</p>
+<blockquote>
+<div><p>The amount in dB to boost the selected frequency.</p>
+<p>Boosting between 1 kHz - 4 kHz makes the envelope respond to the brightness of the tuba’s sound. It’s a simple way to apply <a class="reference external" href="https://en.wikipedia.org/wiki/A-weighting" rel="noreferrer" target="_blank">frequency weighting</a> that makes the envelope a bit snappier.</p>
+</div></blockquote>
+</li>
+<li><p>Q</p>
+<blockquote>
+<div><p>The bandwidth of the boost. 1 is the default, towards 0 it gets narrower, towards 2 it gets wider.</p>
+</div></blockquote>
+</li>
+<li><p>low cut</p>
+<blockquote>
+<div><p>Sets the frequency of the low cut filter, so that excessive subbass frequencies don’t trigger the envelope.</p>
+</div></blockquote>
+</li>
+<li><p>weighting menu</p>
+<blockquote>
+<div><p>Applies <a class="reference external" href="https://www.soundonsound.com/glossary/k-weighting" rel="noreferrer" target="_blank">k-weighting</a>, or <a class="reference external" href="https://en.wikipedia.org/wiki/ITU-R_468_noise_weighting" rel="noreferrer" target="_blank">ITU-R 468</a> weighting filters.</p>
+</div></blockquote>
+</li>
+<li><p>dB / linear menu</p>
+<blockquote>
+<div><p>determines wether the envelope is logarithmic (dB), or linear.</p>
+</div></blockquote>
+</li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="fx.html" class="btn btn-neutral float-left" title="Audio Effects" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="xfade.html" class="btn btn-neutral float-right" title="Envelope Crossfade" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p></p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+ <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
