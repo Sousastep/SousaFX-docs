@@ -1,6 +1,10 @@
 SousaFX Documentation
 =====================
 
+.. important:: 
+
+   `A newer version of SousaFX is available. Click here to access the latest version. <https://sousastep.github.io/SousaFX-rnbo-docs/>`_
+
 .. image:: content/media/sousafx-lookup.webp
    :width: 100%
    :align: center
